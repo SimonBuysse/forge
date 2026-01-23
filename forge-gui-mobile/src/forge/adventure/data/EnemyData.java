@@ -13,6 +13,10 @@ import forge.util.MyRandom;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.files.FileHandle;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Data class that will be used to read Json configuration files
@@ -38,7 +42,7 @@ public class EnemyData implements Serializable {
     public RewardData[] rewards;
     public String[] equipment;
     public String colors = "";
-
+    private static List<String> ALL_DCK_PATHS = null;
     public EnemyData nextEnemy;
     public int teamNumber = -1;
 
@@ -98,7 +102,13 @@ public class EnemyData implements Serializable {
         }
 
         if (randomizeDeck) {
-            return CardUtil.getDeck(Aggregates.random(deck), true, isFantasyMode, colors, life > 13, canUseGeneticAI);
+            List<String> all = getAllDcks2Decks();
+            // 50/50: enemy's own deck[] vs global decks2 pool
+            boolean pickGlobal = !all.isEmpty() && MyRandom.percentTrue(50);
+            String chosen = pickGlobal
+                ? Aggregates.random(all)
+                : Aggregates.random(deck);
+            return CardUtil.getDeck(chosen, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
         }
         return CardUtil.getDeck(deck[Current.player().getEnemyDeckNumber(this.getName(), deck.length)], true, isFantasyMode, colors, life > 13, canUseGeneticAI);
     }
@@ -125,4 +135,26 @@ public class EnemyData implements Serializable {
         myQuestTags.removeAll(otherQuestTags);
         return myQuestTags.isEmpty();
     }
+
+    private static List<String> getAllDcks2Decks() {
+        if (ALL_DCK_PATHS != null) return ALL_DCK_PATHS;
+
+        ALL_DCK_PATHS = new ArrayList<>();
+        FileHandle root = Gdx.files.internal("res/adventure/common/decks2");
+        scan(root);
+        return ALL_DCK_PATHS;
+    }
+
+    private static void scan(FileHandle dir) {
+        if (dir == null || !dir.exists()) return;
+
+        for (FileHandle f : dir.list()) {
+            if (f.isDirectory()) {
+                scan(f);
+            } else if ("dck".equalsIgnoreCase(f.extension())) {
+                ALL_DCK_PATHS.add(f.path());
+            }
+        }
+    }
 }
+

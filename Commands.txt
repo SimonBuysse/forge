@@ -1,3 +1,5 @@
 //Install with only folder
 mvn -pl forge-installer -am -Pwindows-linux -DskipTests -Dcheckstyle.skip=true pre-integration-test
 mvn --% -pl forge-installer -am -Pwindows-linux -DskipTests -Dcheckstyle.skip=true pre-integration-test
+git add -A
+git commit -m "message"
