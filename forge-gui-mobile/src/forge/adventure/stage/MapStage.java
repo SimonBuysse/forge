@@ -1099,7 +1099,8 @@ public class MapStage extends GameStage {
         if (Controllers.getCurrent() != null && Controllers.getCurrent().canVibrate())
             Controllers.getCurrent().startVibration(duration, 1);
         Forge.advFreezePlayerControls = true;
-        player.clearCollisionHeight();
+        // Trying to disable player collision issues
+        // player.clearCollisionHeight();
         startPause(0.8f, () -> {
             if (started)
                 return;

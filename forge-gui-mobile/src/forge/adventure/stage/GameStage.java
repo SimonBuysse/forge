@@ -691,7 +691,8 @@ public abstract class GameStage extends Stage {
         Timer.schedule(new Timer.Task() {
             @Override
             public void run() {
-                showImageDialog(Current.generateDefeatMessage(false), getDefeatBadge(), () -> Forge.advFreezePlayerControls = false);
+                // disabled defeat popup should no longer crack items
+                Forge.advFreezePlayerControls = false;            
             }
         }, 1f);
     }

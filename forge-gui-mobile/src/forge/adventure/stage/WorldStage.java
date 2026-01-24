@@ -123,7 +123,8 @@ public class WorldStage extends GameStage implements SaveFileContent {
                     if (Controllers.getCurrent() != null && Controllers.getCurrent().canVibrate())
                         Controllers.getCurrent().startVibration(duration, 1);
                     Forge.advFreezePlayerControls = true;
-                    player.clearCollisionHeight();
+                    // Trying to disable collision issues
+                    // player.clearCollisionHeight();
                     startPause(0.8f, () -> {
                         Forge.setCursor(null, Forge.magnifyToggle ? "1" : "2");
                         SoundSystem.instance.play(SoundEffectType.ManaBurn, false);

@@ -126,7 +126,7 @@ public class TileMapScene extends HudScene {
         // clear player collision on WorldStage and the GameHUD will restore it after the flicker animation.
         // There's at least 2 seconds to get away from problematic collision point and player can retry
         // a few times to move to different position if the POI is loaded again from WorldStage
-        WorldStage.getInstance().getPlayerSprite().clearCollisionHeight();
+        // WorldStage.getInstance().getPlayerSprite().clearCollisionHeight();
         return super.leave();
     }
 

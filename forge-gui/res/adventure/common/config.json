@@ -185,7 +185,8 @@
         "G":"decks/starter/commander/green_01.dck"
       },
       "startItems": [
-        "Leather Boots"
+        "Leather Boots",
+        "Blue Staff"
       ]
     },{
       "name": "Hard",
