@@ -167,7 +167,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Gorilla"/>
+    <property name="enemy" value="GorillaCastle"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
   </object>

@@ -6,6 +6,7 @@
 		"decks/standard/demon_swamp.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -406,6 +407,7 @@
 		"decks/standard/greendragon.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
@@ -578,6 +580,7 @@
 		"decks/standard/adventurer.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -648,6 +651,7 @@
 		"decks/standard/aerie_guard.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -711,6 +715,7 @@
 		"decks/standard/aether_channeler.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -859,6 +864,7 @@
 		"decks/standard/amphin_warrior.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -913,6 +919,7 @@
 		"decks/standard/ancientvampire.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -985,6 +992,7 @@
 		"decks/standard/angelwarrior.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -1068,6 +1076,7 @@
 		"decks/standard/amonkhet_minotaur.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -1154,6 +1163,7 @@
 		"decks/standard/ape.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -1597,6 +1607,7 @@
 		"decks/standard/jodah.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.8,
 	"speed": 18,
@@ -1671,6 +1682,7 @@
 		"decks/standard/human_archer.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -1720,6 +1732,7 @@
 		"decks/standard/archerelite.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -1766,6 +1779,7 @@
 		"decks/standard/archaeologist.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -1818,6 +1832,7 @@
 		"decks/standard/demon_landdestruction.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -1937,6 +1952,7 @@
 		"decks/standard/armadillo.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -1998,6 +2014,7 @@
 		"decks/standard/armored_knight.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -2068,6 +2085,7 @@
 		"decks/standard/archmage.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -2121,6 +2139,7 @@
 		"decks/standard/artifactwarrior.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
 	"speed": 20,
@@ -2194,6 +2213,7 @@
 		"decks/standard/ashmouth_devil.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -2230,6 +2250,7 @@
 		"decks/standard/axgard_dwarf.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 22,
@@ -2308,6 +2329,7 @@
 		"decks/standard/enchantress.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -2360,6 +2382,7 @@
 		"decks/standard/badger.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -2431,6 +2454,7 @@
 		"decks/standard/bandit.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -2821,6 +2845,7 @@
 		"decks/standard/bandittrapper_hazezon.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -2899,6 +2924,7 @@
 		"decks/standard/barbarian.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -2957,6 +2983,7 @@
 		"decks/standard/bat.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -3025,6 +3052,7 @@
 		"decks/standard/bear.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -3098,6 +3126,7 @@
 		"decks/standard/beastmaster.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -3175,6 +3204,7 @@
 		"decks/standard/beholder.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -3251,6 +3281,7 @@
 		"decks/standard/berserker.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 22,
@@ -3290,6 +3321,7 @@
 		"decks/standard/zombie_bad.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -3337,6 +3369,7 @@
 		"decks/standard/bird_blue.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -3423,6 +3456,7 @@
 		"decks/standard/blackconstruct.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
 	"speed": 20,
@@ -3498,6 +3532,7 @@
 		"decks/standard/blue_golem.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
 	"speed": 20,
@@ -3649,6 +3684,7 @@
 		"decks/standard/eyeblight.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -3698,6 +3734,7 @@
 		"decks/standard/bull.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.8,
 	"speed": 31,
@@ -3767,6 +3804,7 @@
 		"decks/standard/witch.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -3821,6 +3859,7 @@
 		"decks/standard/bonedragon.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
 	"speed": 20,
@@ -3907,6 +3946,7 @@
 		"decks/standard/millwizard.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -4095,6 +4135,7 @@
 		"decks/standard/cathar.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -4181,6 +4222,7 @@
 		"decks/standard/cave_spider.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -4248,6 +4290,7 @@
 		"decks/standard/centaur.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -4283,6 +4326,7 @@
 		"decks/standard/centaur_warrior.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -4321,6 +4365,7 @@
 		"decks/standard/cephalid.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
@@ -4417,6 +4462,7 @@
 		"decks/standard/cerodon.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.2,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -4884,6 +4930,7 @@
 		"decks/standard/chandra1.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -4989,6 +5036,7 @@
 		"decks/standard/chandra2.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -5094,6 +5142,7 @@
 		"decks/standard/hellhound2.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -5198,6 +5247,7 @@
 		"decks/standard/chandra3.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -5303,6 +5353,7 @@
 		"decks/standard/chandra4.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -5408,6 +5459,7 @@
 		"decks/standard/chandra5.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -5513,6 +5565,7 @@
 		"decks/standard/chandra6.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -5618,6 +5671,7 @@
 		"decks/standard/chicken.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.8,
 	"speed": 31,
@@ -5666,6 +5720,7 @@
 		"decks/standard/chimera.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -5716,6 +5771,7 @@
 		"decks/standard/golem_good.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 19,
@@ -5762,6 +5818,7 @@
 		"decks/standard/cleric.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -5966,6 +6023,7 @@
 		"decks/standard/cloaker.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -6226,6 +6284,7 @@
 		"decks/standard/copperhostbrutalizer.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -6305,6 +6364,7 @@
 		"decks/standard/copperhostinfector.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -6384,6 +6444,7 @@
 		"decks/standard/bluewiz_corrupted.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.2,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -6437,6 +6498,7 @@
 		"decks/standard/corruptedcleric.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.2,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -6491,6 +6553,7 @@
 		"decks/standard/greenmage_corrupted.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.2,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -6544,6 +6607,7 @@
 		"decks/standard/redwiz_corrupted.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.2,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -6597,6 +6661,7 @@
 		"decks/standard/cosmic_horror.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.3,
 	"difficulty": 0.8,
 	"speed": 18,
@@ -6742,6 +6807,7 @@
 		"decks/standard/sphinx amonkhet.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -6795,6 +6861,7 @@
 		"decks/standard/crocodile.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -6845,6 +6912,7 @@
 		"decks/standard/curselord.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.4,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -6914,6 +6982,7 @@
 		"decks/standard/cyclops.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 16,
@@ -6955,6 +7024,7 @@
 		"decks/standard/luckyminotaur.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 16,
@@ -7018,6 +7088,7 @@
 		"decks/standard/ogre_large.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 16,
@@ -7075,6 +7146,7 @@
 		"decks/standard/hermitcrab.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -7133,6 +7205,7 @@
 		"decks/standard/hedgehog.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -7264,6 +7337,7 @@
 		"decks/standard/death_knight.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -7348,6 +7422,7 @@
 		"decks/standard/dark_spirit.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -7427,6 +7502,7 @@
 		"decks/standard/dawnhart_witch.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -7509,6 +7585,7 @@
 		"decks/standard/death_knight.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -7762,6 +7839,7 @@
 		"decks/standard/demoncaller.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -7816,6 +7894,7 @@
 		"decks/standard/devil.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -7871,6 +7950,7 @@
 		"decks/standard/tibalt_devil.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -7932,6 +8012,7 @@
 		"decks/standard/dimir_faerie.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -8009,6 +8090,7 @@
 		"decks/standard/dinosaurelite.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -8059,6 +8141,7 @@
 		"decks/standard/dinosaur_w_r.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -8113,6 +8196,7 @@
 		"decks/standard/disciple_of_teferi.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -8191,6 +8275,7 @@
 		"decks/standard/djinn.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -8345,6 +8430,7 @@
 	],
 	"copyPlayerDeck": true,
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.4,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -8394,6 +8480,7 @@
 		"decks/standard/dragon.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.95,
 	"difficulty": 0.1,
@@ -8479,6 +8566,7 @@
 		"decks/standard/insect.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
@@ -8624,6 +8712,7 @@
 		"decks/standard/drossgladiator.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -8704,6 +8793,7 @@
 		"decks/standard/drossgrimnarch.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.2,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -8786,6 +8876,7 @@
 		"decks/standard/dwarf.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 22,
@@ -8873,6 +8964,7 @@
 		"decks/standard/dwarfdemolisher.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -8945,6 +9037,7 @@
 		"decks/standard/dwarfmercenary.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -9029,6 +9122,7 @@
 		"decks/standard/dwarfpilot.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -9103,6 +9197,7 @@
 		"decks/standard/dwarf_whitecastle.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -9155,6 +9250,7 @@
 		"decks/standard/earth_elemental.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -9202,6 +9298,7 @@
 		"decks/standard/efreet.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -9240,6 +9337,7 @@
 		"decks/standard/eldraine_faerie.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -9326,6 +9424,7 @@
 		"decks/standard/eldraine_knight.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -9411,6 +9510,7 @@
 		"decks/standard/eldrazi.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -9503,6 +9603,7 @@
 		"decks/standard/eldrazilarge.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -9597,6 +9698,7 @@
 		"decks/standard/elephant.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -9650,6 +9752,7 @@
 		"decks/standard/elemental_air.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -9695,6 +9798,7 @@
 		"decks/standard/elf_bad.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -9741,6 +9845,7 @@
 		"decks/standard/elf_mid.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -9787,6 +9892,7 @@
 		"decks/standard/elk.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 29,
@@ -9952,6 +10058,7 @@
 		"decks/standard/esper_artificer.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -10055,6 +10162,7 @@
 		"decks/standard/eye.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.6,
 	"difficulty": 0.1,
@@ -10125,6 +10233,7 @@
 		"decks/standard/faerie.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -10199,6 +10308,7 @@
 		"decks/standard/faeriedragon.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -10283,6 +10393,7 @@
 		"decks/standard/falcon_w.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -10333,6 +10444,7 @@
 		"decks/standard/amonkhet_aven_w.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -10419,6 +10531,7 @@
 		"decks/standard/fallen_angel.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.4,
 	"difficulty": 0.1,
@@ -10501,6 +10614,7 @@
 		"decks/standard/death_knight.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -10664,6 +10778,7 @@
 		"decks/standard/farmer.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -10750,6 +10865,7 @@
 		"decks/standard/firedragon.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
 	"speed": 20,
@@ -10827,6 +10943,7 @@
 		"decks/standard/fire_elemental.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -10910,6 +11027,7 @@
 		"decks/standard/firegiant.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -10983,6 +11101,7 @@
 		"decks/standard/flame_elemental.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -11064,6 +11183,7 @@
 		"decks/standard/flesh_horror.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.3,
 	"difficulty": 0.8,
 	"speed": 18,
@@ -11132,6 +11252,7 @@
 		"decks/standard/witch.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -11196,6 +11317,7 @@
 		"decks/standard/turbofog.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -11279,6 +11401,7 @@
 		"decks/standard/foresttitan.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -11416,6 +11539,7 @@
 		"decks/standard/frog.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -11483,6 +11607,7 @@
 		"decks/standard/frost_titan.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -11570,6 +11695,7 @@
 		"decks/standard/fungus.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -11656,6 +11782,7 @@
 		"decks/standard/furnacegoblin.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -11736,6 +11863,7 @@
 		"decks/standard/furnacetormentor.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -11819,6 +11947,7 @@
 		"decks/standard/gargoyle.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -11910,6 +12039,7 @@
 		"decks/standard/gargoyle.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -11997,6 +12127,7 @@
 		"decks/standard/geonid.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -12326,6 +12457,7 @@
 		"decks/standard/ghost_blue.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -12402,6 +12534,7 @@
 		"decks/standard/geistmage.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 18,
@@ -12485,6 +12618,7 @@
 		"decks/standard/ghoul.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -12521,6 +12655,7 @@
 		"decks/standard/ghoulgravecrawler.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -12580,6 +12715,7 @@
 		"decks/standard/ghost.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -12664,6 +12800,7 @@
 		"decks/standard/insect.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -12724,6 +12861,7 @@
 		"decks/standard/giantpanda.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 13,
@@ -12798,6 +12936,7 @@
 		"decks/standard/spider_token.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -12835,6 +12974,7 @@
 		"decks/standard/gitaxianscientist.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.6,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -12918,6 +13058,7 @@
 		"decks/standard/gitaxianunderling.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -12999,6 +13140,7 @@
 		"decks/standard/gravetitan.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -13063,6 +13205,7 @@
 		"decks/standard/sandwurm.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"life": 12,
@@ -13106,6 +13249,7 @@
 		"decks/standard/zombie_greater.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.2,
 	"speed": 15,
@@ -13175,6 +13319,7 @@
 		"decks/standard/greengolem.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
 	"speed": 20,
@@ -13424,6 +13569,7 @@
 		"decks/standard/froghemoth.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.8,
 	"speed": 18,
@@ -13478,6 +13624,88 @@
 },
 {
 	"name": "Gorilla",
+	"sprite": "sprites/enemy/beast/gorilla.atlas",
+	"deck": [
+		"decks/standard/gorilla.dck"
+	],
+	"ai": "",
+	"randomizeDeck": true,
+	"spawnRate": 1,
+	"difficulty": 0.8,
+	"speed": 18,
+	"scale": 0.55,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4,
+			"colors": [
+				"Red",
+				"Green"
+			],
+			"rarity": [
+				"Rare",
+				"Uncommon",
+				"Common"
+			],
+			"subTypes": [
+				"Ape"
+			]
+		},
+		{
+			"type": "card",
+			"probability": 0.5,
+			"count": 2,
+			"addMaxCount": 4,
+			"colors": [
+				"Green",
+				"Red"
+			],
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 1,
+			"count": 200,
+			"addMaxCount": 100
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"rarity": [
+				"uncommon",
+				"common"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 20,
+			"addMaxCount": 10
+		}
+	],
+	"colors": "RG",
+	"questTags": [
+		"Humanoid",
+		"Simian",
+		"Territorial",
+		"Animal",
+		"Wild",
+		"IdentityGreen",
+		"IdentityRed",
+		"IdentityGruul"
+	]
+},
+{
+	"name": "GorillaCastle",
 	"sprite": "sprites/enemy/beast/gorilla.atlas",
 	"deck": [
 		"decks/standard/gorilla.dck"
@@ -13565,6 +13793,7 @@
 		"decks/standard/loamspeaker.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -13647,6 +13876,7 @@
 		"decks/standard/gladiator.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -13702,6 +13932,7 @@
 		"decks/standard/goblin_warrior_easy.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -13758,6 +13989,7 @@
 		"decks/standard/goblin_artificer.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
 	"speed": 27,
@@ -13832,6 +14064,7 @@
 		"decks/standard/goblin_chief_medium.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 29,
@@ -13884,6 +14117,7 @@
 		"decks/standard/goblin_fanatic.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 29,
@@ -13936,6 +14170,7 @@
 		"decks/standard/goblinking.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -13996,6 +14231,7 @@
 		"decks/standard/goblin_bad.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -14032,6 +14268,7 @@
 			"decks/standard/goblin_bad.json"
 		],
 		"ai": "",
+		"randomizeDeck": true,
 		"life": 8,
 		"nextEnemy": {
 			"name": "Goblin",
@@ -14039,6 +14276,7 @@
 				"decks/standard/goblin_bad.json"
 			],
 			"ai": "",
+			"randomizeDeck": true,
 			"life": 8,
 			"teamNumber": 1
 		},
@@ -14059,6 +14297,7 @@
 		"decks/standard/evilgoblin.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 29,
@@ -14109,6 +14348,7 @@
 		"decks/standard/goblin_mid.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 28,
@@ -14214,6 +14454,7 @@
 		"decks/standard/golem_sentinel_3.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -14263,6 +14504,7 @@
 		"decks/standard/elf_golgari.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.2,
 	"speed": 24,
@@ -14332,6 +14574,7 @@
 		"decks/standard/fungus_golgari.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -14479,6 +14722,7 @@
 		"decks/standard/gorgon.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -14564,6 +14808,7 @@
 		"decks/standard/gorgon_2.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -14649,6 +14894,7 @@
 		"decks/standard/beast_green.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 22,
@@ -14732,6 +14978,7 @@
 		"decks/standard/griffin.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -14851,6 +15098,7 @@
 		"decks/standard/harpy.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -14935,6 +15183,7 @@
 		"decks/standard/harpy_2.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -15020,6 +15269,7 @@
 		"decks/standard/manticore.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 18,
@@ -15102,6 +15352,7 @@
 		"decks/standard/hellhound.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -15188,6 +15439,7 @@
 		"decks/standard/plant.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -15239,6 +15491,7 @@
 		"decks/standard/snake.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -15368,6 +15621,7 @@
 		"decks/standard/elf_good.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 26,
@@ -15417,6 +15671,7 @@
 		"decks/standard/vampire.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -15504,6 +15759,7 @@
 		"decks/standard/hippo.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -15553,6 +15809,7 @@
 		"decks/standard/homarid.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -15615,6 +15872,7 @@
 		"decks/standard/horror.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -15699,6 +15957,7 @@
 		"decks/standard/tibalt_horror.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -15748,6 +16007,7 @@
 		"decks/standard/holypaladin.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -15806,6 +16066,7 @@
 		"decks/standard/whiteking.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -15864,6 +16125,7 @@
 		"decks/standard/horse.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -15921,6 +16183,7 @@
 		"decks/standard/horse.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -15979,6 +16242,7 @@
 		"decks/standard/horsemanship.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -16028,6 +16292,7 @@
 		"decks/standard/human_bad.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -16075,6 +16340,7 @@
 		"decks/standard/humanbard.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -16123,6 +16389,7 @@
 		"decks/standard/humanelite.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -16176,6 +16443,7 @@
 		"decks/standard/human_good.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -16223,6 +16491,7 @@
 		"decks/standard/human_mid.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -16277,6 +16546,7 @@
 		"decks/standard/humanmercenary.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -16360,6 +16630,7 @@
 		"decks/standard/hydra.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -16453,6 +16724,7 @@
 		"decks/standard/seraphim.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.2,
 	"difficulty": 0.1,
 	"speed": 35,
@@ -16519,6 +16791,7 @@
 		"decks/standard/bird_gu.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.3,
 	"difficulty": 0.1,
@@ -16574,6 +16847,7 @@
 		"decks/standard/amonkhet_aven_u.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -16660,6 +16934,7 @@
 		"decks/standard/ice_elemental.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 16,
@@ -16700,6 +16975,7 @@
 		"decks/standard/illusion.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -16751,6 +17027,7 @@
 		"decks/standard/immersturm_demon.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -16835,6 +17112,7 @@
 		"decks/standard/jackal.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.3,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -16976,6 +17254,7 @@
 		"decks/standard/jellyfish.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -17129,6 +17408,7 @@
 		"decks/standard/mardu.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -17320,6 +17600,7 @@
 		"decks/standard/knight.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -17366,6 +17647,7 @@
 		"decks/standard/knightmercenary.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -17450,6 +17732,7 @@
 		"decks/standard/kobolddragoncaller.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -17517,6 +17800,7 @@
 		"decks/standard/pyromancer.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -17584,6 +17868,7 @@
 		"decks/standard/roshnakhtheroic.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -17650,6 +17935,7 @@
 		"decks/standard/kobold.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -17717,6 +18003,7 @@
 		"decks/standard/koboldtrapmaster.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -17783,6 +18070,7 @@
 		"decks/standard/kobold.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -17847,6 +18135,7 @@
 		"decks/standard/koboldworker.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -17912,6 +18201,7 @@
 		"decks/standard/kor_warrior.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -17969,6 +18259,7 @@
 		"decks/standard/ladybug.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
@@ -18035,6 +18326,7 @@
 		"decks/standard/lich.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -18187,6 +18479,7 @@
 		"decks/standard/leoninswordsmith.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -18243,6 +18536,7 @@
 		"decks/standard/leoninwarrior.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -18293,6 +18587,7 @@
 		"decks/standard/lightning_elemental.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -18502,6 +18797,7 @@
 		"decks/standard/dimir_ninja.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.2,
 	"speed": 24,
@@ -18583,6 +18879,7 @@
 		"decks/standard/lilianas_herbalist.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.2,
 	"speed": 24,
@@ -18792,6 +19089,7 @@
 		"decks/standard/mageripper.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -18845,6 +19143,7 @@
 		"decks/standard/maelstromangel.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -18901,6 +19200,7 @@
 		"decks/standard/magma_elemental.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -19006,6 +19306,7 @@
 		"decks/standard/magma_elemental.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.5,
@@ -19341,6 +19642,7 @@
 		"decks/standard/merfolk_bad.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -19390,6 +19692,7 @@
 		"decks/standard/merfolk_good.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -19532,6 +19835,7 @@
 		"decks/standard/merfolk_lords.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.2,
 	"speed": 22,
@@ -19592,6 +19896,7 @@
 		"decks/standard/merfolk_lord2.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.25,
 	"speed": 25,
@@ -19653,6 +19958,7 @@
 		"decks/standard/merfolk_v_goblins.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 22,
@@ -19704,6 +20010,7 @@
 		"decks/standard/merfolk_mid.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -19754,6 +20061,7 @@
 		"decks/standard/sliver_metallicsliver.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"speed": 24,
 	"life": 30,
@@ -19804,6 +20112,7 @@
 		"decks/standard/mighty_djinn.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -19854,6 +20163,7 @@
 		"decks/standard/mimic.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -19938,6 +20248,7 @@
 		"decks/standard/mindclaw_shaman.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 22,
@@ -20026,6 +20337,7 @@
 		"decks/standard/minotaur.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -20200,6 +20512,7 @@
 		"decks/standard/minotaur_monored_castle.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 80,
@@ -20341,6 +20654,7 @@
 		"decks/standard/ragavan.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.8,
 	"speed": 18,
@@ -20422,6 +20736,7 @@
 		"decks/standard/mummy.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -20535,6 +20850,7 @@
 		"decks/standard/nagawarrior.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -20703,6 +21019,7 @@
 		"decks/standard/shrinemole.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -20760,6 +21077,7 @@
 		"decks/standard/nantuko_morpher.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -20852,6 +21170,7 @@
 		"decks/standard/necrogoyf.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -20911,6 +21230,7 @@
 		"decks/standard/reanimator.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 31,
@@ -20969,6 +21289,7 @@
 		"decks/standard/rat_leader.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -21033,6 +21354,7 @@
 		"decks/standard/humanoidrat.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -21097,6 +21419,7 @@
 		"decks/standard/nightmare.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.3,
 	"difficulty": 0.8,
 	"speed": 18,
@@ -21165,6 +21488,7 @@
 		"decks/standard/octopus.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -21397,6 +21721,7 @@
 		"decks/standard/owl.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -21466,6 +21791,7 @@
 		"decks/standard/cleric_orzhov.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.2,
 	"speed": 24,
@@ -21551,6 +21877,7 @@
 		"decks/standard/penguin.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.3,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -21623,6 +21950,7 @@
 		"decks/standard/pirate.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -21705,6 +22033,7 @@
 		"decks/standard/pirate2.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -21786,6 +22115,7 @@
 		"decks/standard/pirate3.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -21942,6 +22272,7 @@
 		"decks/standard/pirate_captain_2.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -22022,6 +22353,7 @@
 		"decks/standard/pharaoh.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -22142,6 +22474,7 @@
 		"decks/standard/poisonoussnake.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -22213,6 +22546,7 @@
 		"decks/standard/polarbear.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.3,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -22286,6 +22620,7 @@
 		"decks/standard/porcupine.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -22343,6 +22678,7 @@
 		"decks/standard/prototype_blue.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
 	"speed": 20,
@@ -22418,6 +22754,7 @@
 		"decks/standard/prototype_green.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
 	"speed": 20,
@@ -22493,6 +22830,7 @@
 		"decks/standard/fanaticpriest.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.2,
 	"difficulty": 0.1,
 	"speed": 35,
@@ -22552,6 +22890,7 @@
 		"decks/standard/pyromancer.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -22607,6 +22946,7 @@
 		"decks/standard/orc_brute.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -22664,6 +23004,7 @@
 		"decks/standard/orc_hunter.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -22721,6 +23062,7 @@
 		"decks/standard/orc_warrior.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -22777,6 +23119,7 @@
 		"decks/standard/phyrexianangel.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -22858,6 +23201,7 @@
 		"decks/standard/phyrexianduelist.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -22939,6 +23283,7 @@
 		"decks/standard/enchantment_aggro.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -22997,6 +23342,7 @@
 		"decks/standard/parrot.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -23065,6 +23411,7 @@
 		"decks/standard/phoenix.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -23172,6 +23519,7 @@
 		"decks/standard/rakdos_devil.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -23212,6 +23560,7 @@
 		"decks/standard/dinosaur_rw_enrage.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -23270,6 +23619,7 @@
 		"decks/standard/rakdos_vamps.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.2,
 	"speed": 24,
@@ -23350,6 +23700,7 @@
 		"decks/standard/raven.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -23423,6 +23774,7 @@
 		"decks/standard/sliver_recruitersliver.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"speed": 24,
 	"life": 30,
@@ -23477,6 +23829,7 @@
 		"decks/standard/beast_red.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -23518,6 +23871,7 @@
 		"decks/standard/reassemblingskeleton.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 10,
@@ -23622,6 +23976,7 @@
 		"decks/standard/rogue.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -23663,6 +24018,7 @@
 		"decks/standard/runelord.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -23730,6 +24086,7 @@
 		"decks/standard/sandgolem.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -23777,6 +24134,7 @@
 		"decks/standard/hellion.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.2,
 	"difficulty": 0.1,
 	"speed": 13,
@@ -23825,6 +24183,7 @@
 		"decks/standard/satyr.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -23909,6 +24268,7 @@
 		"decks/standard/satyr_hard.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -23993,6 +24353,7 @@
 		"decks/standard/scarab.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -24048,6 +24409,7 @@
 		"decks/standard/scarecrow.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -24179,6 +24541,7 @@
 		"decks/standard/scorpion.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -24309,6 +24672,7 @@
 		"decks/standard/sea_monster.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -24390,6 +24754,7 @@
 		"decks/standard/shade.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.3,
 	"difficulty": 0.8,
@@ -24461,6 +24826,7 @@
 		"decks/standard/shaman.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -24546,6 +24912,7 @@
 		"decks/standard/shamanelite.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -24695,6 +25062,7 @@
 		"decks/standard/skeleton.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -24733,6 +25101,7 @@
 		"decks/standard/skeleton_2.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -24772,6 +25141,7 @@
 		"decks/standard/skeleton_champion.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.2,
 	"speed": 20,
@@ -24924,6 +25294,7 @@
 		"decks/standard/sliver_slivdrazi.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"speed": 24,
 	"life": 30,
@@ -24973,6 +25344,7 @@
 		"decks/standard/sliver.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -25009,6 +25381,7 @@
 		"decks/standard/sliver_black.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.2,
 	"speed": 24,
@@ -25064,6 +25437,7 @@
 		"decks/standard/sliver_blue.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.2,
 	"speed": 24,
@@ -25119,6 +25493,7 @@
 		"decks/standard/sliver_green.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.2,
 	"speed": 24,
@@ -25174,6 +25549,7 @@
 		"decks/standard/sliver_red.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.2,
 	"speed": 24,
@@ -25229,6 +25605,7 @@
 		"decks/standard/sliver_white.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.2,
 	"speed": 24,
@@ -25436,6 +25813,7 @@
 		"decks/standard/snake.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -25584,6 +25962,7 @@
 		"decks/standard/sphinx amonkhet.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -25637,6 +26016,7 @@
 		"decks/standard/spider.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 22,
@@ -25789,6 +26169,7 @@
 		"decks/standard/spirit.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -25846,6 +26227,7 @@
 		"decks/standard/dinosaur_gruul_etali.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -25919,6 +26301,7 @@
 		"decks/standard/stormtitan.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -26043,6 +26426,7 @@
 		"decks/standard/sun titan.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -26111,6 +26495,7 @@
 		"decks/standard/squirrel.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -26162,6 +26547,7 @@
 		"decks/standard/swamptroll.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -26261,6 +26647,7 @@
 		"decks/standard/symbiote.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -26347,6 +26734,7 @@
 		"decks/standard/djinn_tarkir.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -26825,6 +27213,7 @@
 		"decks/standard/turtle.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 5,
@@ -26889,6 +27278,7 @@
 		"decks/standard/treefolk.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 16,
@@ -26946,6 +27336,7 @@
 		"decks/standard/treefolk.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 16,
@@ -27022,6 +27413,7 @@
 		"decks/standard/dinosaur_gw_ramp.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 20,
@@ -27094,6 +27486,7 @@
 		"decks/standard/troll.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -27234,6 +27627,7 @@
 		"decks/standard/vampire.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -27274,6 +27668,7 @@
 		"decks/standard/vampire_blood_token_fly.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -27307,6 +27702,7 @@
 		"decks/standard/viashino.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -27387,6 +27783,7 @@
 		"decks/standard/snake.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -27452,6 +27849,7 @@
 		"decks/standard/junddragon.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.3,
 	"speed": 20,
@@ -27529,6 +27927,7 @@
 		"decks/standard/br_elemental.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 28,
@@ -27635,6 +28034,7 @@
 		"decks/standard/walkingbrain.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.3,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -27703,6 +28103,7 @@
 		"decks/standard/wanderinggiant.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -27771,6 +28172,7 @@
 		"decks/standard/human_warrior_amonkhet.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -27829,6 +28231,7 @@
 		"decks/standard/wasp.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -27890,6 +28293,7 @@
 		"decks/standard/bearboss.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -27963,6 +28367,7 @@
 		"decks/standard/werewolf.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 26,
@@ -28004,6 +28409,7 @@
 		"decks/standard/white_dwarf.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 22,
@@ -28171,6 +28577,7 @@
 		"decks/standard/wild-magic_sorcerer.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 22,
@@ -28256,6 +28663,7 @@
 		"decks/standard/wolfboss.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 16,
@@ -28326,6 +28734,7 @@
 		"decks/standard/wolf.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 35,
@@ -28390,6 +28799,7 @@
 		"decks/standard/wurm.json"
 	],
 	"ai": "reckless",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -28435,6 +28845,7 @@
 		"decks/standard/vulture.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -28488,6 +28899,7 @@
 		"decks/standard/water_elemental.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.7,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -28534,6 +28946,7 @@
 		"decks/standard/witch.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 12,
@@ -28593,6 +29006,7 @@
 		"decks/standard/wraithswampwalk.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
@@ -28792,6 +29206,7 @@
 		"decks/standard/yeti.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 25,
@@ -28963,6 +29378,7 @@
 		"decks/standard/zombie_black_easy.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 15,
@@ -29011,6 +29427,7 @@
 		"decks/standard/zombie_black_medium.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.7,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29057,6 +29474,7 @@
 		"decks/standard/hiddenwall.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"life": 20,
@@ -29121,6 +29539,7 @@
 		"decks/standard/juggernaut.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29192,6 +29611,7 @@
 		"decks/standard/bonegolem.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29266,6 +29686,7 @@
 		"decks/standard/hulkingbrute.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29334,6 +29755,7 @@
 		"decks/standard/unholyknight.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29410,6 +29832,7 @@
 		"decks/standard/monobgoblins.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29483,6 +29906,7 @@
 		"decks/standard/giralfgisa.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29562,6 +29986,7 @@
 		"decks/standard/zombiepoisoner.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29634,6 +30059,7 @@
 		"decks/standard/trap.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29714,6 +30140,7 @@
 		"decks/standard/trap.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29793,6 +30220,7 @@
 		"decks/standard/sandghoul.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29872,6 +30300,7 @@
 		"decks/standard/tombguardian.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -29951,6 +30380,7 @@
 		"decks/standard/undeadroamer.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -30003,6 +30433,7 @@
 		"decks/standard/undeadshuffler.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -30077,6 +30508,7 @@
 		"decks/standard/unholyskull.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -30134,6 +30566,7 @@
 		"decks/standard/unravelingcrawler.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -30200,6 +30633,7 @@
 		"decks/standard/angel.json"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
@@ -30266,6 +30700,7 @@
 		"decks/standard/azoriusangel.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.6,
 	"difficulty": 0.1,
@@ -30321,6 +30756,7 @@
 		"decks/standard/demon4.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.6,
 	"difficulty": 0.1,
@@ -30375,6 +30811,7 @@
 		"decks/standard/demon5.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.6,
 	"scale": 1.2,
 	"difficulty": 0.1,
@@ -30429,6 +30866,7 @@
 		"decks/standard/demonwander.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.6,
 	"scale": 1.2,
 	"difficulty": 0.1,
@@ -30488,6 +30926,7 @@
 		"decks/standard/peasantrole.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.6,
 	"difficulty": 0.1,
 	"speed": 21,
@@ -30541,6 +30980,7 @@
 		"decks/standard/supremeelemental.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"flying": true,
 	"spawnRate": 0.6,
 	"scale": 1.2,
@@ -30602,6 +31042,7 @@
 		"decks/standard/zombie_black_hard.dck"
 	],
 	"ai": "",
+	"randomizeDeck": true,
 	"spawnRate": 0.4,
 	"difficulty": 0.1,
 	"speed": 21,
