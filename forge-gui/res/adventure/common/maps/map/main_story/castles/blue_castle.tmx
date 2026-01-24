@@ -71,7 +71,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Merfolk Fighter"/>
+    <property name="enemy" value="Merfolk Fighter Castle"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
   </object>
@@ -160,7 +160,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Aether Channeler"/>
+    <property name="enemy" value="Aether Channeler Castle"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
   </object>
@@ -174,7 +174,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Archmage"/>
+    <property name="enemy" value="Archmage Castle"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
   </object>
@@ -188,7 +188,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Brain Mole"/>
+    <property name="enemy" value="Brain Mole Castle"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
   </object>
@@ -202,7 +202,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Storm Titan"/>
+    <property name="enemy" value="Storm Titan Castle"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
   </object>

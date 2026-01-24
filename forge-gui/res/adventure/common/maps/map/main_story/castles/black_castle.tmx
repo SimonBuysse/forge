@@ -147,7 +147,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Shade"/>
+    <property name="enemy" value="Shade Castle"/>
     <property name="pursueRange" type="int" value="30"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
@@ -162,7 +162,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Ghoul Gravecaller"/>
+    <property name="enemy" value="Ghoul Gravecaller Castle"/>
     <property name="pursueRange" type="int" value="30"/>
     <property name="threatRange" type="int" value="20"/>
    </properties>
@@ -177,7 +177,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Witch"/>
+    <property name="enemy" value="Witch Castle"/>
     <property name="pursueRange" type="int" value="30"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
@@ -196,7 +196,7 @@
  &quot;lifeModifier&quot;: 15,
  &quot;startBattleWithCard&quot;: [ &quot;Swamp&quot; ]
 }</property>
-    <property name="enemy" value="Grave Titan"/>
+    <property name="enemy" value="Grave Titan Castle"/>
     <property name="pursueRange" type="int" value="10"/>
     <property name="threatRange" type="int" value="10"/>
    </properties>
@@ -211,7 +211,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Ancient Vampire"/>
+    <property name="enemy" value="Ancient Vampire Castle"/>
     <property name="pursueRange" type="int" value="30"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>

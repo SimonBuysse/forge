@@ -786,6 +786,82 @@
 	]
 },
 {
+	"name": "Aether Channeler Castle",
+	"sprite": "sprites/enemy/humanoid/human/cleric/monk_3.atlas",
+	"deck": [
+		"decks/standard/aether_channeler.dck"
+	],
+	"ai": "",
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 24,
+	"life": 15,
+	"rewards": [
+		{
+			"type": "deckCard",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 6,
+			"rarity": [
+				"common",
+				"uncommon",
+				"rare"
+			]
+		},
+		{
+			"type": "deckCard",
+			"probability": 0.25,
+			"count": 1,
+			"addMaxCount": 1,
+			"rarity": [
+				"rare",
+				"mythicrare"
+			],
+			"cardTypes": [
+				"Creature",
+				"Artifact",
+				"Enchantment",
+				"Instant",
+				"Sorcery"
+			]
+		},
+		{
+			"type": "deckCard",
+			"probability": 0.1,
+			"count": 1,
+			"rarity": [
+				"rare"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 0.3,
+			"count": 10,
+			"addMaxCount": 90
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 10,
+			"addMaxCount": 10
+		}
+	],
+	"colors": "WU",
+	"questTags": [
+		"Human",
+		"Wizard",
+		"BiomeWhite",
+		"BiomeBlue",
+		"IdentityWhite",
+		"IdentityBlue",
+		"IdentityAzorius",
+		"Mystic"
+	]
+},
+{
 	"name": "Akroma",
 	"sprite": "sprites/enemy/celestial/akroma.atlas",
 	"deck": [
@@ -920,6 +996,78 @@
 	],
 	"ai": "",
 	"randomizeDeck": true,
+	"flying": true,
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 29,
+	"scale": 0.85,
+	"life": 25,
+	"rewards": [
+		{
+			"type": "deckCard",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4,
+			"rarity": [
+				"rare",
+				"Uncommon"
+			],
+			"cardTypes": [
+				"Creature",
+				"Artifact",
+				"Enchantment",
+				"Instant",
+				"Sorcery"
+			]
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"addMaxCount": 4,
+			"colors": [
+				"Black"
+			],
+			"rarity": [
+				"rare",
+				"Rare"
+			],
+			"subTypes": [
+				"Vampire"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 0.3,
+			"count": 10,
+			"addMaxCount": 90
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 10
+		}
+	],
+	"colors": "B",
+	"questTags": [
+		"Vampire",
+		"Undead",
+		"Unholy",
+		"Evil",
+		"Wise",
+		"IdentityBlack"
+	]
+},
+{
+	"name": "Ancient Vampire Castle",
+	"sprite": "sprites/enemy/undead/vampire_4.atlas",
+	"deck": [
+		"decks/standard/ancientvampire.dck"
+	],
+	"ai": "",
 	"flying": true,
 	"spawnRate": 1,
 	"difficulty": 0.1,
@@ -2086,6 +2234,59 @@
 	],
 	"ai": "",
 	"randomizeDeck": true,
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 27,
+	"scale": 0.65,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "deckCard",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4
+		},
+		{
+			"type": "gold",
+			"probability": 0.7,
+			"count": 10,
+			"addMaxCount": 90
+		},
+		{
+			"type": "card",
+			"probability": 0.5,
+			"count": 3,
+			"colors": [
+				"Blue"
+			],
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 10,
+			"addMaxCount": 10
+		}
+	],
+	"colors": "GR",
+	"questTags": [
+		"IdentityBlue",
+		"Wizard",
+		"Human",
+		"Leader",
+		"Intelligent",
+		"Mystic"
+	]
+},
+{
+	"name": "Archmage Castle",
+	"sprite": "sprites/enemy/humanoid/human/wizard/archmage.atlas",
+	"deck": [
+		"decks/standard/archmage.dck"
+	],
+	"ai": "",
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -3947,6 +4148,60 @@
 	],
 	"ai": "",
 	"randomizeDeck": true,
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 27,
+	"scale": 0.7,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "deckCard",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4
+		},
+		{
+			"type": "gold",
+			"probability": 0.7,
+			"count": 10,
+			"addMaxCount": 90
+		},
+		{
+			"type": "card",
+			"probability": 0.5,
+			"count": 3,
+			"colors": [
+				"Blue"
+			],
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 10,
+			"addMaxCount": 10
+		}
+	],
+	"colors": "GR",
+	"questTags": [
+		"Monster",
+		"IdentityBlue",
+		"Nocturnal",
+		"Magic",
+		"Wandering",
+		"Unholy",
+		"Evil"
+	]
+},
+{
+	"name": "Brain Mole Castle",
+	"sprite": "sprites/enemy/monstrosity/brainmole.atlas",
+	"deck": [
+		"decks/standard/millwizard.dck"
+	],
+	"ai": "",
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 27,
@@ -8430,7 +8685,6 @@
 	],
 	"copyPlayerDeck": true,
 	"ai": "",
-	"randomizeDeck": true,
 	"spawnRate": 0.4,
 	"difficulty": 0.1,
 	"speed": 30,
@@ -9244,6 +9498,59 @@
 	]
 },
 {
+	"name": "Dwarf Warlord Castle",
+	"nameOverride": "",
+	"sprite": "sprites/enemy/humanoid/dwarf/dwarflarge.atlas",
+	"deck": [
+		"decks/standard/dwarf_whitecastle.dck"
+	],
+	"ai": "",
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 21,
+	"scale": 0.75,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "deckCard",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4
+		},
+		{
+			"type": "gold",
+			"probability": 0.7,
+			"count": 100,
+			"addMaxCount": 90
+		},
+		{
+			"type": "card",
+			"count": 3,
+			"colors": [
+				"White"
+			],
+			"rarity": [
+				"Uncommon",
+				"Rare"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 10,
+			"addMaxCount": 10
+		}
+	],
+	"colors": "W",
+	"questTags": [
+		"Dwarf",
+		"Humanoid",
+		"Warlord",
+		"Leader",
+		"Artificer"
+	]
+},
+{
 	"name": "Earth Elemental",
 	"sprite": "sprites/enemy/elemental/earthelemental.atlas",
 	"deck": [
@@ -9699,6 +10006,58 @@
 	],
 	"ai": "",
 	"randomizeDeck": true,
+	"spawnRate": 0.8,
+	"difficulty": 0.1,
+	"speed": 23,
+	"scale": 0.9,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"addMaxCount": 4,
+			"subTypes": [
+				"Elephant"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 0.7,
+			"count": 10,
+			"addMaxCount": 90
+		},
+		{
+			"type": "card",
+			"probability": 0.5,
+			"count": 1,
+			"addMaxCount": 3,
+			"colors": [
+				"Green"
+			],
+			"rarity": [
+				"Rare"
+			]
+		}
+	],
+	"colors": "GW",
+	"questTags": [
+		"Elephant",
+		"Beast",
+		"Wild",
+		"Huge",
+		"Wandering",
+		"IdentitySelesnya",
+		"Domesticated"
+	]
+},
+{
+	"name": "Elephant Castle",
+	"sprite": "sprites/enemy/beast/elephant.atlas",
+	"deck": [
+		"decks/standard/elephant.json"
+	],
+	"ai": "",
 	"spawnRate": 0.8,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -11469,6 +11828,79 @@
 	]
 },
 {
+	"name": "Forest Giant Castle",
+	"sprite": "sprites/enemy/giant/forestgiant.atlas",
+	"deck": [
+		"decks/standard/foresttitan.dck"
+	],
+	"ai": "",
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 23,
+	"scale": 1.4,
+	"life": 25,
+	"rewards": [
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4,
+			"colors": [
+				"Green"
+			],
+			"subTypes": [
+				"Giant"
+			],
+			"colorType": "MonoColor"
+		},
+		{
+			"type": "card",
+			"probability": 0.5,
+			"count": 2,
+			"addMaxCount": 4,
+			"colors": [
+				"Green"
+			],
+			"rarity": [
+				"Rare"
+			],
+			"colorType": "MonoColor"
+		},
+		{
+			"type": "gold",
+			"probability": 1,
+			"count": 50,
+			"addMaxCount": 200
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"rarity": [
+				"uncommon",
+				"common"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 10,
+			"addMaxCount": 10
+		}
+	],
+	"colors": "G",
+	"questTags": [
+		"Forest",
+		"Giant",
+		"Warrior",
+		"Territorial",
+		"IdentityGreen"
+	]
+},
+{
 	"name": "Fox",
 	"sprite": "sprites/enemy/beast/fox.atlas",
 	"deck": [
@@ -12708,6 +13140,64 @@
 	]
 },
 {
+	"name": "Ghoul Gravecaller Castle",
+	"sprite": "sprites/enemy/undead/ghoullarge.atlas",
+	"deck": [
+		"decks/standard/ghoulgravecrawler.dck"
+	],
+	"ai": "",
+	"spawnRate": 0.5,
+	"difficulty": 0.1,
+	"speed": 15,
+	"scale": 0.75,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "deckCard",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 7
+		},
+		{
+			"type": "gold",
+			"probability": 0.7,
+			"count": 10,
+			"addMaxCount": 90
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 3,
+			"colors": [
+				"Black"
+			],
+			"rarity": [
+				"Rare",
+				"Mythic Rare"
+			],
+			"colorType": "MonoColor"
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 10,
+			"addMaxCount": 15
+		}
+	],
+	"colors": "BU",
+	"questTags": [
+		"Undead",
+		"Humanoid",
+		"IdentityBlack",
+		"IdentityBlue",
+		"IdentityDimir",
+		"BiomeBlack",
+		"Ghoul",
+		"Zombie"
+	]
+},
+{
 	"name": "Ghost",
 	"nameOverride": "Haunting Apparition",
 	"sprite": "sprites/enemy/undead/ghost_2.atlas",
@@ -13141,6 +13631,71 @@
 	],
 	"ai": "",
 	"randomizeDeck": true,
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 23,
+	"scale": 1.3,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4,
+			"colors": [
+				"Black"
+			],
+			"subTypes": [
+				"Giant"
+			],
+			"colorType": "MonoColor"
+		},
+		{
+			"type": "gold",
+			"probability": 1,
+			"count": 50,
+			"addMaxCount": 200
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"rarity": [
+				"uncommon",
+				"common"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 10,
+			"addMaxCount": 15
+		}
+	],
+	"colors": "B",
+	"questTags": [
+		"Giant",
+		"Warrior",
+		"Territorial",
+		"Grave",
+		"Zombie",
+		"Undead",
+		"Zombie",
+		"Humanoid",
+		"IdentityBlack"
+	]
+},
+{
+	"name": "Grave Titan Castle",
+	"nameOverride": "",
+	"sprite": "sprites/enemy/giant/gravetitan.atlas",
+	"deck": [
+		"decks/standard/gravetitan.dck"
+	],
+	"ai": "",
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -13705,7 +14260,7 @@
 	]
 },
 {
-	"name": "GorillaCastle",
+	"name": "Gorilla Castle",
 	"sprite": "sprites/enemy/beast/gorilla.atlas",
 	"deck": [
 		"decks/standard/gorilla.dck"
@@ -16060,6 +16615,64 @@
 	]
 },
 {
+	"name": "Holy Paladin Castle",
+	"sprite": "sprites/enemy/humanoid/human/knight/paladin_large.atlas",
+	"deck": [
+		"decks/standard/holypaladin.dck"
+	],
+	"ai": "",
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 24,
+	"scale": 0.7,
+	"life": 25,
+	"rewards": [
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 4,
+			"colors": [
+				"White"
+			],
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 1,
+			"count": 50,
+			"addMaxCount": 200
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"rarity": [
+				"uncommon",
+				"rare"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 30,
+			"addMaxCount": 20
+		}
+	],
+	"colors": "W",
+	"questTags": [
+		"IdentityWhite",
+		"Paladin",
+		"Human",
+		"Holy",
+		"Leader"
+	]
+},
+{
 	"name": "Royal King",
 	"sprite": "sprites/enemy/humanoid/human/knight/king_large.atlas",
 	"deck": [
@@ -16067,6 +16680,64 @@
 	],
 	"ai": "",
 	"randomizeDeck": true,
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 24,
+	"scale": 0.7,
+	"life": 25,
+	"rewards": [
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 4,
+			"colors": [
+				"White"
+			],
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 1,
+			"count": 50,
+			"addMaxCount": 200
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"rarity": [
+				"uncommon",
+				"rare"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 30,
+			"addMaxCount": 20
+		}
+	],
+	"colors": "W",
+	"questTags": [
+		"IdentityWhite",
+		"Warrior",
+		"Human",
+		"Holy",
+		"King"
+	]
+},
+{
+	"name": "Royal King Castle",
+	"sprite": "sprites/enemy/humanoid/human/knight/king_large.atlas",
+	"deck": [
+		"decks/standard/whiteking.dck"
+	],
+	"ai": "",
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 24,
@@ -16725,6 +17396,72 @@
 	],
 	"ai": "",
 	"randomizeDeck": true,
+	"spawnRate": 0.2,
+	"difficulty": 0.1,
+	"speed": 35,
+	"scale": 0.8,
+	"life": 25,
+	"rewards": [
+		{
+			"type": "deckCard",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4,
+			"rarity": [
+				"common",
+				"uncommon"
+			]
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"addMaxCount": 1,
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 1,
+			"count": 50,
+			"addMaxCount": 100
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"rarity": [
+				"rare"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 10,
+			"addMaxCount": 10
+		}
+	],
+	"colors": "W",
+	"questTags": [
+		"IdentityWhite",
+		"Large",
+		"Holy",
+		"Celestial",
+		"Arcane",
+		"Magical"
+	]
+},
+{
+	"name": "Holy Apparition Castle",
+	"sprite": "sprites/enemy/celestial/seraphim.atlas",
+	"deck": [
+		"decks/standard/seraphim.dck"
+	],
+	"ai": "",
 	"spawnRate": 0.2,
 	"difficulty": 0.1,
 	"speed": 35,
@@ -19836,6 +20573,66 @@
 	],
 	"ai": "",
 	"randomizeDeck": true,
+	"spawnRate": 1,
+	"difficulty": 0.2,
+	"speed": 22,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "deckCard",
+			"probability": 1,
+			"count": 1
+		},
+		{
+			"type": "gold",
+			"probability": 1,
+			"count": 100,
+			"addMaxCount": 150
+		},
+		{
+			"type": "card",
+			"probability": 0.65,
+			"count": 2,
+			"colors": [
+				"Blue"
+			],
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "card",
+			"probability": 0.0035,
+			"count": 1,
+			"colors": [
+				"Blue"
+			],
+			"rarity": [
+				"Mythic Rare"
+			]
+		}
+	],
+	"colors": "GU",
+	"questTags": [
+		"Merfolk",
+		"Humanoid",
+		"Swimming",
+		"Territorial",
+		"Tribal",
+		"IdentityGreen",
+		"IdentityBlue",
+		"IdentitySimic",
+		"BiomeBlue",
+		"Minion"
+	]
+},
+{
+	"name": "Merfolk Fighter Castle",
+	"sprite": "sprites/enemy/humanoid/merfolk/merfolk.atlas",
+	"deck": [
+		"decks/standard/merfolk_lords.dck"
+	],
+	"ai": "",
 	"spawnRate": 1,
 	"difficulty": 0.2,
 	"speed": 22,
@@ -24820,6 +25617,77 @@
 	]
 },
 {
+	"name": "Shade Castle",
+	"sprite": "sprites/enemy/undead/shade.atlas",
+	"deck": [
+		"decks/standard/shade.dck"
+	],
+	"ai": "",
+	"flying": true,
+	"spawnRate": 0.3,
+	"difficulty": 0.8,
+	"speed": 18,
+	"scale": 0.45,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4,
+			"colors": [
+				"Black"
+			],
+			"rarity": [
+				"Rare",
+				"Uncommon",
+				"Common"
+			],
+			"subTypes": [
+				"Shade"
+			]
+		},
+		{
+			"type": "card",
+			"probability": 0.5,
+			"count": 2,
+			"addMaxCount": 4,
+			"colors": [
+				"Black"
+			],
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 1,
+			"count": 200,
+			"addMaxCount": 100
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 5,
+			"addMaxCount": 10
+		}
+	],
+	"colors": "B",
+	"questTags": [
+		"Shade",
+		"Monster",
+		"Horror",
+		"Unholy",
+		"Sneaky",
+		"Hidden",
+		"Shadow",
+		"Mystic",
+		"Magic",
+		"IdentityBlack",
+		"Humanoid"
+	]
+},
+{
 	"name": "Shaman",
 	"sprite": "sprites/enemy/humanoid/elf/shaman_2.atlas",
 	"deck": [
@@ -26356,6 +27224,66 @@
 	]
 },
 {
+	"name": "Storm Titan Castle",
+	"sprite": "sprites/enemy/giant/stormtitan.atlas",
+	"deck": [
+		"decks/standard/stormtitan.dck"
+	],
+	"ai": "",
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 23,
+	"life": 25,
+	"rewards": [
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 8,
+			"colors": [
+				"Blue"
+			],
+			"subTypes": [
+				"Giant"
+			],
+			"colorType": "MonoColor"
+		},
+		{
+			"type": "gold",
+			"probability": 0.7,
+			"count": 100,
+			"addMaxCount": 900
+		},
+		{
+			"type": "card",
+			"probability": 0.5,
+			"count": 3,
+			"colors": [
+				"White"
+			],
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 50,
+			"addMaxCount": 10
+		}
+	],
+	"colors": "U",
+	"questTags": [
+		"Humanoid",
+		"IdentityBlue",
+		"Giant",
+		"Huge",
+		"Aberration",
+		"Aggressive",
+		"Leader"
+	]
+},
+{
 	"name": "Stray Cat",
 	"sprite": "sprites/enemy/beast/cat.atlas",
 	"deck": [
@@ -26489,6 +27417,74 @@
 	]
 },
 {
+	"name": "Sun Giant Castle",
+	"sprite": "sprites/enemy/giant/ascendedtitan.atlas",
+	"deck": [
+		"decks/standard/sun titan.dck"
+	],
+	"ai": "",
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 23,
+	"scale": 1.5,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4,
+			"colors": [
+				"White"
+			],
+			"subTypes": [
+				"Giant"
+			],
+			"colorType": "MonoColor"
+		},
+		{
+			"type": "card",
+			"probability": 0.5,
+			"count": 4,
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 1,
+			"count": 50,
+			"addMaxCount": 200
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"rarity": [
+				"uncommon",
+				"common"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 30,
+			"addMaxCount": 20
+		}
+	],
+	"colors": "W",
+	"questTags": [
+		"Sun",
+		"Giant",
+		"Warrior",
+		"Territorial",
+		"IdentityWhite"
+	]
+},
+{
 	"name": "Squirrel",
 	"sprite": "sprites/enemy/beast/squirrel.atlas",
 	"deck": [
@@ -26496,6 +27492,57 @@
 	],
 	"ai": "",
 	"randomizeDeck": true,
+	"spawnRate": 0.5,
+	"difficulty": 0.1,
+	"speed": 23,
+	"scale": 0.7,
+	"life": 15,
+	"rewards": [
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 3,
+			"addMaxCount": 6,
+			"colors": [
+				"Green"
+			],
+			"rarity": [
+				"common",
+				"uncommon",
+				"Rare"
+			],
+			"colorType": "MonoColor",
+			"cardText": "Squirrel"
+		},
+		{
+			"type": "gold",
+			"probability": 0.7,
+			"count": 10,
+			"addMaxCount": 90
+		}
+	],
+	"colors": "BG",
+	"questTags": [
+		"Animal",
+		"Sneaky",
+		"Tiny",
+		"Prey",
+		"Nature",
+		"Territorial",
+		"Nesting",
+		"IdentityGreen",
+		"IdentityBlack",
+		"IdentityGolgari",
+		"BiomeGreen"
+	]
+},
+{
+	"name": "Squirrel Castle",
+	"sprite": "sprites/enemy/beast/squirrel.atlas",
+	"deck": [
+		"decks/standard/squirrel.dck"
+	],
+	"ai": "",
 	"spawnRate": 0.5,
 	"difficulty": 0.1,
 	"speed": 23,
@@ -28728,6 +29775,76 @@
 	]
 },
 {
+	"name": "Wolf Castle",
+	"sprite": "sprites/enemy/beast/wolf.atlas",
+	"deck": [
+		"decks/standard/wolfboss.dck"
+	],
+	"ai": "",
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 16,
+	"scale": 0.7,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "deckCard",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 4,
+			"rarity": [
+				"common",
+				"uncommon",
+				"rare"
+			]
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"addMaxCount": 2,
+			"rarity": [
+				"uncommon",
+				"common",
+				"Rare"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 0.3,
+			"count": 10,
+			"addMaxCount": 90
+		},
+		{
+			"type": "randomCard",
+			"count": 2,
+			"addMaxCount": 5
+		},
+		{
+			"type": "shards",
+			"probability": 1,
+			"count": 15,
+			"addMaxCount": 10
+		}
+	],
+	"colors": "G",
+	"questTags": [
+		"Nocturnal",
+		"Animal",
+		"Human",
+		"Beast",
+		"Wild",
+		"Loner",
+		"Aggressive",
+		"Territorial",
+		"IdentityGreen",
+		"BiomeGreen"
+	]
+},
+{
 	"name": "Wolf Pup",
 	"sprite": "sprites/enemy/beast/wolfcub.atlas",
 	"deck": [
@@ -28947,6 +30064,66 @@
 	],
 	"ai": "",
 	"randomizeDeck": true,
+	"spawnRate": 1,
+	"difficulty": 0.1,
+	"speed": 12,
+	"scale": 0.75,
+	"life": 20,
+	"rewards": [
+		{
+			"type": "deckCard",
+			"probability": 1,
+			"count": 2,
+			"addMaxCount": 8,
+			"rarity": [
+				"common",
+				"uncommon"
+			]
+		},
+		{
+			"type": "card",
+			"probability": 0.5,
+			"count": 1,
+			"rarity": [
+				"Rare"
+			]
+		},
+		{
+			"type": "gold",
+			"probability": 1,
+			"count": 50,
+			"addMaxCount": 100
+		},
+		{
+			"type": "card",
+			"probability": 1,
+			"count": 1,
+			"rarity": [
+				"uncommon",
+				"common"
+			],
+			"cardTypes": [
+				"Land"
+			]
+		}
+	],
+	"colors": "B",
+	"questTags": [
+		"Mystic",
+		"Unholy",
+		"Wizard",
+		"Human",
+		"IdentityBlack"
+	]
+},
+{
+	"name": "Witch Castle",
+	"nameOverride": "Accursed Witch Castle",
+	"sprite": "sprites/enemy/humanoid/human/warlock/witchlarge.atlas",
+	"deck": [
+		"decks/standard/witch.dck"
+	],
+	"ai": "",
 	"spawnRate": 1,
 	"difficulty": 0.1,
 	"speed": 12,

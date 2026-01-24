@@ -154,7 +154,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Dwarf Warlord"/>
+    <property name="enemy" value="Dwarf Warlord Castle"/>
     <property name="pursueRange" type="int" value="30"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
@@ -169,7 +169,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Holy Paladin"/>
+    <property name="enemy" value="Holy Paladin Castle"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
   </object>
@@ -183,7 +183,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Sun Giant"/>
+    <property name="enemy" value="Sun Giant Castle"/>
     <property name="pursueRange" type="int" value="30"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
@@ -198,7 +198,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Holy Apparition"/>
+    <property name="enemy" value="Holy Apparition Castle"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
   </object>
@@ -212,7 +212,7 @@
     ]
    }
 ]</property>
-    <property name="enemy" value="Royal King"/>
+    <property name="enemy" value="Royal King Castle"/>
     <property name="threatRange" type="int" value="40"/>
    </properties>
   </object>
