@@ -32310,8 +32310,7 @@
     "name": "Kavu Effect",
     "sprite": "sprites/enemy/monstrosity/kavu.atlas",
     "deck": [
-      "decks/standard/kavu.dck",
-      "decks/standard/kavu_domain.dck"
+      "decks/standard/kavu.dck"
     ],
     "ai": "",
     "spawnRate": 1,
@@ -32401,12 +32400,7 @@
     "name": "Adept Black Wizard Effect",
     "sprite": "sprites/enemy/humanoid/human/wizard/black_wiz2.atlas",
     "deck": [
-      "decks/standard/blackwizard_medium_demonicpact.dck",
-      "decks/standard/blackwizard_medium_fear.dck",
-      "decks/standard/blackwizard_medium_goblins.dck",
-      "decks/standard/blackwizard_easy_artifact.dck",
-      "decks/standard/blackwizard_easy_badmoon.dck",
-      "decks/standard/blackwizard_easy_mill.dck"
+      "decks/standard/blackwizard_medium_demonicpact.dck"
     ],
     "ai": "",
     "spawnRate": 0.75,
@@ -33890,9 +33884,7 @@
     "name": "Master Green Wizard Effect",
     "sprite": "sprites/enemy/humanoid/elf/green_wiz3.atlas",
     "deck": [
-      "decks/standard/greenwizard_hard_ramp.dck",
-      "decks/standard/greenwizard_hard_rampbis.dck",
-      "decks/standard/greenwizard_hard_sapproling.dck"
+      "decks/standard/greenwizard_hard_ramp.dck"
     ],
     "ai": "",
     "spawnRate": 0.5,
@@ -34235,10 +34227,7 @@
     "name": "Master Blue Wizard Effect",
     "sprite": "sprites/enemy/humanoid/human/wizard/mage_2.atlas",
     "deck": [
-      "decks/standard/bluewizard_hard_control.dck",
-      "decks/standard/bluewizard_hard_control2.dck",
-      "decks/standard/bluewizard_hard_artifact.dck",
-      "decks/standard/bluewizard_hard_bounce.dck"
+      "decks/standard/bluewizard_hard_control.dck"
     ],
     "ai": "",
     "flying": true,
@@ -36075,9 +36064,7 @@
     "name": "Wild Rat Effect",
     "sprite": "sprites/enemy/beast/wildrat.atlas",
     "deck": [
-      "decks/standard/infectrat.dck",
-      "decks/standard/rat.json",
-      "decks/standard/ratswarm.dck"
+      "decks/standard/infectrat.dck"
     ],
     "ai": "",
     "spawnRate": 0.6,
