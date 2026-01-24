@@ -102,6 +102,9 @@ public class RewardActor extends Actor implements Disposable, ImageFetcher.Callb
     private boolean shouldDisplayText = false;
     private boolean isDragging = false;
     private boolean isNew = false;
+    private float frontRetryTimer = 0f;
+    private int frontRetriesLeft = 10;   // ~10 tries
+    private File frontFaceFile = null;   // store the expected file
 
     @Override
     public void dispose() {
@@ -281,11 +284,20 @@ public class RewardActor extends Actor implements Disposable, ImageFetcher.Callb
 
                 hasbackface = reward.getCard().hasBackFace();
 
+                // Always compute the expected front-face file so retries can work later.
+                try {
+                    PaperCard pc = ImageUtil.getPaperCardFromImageKey(reward.getCard().getImageKey(false));
+                    if (pc != null) {
+                        frontFaceFile = ImageKeys.getImageFile(pc.getCardImageKey());
+                    }
+                } catch (Exception ignored) {}
+
                 if (ImageCache.getInstance().imageKeyFileExists(reward.getCard().getImageKey(false)) && !Forge.enableUIMask.equals("Art")) {
                     int count = 0;
                     try {
                         PaperCard card = ImageUtil.getPaperCardFromImageKey(reward.getCard().getImageKey(false));
                         File frontFace = ImageKeys.getImageFile(card.getCardImageKey());
+                        frontFaceFile = frontFace;
                         if (frontFace != null) {
                             try {
                                 Texture front = Forge.getAssets().manager().get(frontFace.getPath(), Texture.class, false);
@@ -980,6 +992,15 @@ public class RewardActor extends Actor implements Disposable, ImageFetcher.Callb
     @Override
     public void act(float delta) {
         super.act(delta);
+        // ---- retry front-face load a few times if we only have placeholder ----
+        if (Reward.Type.Card.equals(reward.type) && (!loaded || image == null)) {
+            frontRetryTimer += delta;
+            if (frontRetriesLeft > 0 && frontRetryTimer >= 0.10f) { // 100ms ticks
+                frontRetryTimer = 0f;
+                frontRetriesLeft--;
+                tryReloadFrontFace();
+            }
+    }
         if (clicked) {
             if (flipProcess < 1)
                 flipProcess += delta * 4;
@@ -1433,6 +1454,28 @@ public class RewardActor extends Actor implements Disposable, ImageFetcher.Callb
             tooltip.getContainer().addAction(Actions.sequence(
                     Actions.removeActor() // Remove tooltip without animation
             ));
+        }
+    }
+    private void tryReloadFrontFace() {
+        if (reward == null || !Reward.Type.Card.equals(reward.type)) return;
+        // retry only when we are NOT loaded
+        if (loaded) return;
+        if (frontFaceFile == null || !frontFaceFile.exists()) return;
+
+        try {
+            Texture front = Forge.getAssets().manager().get(frontFaceFile.getPath(), Texture.class, false);
+            if (front == null) {
+                Forge.getAssets().manager().load(frontFaceFile.getPath(), Texture.class, Forge.getAssets().getTextureFilter());
+                Forge.getAssets().manager().finishLoadingAsset(frontFaceFile.getPath());
+                front = Forge.getAssets().manager().get(frontFaceFile.getPath(), Texture.class, false);
+            }
+            if (front != null) {
+                setCardImage(front);
+                loaded = true;
+                frontRetriesLeft = 0; // stop retrying once we got it
+            }
+        } catch (Exception ignored) {
+            // keep loaded=false, we'll retry
         }
     }
 }

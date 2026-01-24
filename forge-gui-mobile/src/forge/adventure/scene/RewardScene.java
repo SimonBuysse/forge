@@ -538,6 +538,8 @@ public class RewardScene extends UIScene {
             updateBuyButtons();
             updateRestockButton();
         }
+        // Give the image cache extra chances to load card art soon after building the UI
+        // scheduleArtRetries();
     }
 
     private void updateBuyButtons() {
@@ -685,5 +687,20 @@ public class RewardScene extends UIScene {
                 }
             });
         }
+    }
+    private void scheduleArtRetries() {
+        // These calls run slightly later, after the cache budget resets,
+        // which gives queued textures a chance to load.
+        Timer.schedule(new Timer.Task() {
+            @Override public void run() { ImageCache.getInstance().allowSingleLoad(); }
+        }, 0.05f);
+
+        Timer.schedule(new Timer.Task() {
+            @Override public void run() { ImageCache.getInstance().allowSingleLoad(); }
+        }, 0.20f);
+
+        Timer.schedule(new Timer.Task() {
+            @Override public void run() { ImageCache.getInstance().allowSingleLoad(); }
+        }, 0.50f);
     }
 }
