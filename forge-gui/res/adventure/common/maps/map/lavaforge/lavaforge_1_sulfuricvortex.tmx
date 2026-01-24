@@ -146,7 +146,7 @@
  &quot;lifeModifier&quot;: 6,
  &quot;startBattleWithCard&quot;: [ &quot;c_a_treasure_sac&quot; ]
 }</property>
-    <property name="enemy" value="Fire Giant"/>
+    <property name="enemy" value="Fire Giant Effect"/>
    </properties>
   </object>
   <object id="59" template="../../obj/enemy.tx" x="366" y="125.5">
@@ -155,7 +155,7 @@
  &quot;lifeModifier&quot;: 4,
  &quot;startBattleWithCard&quot;: [ &quot;Irencrag Pyromancer|ELD|1&quot; ]
 }</property>
-    <property name="enemy" value="Mindclaw Shaman"/>
+    <property name="enemy" value="Mindclaw Shaman Effect"/>
    </properties>
   </object>
   <object id="60" template="../../obj/collision.tx" x="-0.741192" y="272.104" width="482.422" height="16"/>

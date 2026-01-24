@@ -586,7 +586,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Chandra's Phoenix&quot; ]
 }</property>
-    <property name="enemy" value="Phoenix"/>
+    <property name="enemy" value="Phoenix Effect"/>
     <property name="ignoreDungeonEffect" type="bool" value="true"/>
     <property name="reward">[
   {
@@ -606,7 +606,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Chandra's Phoenix&quot; ]
 }</property>
-    <property name="enemy" value="Phoenix"/>
+    <property name="enemy" value="Phoenix Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -624,7 +624,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Keral Keep Disciples&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Pyromancer"/>
+    <property name="enemy" value="Chandra's Pyromancer Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -641,7 +641,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Chandra's Phoenix&quot; ]
 }</property>
-    <property name="enemy" value="Phoenix"/>
+    <property name="enemy" value="Phoenix Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -659,7 +659,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Ring of Valkas&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Pyromancer"/>
+    <property name="enemy" value="Chandra's Pyromancer Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -692,7 +692,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Lightning Cloud&quot; ]
 }</property>
-    <property name="enemy" value="Lightning Elemental"/>
+    <property name="enemy" value="Lightning Elemental Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -730,7 +730,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Keral Keep Disciples&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Pyromancer"/>
+    <property name="enemy" value="Chandra's Pyromancer Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -748,7 +748,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Keral Keep Disciples&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Immolator"/>
+    <property name="enemy" value="Chandra's Immolator Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -831,7 +831,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Lightning Coils&quot; ]
 }</property>
-    <property name="enemy" value="Lightning Elemental"/>
+    <property name="enemy" value="Lightning Elemental Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -850,7 +850,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Circle of Flame&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Scorcher"/>
+    <property name="enemy" value="Chandra's Scorcher Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -885,7 +885,7 @@
     <property name="effect">{
  &quot;startBattleWithCardInCommandZone&quot;: [ &quot;Pack Alpha&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Hellhound"/>
+    <property name="enemy" value="Chandra's Hellhound Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -905,7 +905,7 @@
     <property name="effect">{
  &quot;startBattleWithCardInCommandZone&quot;: [ &quot;Pack Alpha&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Hellhound"/>
+    <property name="enemy" value="Chandra's Hellhound Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -925,7 +925,7 @@
     <property name="effect">{
  &quot;startBattleWithCardInCommandZone&quot;: [ &quot;Pack Alpha&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Hellhound"/>
+    <property name="enemy" value="Chandra's Hellhound Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -948,7 +948,7 @@
     <property name="effect">{
  &quot;startBattleWithCardInCommandZone&quot;: [ &quot;Pack Alpha&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Hellhound"/>
+    <property name="enemy" value="Chandra's Hellhound Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -969,7 +969,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Chandra's Phoenix&quot; ]
 }</property>
-    <property name="enemy" value="Phoenix"/>
+    <property name="enemy" value="Phoenix Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -988,7 +988,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Staff of the Flame Magus&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Pyromancer"/>
+    <property name="enemy" value="Chandra's Pyromancer Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1006,7 +1006,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Hazoret's Monument&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Acolyte"/>
+    <property name="enemy" value="Chandra's Acolyte Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1024,7 +1024,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Blood Moon&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Lavamancer"/>
+    <property name="enemy" value="Chandra's Lavamancer Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1042,7 +1042,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Oath of Chandra&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Scorcher"/>
+    <property name="enemy" value="Chandra's Scorcher Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1060,7 +1060,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Chandra's Embercat&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Scorcher"/>
+    <property name="enemy" value="Chandra's Scorcher Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1079,7 +1079,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Lavaclaw Reaches&quot; ]
 }</property>
-    <property name="enemy" value="Volcano Elemental"/>
+    <property name="enemy" value="Volcano Elemental Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1097,7 +1097,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Chandra's Phoenix&quot; ]
 }</property>
-    <property name="enemy" value="Phoenix"/>
+    <property name="enemy" value="Phoenix Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1118,7 +1118,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Chandra, Fire of Kaladesh&quot; ]
 }</property>
-    <property name="enemy" value="Chandra's Acolyte"/>
+    <property name="enemy" value="Chandra's Acolyte Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1167,7 +1167,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Dwarven Blastminer&quot; ]
 }</property>
-    <property name="enemy" value="Dwarf"/>
+    <property name="enemy" value="Dwarf Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1186,7 +1186,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Dwarven Blastminer&quot; ]
 }</property>
-    <property name="enemy" value="Dwarf"/>
+    <property name="enemy" value="Dwarf Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1204,7 +1204,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Chandra's Phoenix&quot; ]
 }</property>
-    <property name="enemy" value="Phoenix"/>
+    <property name="enemy" value="Phoenix Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1497,7 +1497,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Taurean Mauler&quot;, &quot;Torchling&quot;]
 }</property>
-    <property name="enemy" value="Mimic"/>
+    <property name="enemy" value="Mimic Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,

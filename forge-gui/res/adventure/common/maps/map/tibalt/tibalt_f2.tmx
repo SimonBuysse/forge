@@ -81,7 +81,7 @@
     <property name="displayNameOverride" value="Tibalt's Pet Cyclops"/>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Krark's Thumb&quot;,&quot;Chance Encounter&quot;]
 }</property>
-    <property name="enemy" value="Giant Cyclops"/>
+    <property name="enemy" value="Giant Cyclops Effect"/>
     <property name="spawn.Hard" type="bool" value="true"/>
     <property name="speedModifier" type="float" value="10"/>
     <property name="threatRange" type="int" value="50"/>

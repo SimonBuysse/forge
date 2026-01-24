@@ -33,7 +33,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Sky Diamond&quot;]
 }</property>
-    <property name="enemy" value="Storm Titan"/>
+    <property name="enemy" value="Storm Titan Effect"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
   </object>

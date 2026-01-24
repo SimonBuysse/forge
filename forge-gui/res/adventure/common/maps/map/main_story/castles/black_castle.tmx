@@ -196,7 +196,7 @@
  &quot;lifeModifier&quot;: 15,
  &quot;startBattleWithCard&quot;: [ &quot;Swamp&quot; ]
 }</property>
-    <property name="enemy" value="Grave Titan Castle"/>
+    <property name="enemy" value="Grave Titan Castle Effect"/>
     <property name="pursueRange" type="int" value="10"/>
     <property name="threatRange" type="int" value="10"/>
    </properties>

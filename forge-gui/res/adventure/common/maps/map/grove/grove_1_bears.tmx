@@ -73,7 +73,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Up the Beanstalk&quot;]
 }</property>
-    <property name="enemy" value="Werebear"/>
+    <property name="enemy" value="Werebear Effect"/>
     <property name="inactive" type="bool" value="true"/>
     <property name="speedModifier" type="float" value="5"/>
     <property name="threatRange" type="int" value="80"/>

@@ -59,7 +59,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCardInCommandZone&quot;: [ &quot;Teferi's Boss Effect&quot;]
 }</property>
-    <property name="enemy" value="Teferi"/>
+    <property name="enemy" value="Teferi Effect"/>
    </properties>
   </object>
   <object id="72" template="../../obj/manashards.tx" x="513" y="69"/>

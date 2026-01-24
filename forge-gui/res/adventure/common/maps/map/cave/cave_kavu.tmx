@@ -108,7 +108,7 @@
    &quot;startBattleWithCard&quot;: [ &quot;Jungle Barrier&quot; ]
  }
 }</property>
-    <property name="enemy" value="Kavu"/>
+    <property name="enemy" value="Kavu Effect"/>
     <property name="threatRange" type="int" value="40"/>
    </properties>
   </object>

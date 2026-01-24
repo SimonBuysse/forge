@@ -36,7 +36,7 @@
  &quot;lifeModifier&quot;: 8,
  &quot;startBattleWithCard&quot;: [ &quot;Quest for the Gravelord&quot; ]
 }</property>
-    <property name="enemy" value="Grave Titan"/>
+    <property name="enemy" value="Grave Titan Effect"/>
    </properties>
   </object>
   <object id="55" template="../../obj/gold.tx" x="210.089" y="33.8792"/>

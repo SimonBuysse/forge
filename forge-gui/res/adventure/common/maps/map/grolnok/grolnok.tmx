@@ -218,7 +218,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Asceticism&quot;,&quot;Grismold, the Dreadsower&quot;]
 }</property>
-    <property name="enemy" value="Swamp Troll"/>
+    <property name="enemy" value="Swamp Troll Effect"/>
     <property name="threatRange" type="int" value="60"/>
    </properties>
   </object>
@@ -469,14 +469,14 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Bone Dragon&quot;]
 }</property>
-    <property name="enemy" value="Bone Dragon"/>
+    <property name="enemy" value="Bone Dragon Effect"/>
    </properties>
   </object>
   <object id="198" template="../../obj/enemy.tx" x="148" y="155.164" width="16" height="17.6724">
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Bull Hippo&quot;]
 }</property>
-    <property name="enemy" value="Hippo"/>
+    <property name="enemy" value="Hippo Effect"/>
     <property name="threatRange" type="int" value="20"/>
    </properties>
   </object>

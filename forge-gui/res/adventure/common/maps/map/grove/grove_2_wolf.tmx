@@ -122,7 +122,7 @@
     <property name="displayNameOverride" value="Alpha Wolf"/>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Howling Moon&quot;]
 }</property>
-    <property name="enemy" value="Wolf"/>
+    <property name="enemy" value="Wolf Effect"/>
     <property name="threatRange" type="int" value="50"/>
    </properties>
   </object>

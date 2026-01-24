@@ -197,7 +197,7 @@
  &quot;lifeModifier&quot;: 190,
  &quot;startBattleWithCard&quot;: [ &quot;Llanowar Elves&quot;, &quot;Llanowar Elves&quot;, &quot;Forest&quot;, &quot;Forest&quot; ]
 }</property>
-    <property name="enemy" value="Elf warrior"/>
+    <property name="enemy" value="Elf warrior Effect"/>
     <property name="name" value="Debug Elf"/>
    </properties>
   </object>

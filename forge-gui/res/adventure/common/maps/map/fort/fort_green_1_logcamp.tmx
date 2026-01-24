@@ -76,7 +76,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Dual Nature&quot;]
 }</property>
-    <property name="enemy" value="Beastmaster"/>
+    <property name="enemy" value="Beastmaster Effect"/>
     <property name="threatRange" type="int" value="40"/>
    </properties>
   </object>

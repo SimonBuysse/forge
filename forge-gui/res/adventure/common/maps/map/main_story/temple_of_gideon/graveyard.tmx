@@ -214,7 +214,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Endless Ranks of the Dead&quot;]
 }</property>
-    <property name="enemy" value="Greater Zombie"/>
+    <property name="enemy" value="Greater Zombie Effect"/>
     <property name="hidden" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="60"/>
     <property name="threatRange" type="float" value="30"/>
@@ -224,7 +224,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Endless Ranks of the Dead&quot;]
 }</property>
-    <property name="enemy" value="Greater Zombie"/>
+    <property name="enemy" value="Greater Zombie Effect"/>
     <property name="hidden" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="60"/>
     <property name="threatRange" type="float" value="30"/>
@@ -258,7 +258,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Endless Ranks of the Dead&quot;]
 }</property>
-    <property name="enemy" value="Greater Zombie"/>
+    <property name="enemy" value="Greater Zombie Effect"/>
     <property name="hidden" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="60"/>
     <property name="threatRange" type="float" value="30"/>
@@ -268,7 +268,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Endless Ranks of the Dead&quot;]
 }</property>
-    <property name="enemy" value="Greater Zombie"/>
+    <property name="enemy" value="Greater Zombie Effect"/>
     <property name="hidden" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="60"/>
     <property name="threatRange" type="float" value="30"/>
@@ -278,7 +278,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Endless Ranks of the Dead&quot;]
 }</property>
-    <property name="enemy" value="Greater Zombie"/>
+    <property name="enemy" value="Greater Zombie Effect"/>
     <property name="hidden" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="60"/>
     <property name="threatRange" type="float" value="30"/>
@@ -288,7 +288,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Endless Ranks of the Dead&quot;]
 }</property>
-    <property name="enemy" value="Greater Zombie"/>
+    <property name="enemy" value="Greater Zombie Effect"/>
     <property name="hidden" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="60"/>
     <property name="threatRange" type="float" value="30"/>
@@ -316,7 +316,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Death Pit Offering&quot;]
 }</property>
-    <property name="enemy" value="Skeleton Champion"/>
+    <property name="enemy" value="Skeleton Champion Effect"/>
     <property name="hidden" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="60"/>
     <property name="threatRange" type="float" value="30"/>
@@ -335,7 +335,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Nether Shadow&quot;,&quot;Nether Shadow&quot;]
 }</property>
-    <property name="enemy" value="Dark Spirit"/>
+    <property name="enemy" value="Dark Spirit Effect"/>
     <property name="flying" type="bool" value="true"/>
     <property name="inactive" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="100"/>
@@ -347,7 +347,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Nether Shadow&quot;,&quot;Nether Shadow&quot;]
 }</property>
-    <property name="enemy" value="Dark Spirit"/>
+    <property name="enemy" value="Dark Spirit Effect"/>
     <property name="flying" type="bool" value="true"/>
     <property name="inactive" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="100"/>
@@ -359,7 +359,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Infernal Kirin&quot;]
 }</property>
-    <property name="enemy" value="Dark Spirit"/>
+    <property name="enemy" value="Dark Spirit Effect"/>
     <property name="flying" type="bool" value="true"/>
     <property name="inactive" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="100"/>
@@ -371,7 +371,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Infernal Kirin&quot;]
 }</property>
-    <property name="enemy" value="Dark Spirit"/>
+    <property name="enemy" value="Dark Spirit Effect"/>
     <property name="flying" type="bool" value="true"/>
     <property name="inactive" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="100"/>
@@ -399,7 +399,7 @@
 ]</property>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Opal Archangel&quot;, &quot;Angelic Shield&quot;,&quot;Angelic Renewal&quot;,&quot;Scroll of Avacyn&quot;]
 }</property>
-    <property name="enemy" value="Guardian Angel"/>
+    <property name="enemy" value="Guardian Angel Effect"/>
     <property name="flying" type="bool" value="true"/>
     <property name="inactive" type="bool" value="true"/>
     <property name="pursueRange" type="int" value="500"/>

@@ -50,7 +50,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Cold-Eyed Selkie&quot;]
 }</property>
-    <property name="enemy" value="Merfolk Elite"/>
+    <property name="enemy" value="Merfolk Elite Effect"/>
     <property name="speedModifier" type="float" value="4"/>
     <property name="threatRange" type="int" value="50"/>
    </properties>

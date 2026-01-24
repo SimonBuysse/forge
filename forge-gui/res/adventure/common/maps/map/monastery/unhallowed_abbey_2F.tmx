@@ -404,7 +404,7 @@
 </property>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Mox Jet&quot;, &quot;Power of Valyx&quot;]
 }</property>
-    <property name="enemy" value="Valyx Feaster of Torment"/>
+    <property name="enemy" value="Valyx Feaster of Torment Effect"/>
    </properties>
   </object>
  </objectgroup>

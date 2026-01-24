@@ -122,7 +122,7 @@
  &quot;lifeModifier&quot;: 4,
  &quot;startBattleWithCard&quot;: [ &quot;Arcane Encyclopedia|M19|1&quot; ]
 }</property>
-    <property name="enemy" value="Master Green Wizard"/>
+    <property name="enemy" value="Master Green Wizard Effect"/>
    </properties>
   </object>
   <object id="51" template="../../obj/enemy.tx" x="351.877" y="205.729">
@@ -131,7 +131,7 @@
  &quot;lifeModifier&quot;: 3,
  &quot;startBattleWithCard&quot;: [ &quot;Dragon's Hoard|M19|1&quot; ]
 }</property>
-    <property name="enemy" value="Dragon"/>
+    <property name="enemy" value="Dragon Effect"/>
    </properties>
   </object>
   <object id="54" template="../../obj/enemy.tx" x="95.9379" y="221.137">

@@ -83,7 +83,7 @@
  &quot;lifeModifier&quot;: 4,
  &quot;startBattleWithCard&quot;: [ &quot;Ensnaring Bridge|2XM|1&quot; ]
 }</property>
-    <property name="enemy" value="Archmage"/>
+    <property name="enemy" value="Archmage Effect"/>
    </properties>
   </object>
   <object id="51" template="../../obj/enemy.tx" gid="11419" x="183.579" y="127.263">

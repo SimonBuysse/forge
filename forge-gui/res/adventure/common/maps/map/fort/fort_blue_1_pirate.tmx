@@ -51,7 +51,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Coastal Piracy&quot;]
 }</property>
-    <property name="enemy" value="Pirate Captain"/>
+    <property name="enemy" value="Pirate Captain Effect"/>
     <property name="threatRange" type="int" value="50"/>
    </properties>
   </object>

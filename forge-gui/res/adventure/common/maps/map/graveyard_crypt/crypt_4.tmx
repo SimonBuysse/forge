@@ -74,7 +74,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Demonic Rising&quot;]
 }</property>
-    <property name="enemy" value="Immersturm Demon"/>
+    <property name="enemy" value="Immersturm Demon Effect"/>
     <property name="threatRange" type="int" value="60"/>
    </properties>
   </object>

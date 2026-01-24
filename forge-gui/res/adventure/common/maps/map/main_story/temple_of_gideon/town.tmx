@@ -326,7 +326,7 @@
     <property name="effect">{
  &quot;lifeModifier&quot;: 10,
 }</property>
-    <property name="enemy" value="Wild Rat"/>
+    <property name="enemy" value="Wild Rat Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1314,7 +1314,7 @@
     <property name="effect">{
  &quot;lifeModifier&quot;: 10,
 }</property>
-    <property name="enemy" value="Greater Zombie"/>
+    <property name="enemy" value="Greater Zombie Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,
@@ -1465,7 +1465,7 @@
  &quot;lifeModifier&quot;: 15,
  &quot;startBattleWithCard&quot;: [ &quot;Skeleton Key&quot; ]
 }</property>
-    <property name="enemy" value="Zombie Lord"/>
+    <property name="enemy" value="Zombie Lord Effect"/>
     <property name="fleeRange" type="float" value="125"/>
     <property name="hidden" type="bool" value="false"/>
     <property name="inactive" type="bool" value="false"/>
@@ -1838,7 +1838,7 @@
 </property>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Endless Ranks of the Dead&quot;]
 }</property>
-    <property name="enemy" value="Greater Zombie"/>
+    <property name="enemy" value="Greater Zombie Effect"/>
     <property name="hidden" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="60"/>
     <property name="reward">[
@@ -2013,7 +2013,7 @@
 </property>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Endless Ranks of the Dead&quot;]
 }</property>
-    <property name="enemy" value="Greater Zombie"/>
+    <property name="enemy" value="Greater Zombie Effect"/>
     <property name="hidden" type="bool" value="true"/>
     <property name="pursueRange" type="float" value="60"/>
     <property name="reward">[

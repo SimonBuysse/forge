@@ -57,7 +57,7 @@
  &quot;lifeModifier&quot;: 4,
  &quot;startBattleWithCard&quot;: [ &quot;Forest&quot;, &quot;Mountain&quot; ]
 }</property>
-    <property name="enemy" value="Hellion"/>
+    <property name="enemy" value="Hellion Effect"/>
     <property name="threatRange" type="int" value="30"/>
    </properties>
   </object>

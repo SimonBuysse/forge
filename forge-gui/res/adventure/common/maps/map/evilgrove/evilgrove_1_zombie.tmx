@@ -43,7 +43,7 @@
  &quot;lifeModifier&quot;: 8,
  &quot;startBattleWithCard&quot;: [ &quot;Quest for the Gravelord&quot; ]
 }</property>
-    <property name="enemy" value="Zombie Lord"/>
+    <property name="enemy" value="Zombie Lord Effect"/>
     <property name="threatRange" type="int" value="40"/>
    </properties>
   </object>

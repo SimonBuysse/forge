@@ -213,7 +213,7 @@
 ]</property>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Metallic Sliver&quot;,&quot;Metallic Sliver&quot;]
 }</property>
-    <property name="enemy" value="Metallic Sliver"/>
+    <property name="enemy" value="Metallic Sliver Effect"/>
     <property name="spawn.Easy" type="bool" value="true"/>
     <property name="spawn.Hard" type="bool" value="true"/>
     <property name="spawn.Normal" type="bool" value="true"/>
@@ -479,7 +479,7 @@
 ]</property>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Shrine of the Forsaken Gods&quot;]
 }</property>
-    <property name="enemy" value="Slivdrazi Experiment"/>
+    <property name="enemy" value="Slivdrazi Experiment Effect"/>
     <property name="spawn.Easy" type="bool" value="true"/>
     <property name="spawn.Hard" type="bool" value="true"/>
     <property name="spawn.Normal" type="bool" value="true"/>
@@ -983,7 +983,7 @@
 ]</property>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Hivestone&quot;]
 }</property>
-    <property name="enemy" value="Recruiter Sliver"/>
+    <property name="enemy" value="Recruiter Sliver Effect"/>
     <property name="spawn.Easy" type="bool" value="true"/>
     <property name="spawn.Hard" type="bool" value="true"/>
     <property name="spawn.Normal" type="bool" value="true"/>

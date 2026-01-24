@@ -63,7 +63,7 @@
  &quot;changeStartCards&quot;: 2,
  &quot;startBattleWithCard&quot;: [ &quot;Fellwar Stone&quot; ]
 }</property>
-    <property name="enemy" value="Doppelganger"/>
+    <property name="enemy" value="Doppelganger Effect"/>
    </properties>
   </object>
   <object id="74" template="../../obj/enemy.tx" x="231.069" y="255.542">
@@ -73,7 +73,7 @@
  &quot;changeStartCards&quot;: 2,
  &quot;startBattleWithCard&quot;: [ &quot;Fellwar Stone&quot;, &quot;Frozen Aether&quot; ]
 }</property>
-    <property name="enemy" value="Doppelganger"/>
+    <property name="enemy" value="Doppelganger Effect"/>
    </properties>
   </object>
   <object id="71" template="../../obj/enemy.tx" x="140.117" y="386.888">
@@ -82,7 +82,7 @@
  &quot;lifeModifier&quot;: 10,
  &quot;startBattleWithCard&quot;: [ &quot;Hesitation&quot; ]
 }</property>
-    <property name="enemy" value="Master Blue Wizard"/>
+    <property name="enemy" value="Master Blue Wizard Effect"/>
    </properties>
   </object>
   <object id="67" template="../../obj/enemy.tx" x="247.673" y="379.931">
@@ -101,7 +101,7 @@
     &quot;startBattleWithCard&quot;: [ &quot;King Suleiman&quot; ],
   }
 }</property>
-    <property name="enemy" value="Djinn"/>
+    <property name="enemy" value="Djinn Effect"/>
     <property name="threatRange" type="int" value="30"/>
     <property name="waypoints" value="100,93,92,93"/>
    </properties>

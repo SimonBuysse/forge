@@ -49,7 +49,7 @@
    &quot;startBattleWithCard&quot;: [ &quot;Wishclaw Talisman&quot; ]
  }
 }</property>
-    <property name="enemy" value="Mighty Djinn"/>
+    <property name="enemy" value="Mighty Djinn Effect"/>
     <property name="hidden" type="bool" value="true"/>
     <property name="threatRange" type="int" value="40"/>
    </properties>

@@ -89,7 +89,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Mask of Griselbrand&quot;]
 }</property>
-    <property name="enemy" value="Archfiend"/>
+    <property name="enemy" value="Archfiend Effect"/>
    </properties>
   </object>
  </objectgroup>

@@ -42,7 +42,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Waste Not&quot;]
 }</property>
-    <property name="enemy" value="Cloaker"/>
+    <property name="enemy" value="Cloaker Effect"/>
     <property name="threatRange" type="int" value="40"/>
    </properties>
   </object>

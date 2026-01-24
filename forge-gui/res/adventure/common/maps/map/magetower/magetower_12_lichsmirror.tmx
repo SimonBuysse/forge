@@ -105,7 +105,7 @@
  &quot;lifeModifier&quot;: 4,
  &quot;startBattleWithCard&quot;: [ &quot;Heirloom Mirror|MID|1&quot; ]
 }</property>
-    <property name="enemy" value="Lich"/>
+    <property name="enemy" value="Lich Effect"/>
    </properties>
   </object>
   <object id="51" template="../../obj/enemy.tx" x="200.079" y="127.263">
@@ -114,7 +114,7 @@
  &quot;lifeModifier&quot;: 3,
  &quot;startBattleWithCard&quot;: [ &quot;Cathedral Sanctifier|DDQ|1&quot; ]
 }</property>
-    <property name="enemy" value="Aether Channeler"/>
+    <property name="enemy" value="Aether Channeler Effect"/>
    </properties>
   </object>
   <object id="54" template="../../obj/enemy.tx" x="265.246" y="59.2632">

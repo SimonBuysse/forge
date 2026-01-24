@@ -86,7 +86,7 @@
     <property name="displayNameOverride" value="Tibalt's Torturer"/>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Phyrexian Arena&quot;,&quot;Xander's Wake&quot;]
 }</property>
-    <property name="enemy" value="Torturer"/>
+    <property name="enemy" value="Torturer Effect"/>
     <property name="reward">[
   {
     &quot;type&quot;: &quot;item&quot;,

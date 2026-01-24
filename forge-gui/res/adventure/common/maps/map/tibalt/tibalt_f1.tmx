@@ -78,7 +78,7 @@
 ]</property>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Mana Crypt&quot;]
 }</property>
-    <property name="enemy" value="Demon of Tibalt"/>
+    <property name="enemy" value="Demon of Tibalt Effect"/>
     <property name="threatRange" type="int" value="60"/>
     <property name="waypoints" value="208,198,210,209"/>
    </properties>

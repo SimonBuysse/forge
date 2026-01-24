@@ -92,7 +92,7 @@
    <properties>
     <property name="effect">{ &quot;startBattleWithCard&quot;: [ &quot;Wall of Bone&quot;]
 }</property>
-    <property name="enemy" value="Adept Black Wizard"/>
+    <property name="enemy" value="Adept Black Wizard Effect"/>
     <property name="pursueRange" type="int" value="20"/>
     <property name="threatRange" type="int" value="50"/>
    </properties>

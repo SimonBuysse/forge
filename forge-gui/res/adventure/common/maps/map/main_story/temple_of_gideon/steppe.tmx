@@ -188,7 +188,7 @@
  &quot;lifeModifier&quot;: 5,
  &quot;startBattleWithCard&quot;: [ &quot;Deathspore Thallid&quot;,&quot;Deathspore Thallid&quot;,&quot;Thallid Shell-Dweller&quot;,&quot;Thallid Shell-Dweller&quot; ]
 }</property>
-    <property name="enemy" value="Golgari Fungus"/>
+    <property name="enemy" value="Golgari Fungus Effect"/>
    </properties>
   </object>
   <object id="188" template="../../../obj/enemy.tx" x="-352" y="304">
@@ -342,7 +342,7 @@
     <property name="effect">{
  &quot;lifeModifier&quot;: 8,
 }</property>
-    <property name="enemy" value="Liliana's Alchemist"/>
+    <property name="enemy" value="Liliana's Alchemist Effect"/>
     <property name="pursueRange" type="int" value="75"/>
     <property name="threatRange" type="int" value="20"/>
    </properties>
@@ -564,7 +564,7 @@
  &quot;lifeModifier&quot;: 4,
  &quot;startBattleWithCard&quot;: [ &quot;Staff of the Death Magus&quot; ]
 }</property>
-    <property name="enemy" value="Witch"/>
+    <property name="enemy" value="Witch Effect"/>
    </properties>
   </object>
   <object id="241" template="../../../obj/entry_down.tx" x="-528" y="32" width="144" height="16">
@@ -619,7 +619,7 @@
  &quot;lifeModifier&quot;: 8,
  &quot;startBattleWithCard&quot;: [ &quot;Vrock&quot; ]
 }</property>
-    <property name="enemy" value="Harpy"/>
+    <property name="enemy" value="Harpy Effect"/>
     <property name="threatRange" type="int" value="60"/>
    </properties>
   </object>

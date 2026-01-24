@@ -147,7 +147,7 @@
  &quot;lifeModifier&quot;: 4,
  &quot;startBattleWithCard&quot;: [ &quot;Flagstones of Trokair|TSR|1&quot; ]
 }</property>
-    <property name="enemy" value="Axgard Dwarf"/>
+    <property name="enemy" value="Axgard Dwarf Effect"/>
    </properties>
   </object>
   <object id="59" template="../../obj/enemy.tx" x="389.666" y="111.5">
@@ -156,7 +156,7 @@
  &quot;lifeModifier&quot;: 4,
  &quot;startBattleWithCard&quot;: [ &quot;Desert|AFC|1&quot; ]
 }</property>
-    <property name="enemy" value="Pyromancer"/>
+    <property name="enemy" value="Pyromancer Effect"/>
    </properties>
   </object>
   <object id="61" template="../../obj/treasure.tx" x="418" y="238.667">

@@ -156,7 +156,7 @@
     <property name="effect">{
  &quot;startBattleWithCard&quot;: [ &quot;Monkey Cage&quot; ]
 }</property>
-    <property name="enemy" value="Gorilla"/>
+    <property name="enemy" value="Gorilla Effect"/>
     <property name="pursueRange" type="int" value="100"/>
     <property name="speedModifier" type="float" value="10"/>
     <property name="threatRange" type="int" value="75"/>
