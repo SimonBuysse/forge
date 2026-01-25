@@ -215,39 +215,6 @@
                                         <chmod file="${basedir}/target/forge-adventure.command" perm="a+rx" />
                                         <chmod file="${basedir}/target/adventure-editor.sh" perm="a+rx" />
                                         <chmod file="${basedir}/target/adventure-editor.command" perm="a+rx" />
-                                        <tar destfile="${basedir}/target/${project.build.finalName}.tar.bz2" compression="bzip2">
-                                            <tarfileset filemode="755" dir="${project.build.directory}/${project.build.finalName}">
-                                                <include name="forge.sh" />
-                                                <include name="forge.command" />
-                                                <include name="forge.cmd" />
-                                                <include name="forge.exe" />
-                                                <include name="forge-adventure.sh" />
-                                                <include name="forge-adventure.command" />
-                                                <include name="forge-adventure.cmd" />
-                                                <include name="forge-adventure.exe" />
-                                                <include name="adventure-editor.sh" />
-                                                <include name="adventure-editor.command" />
-                                                <include name="adventure-editor.cmd" />
-                                                <include name="adventure-editor.exe" />
-                                                <exclude name="**/*.xcf" />
-                                            </tarfileset>
-                                            <tarfileset dir="${project.build.directory}/${project.build.finalName}">
-                                                <include name="**" />
-                                                <exclude name="forge.sh" />
-                                                <exclude name="forge.command" />
-                                                <exclude name="forge.cmd" />
-                                                <exclude name="forge.exe" />
-                                                <exclude name="forge-adventure.sh" />
-                                                <exclude name="forge-adventure.command" />
-                                                <exclude name="forge-adventure.cmd" />
-                                                <exclude name="forge-adventure.exe" />
-                                                <exclude name="adventure-editor.sh" />
-                                                <exclude name="adventure-editor.command" />
-                                                <exclude name="adventure-editor.cmd" />
-                                                <exclude name="adventure-editor.exe" />
-                                                <exclude name="**/*.xcf" />
-                                            </tarfileset>
-                                        </tar>
                                     </target>
                                 </configuration>
                                 <goals>
