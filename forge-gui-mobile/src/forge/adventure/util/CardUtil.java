@@ -25,6 +25,7 @@ import forge.item.generation.UnOpenedProduct;
 import forge.model.FModel;
 import forge.util.Aggregates;
 import forge.util.IterableUtil;
+import com.badlogic.gdx.Gdx;
 
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -678,10 +679,36 @@ public class CardUtil {
             boolean useGeneticAI, CardEdition starterEdition, boolean discourageDuplicates) {
         if (path.endsWith(".dck")) {
             FileHandle fileHandle = Config.instance().getFile(path);
-            Deck deck = null;
-            if (fileHandle != null) {
-                deck = DeckSerializer.fromFile(fileHandle.file());
+
+            // Fallback for decks stored under the adventure "res/" tree (decks2)
+            if (fileHandle == null || !fileHandle.exists()) {
+                try {
+                    String p = path.replace('\\', '/');
+
+                    // If caller passed "adventure/...", try "res/adventure/..."
+                    if (!p.startsWith("res/") && p.startsWith("adventure/")) {
+                        p = "res/" + p;
+                    }
+
+                    // Only attempt if LibGDX is available
+                    if (Gdx.files != null) {
+                        FileHandle gdxHandle = Gdx.files.internal(p);
+                        if (gdxHandle != null && gdxHandle.exists()) {
+                            fileHandle = gdxHandle;
+                        }
+                    }
+                } catch (Throwable ignored) {
+                }
             }
+
+            Deck deck = null;
+            if (fileHandle != null && fileHandle.exists()) {
+                try {
+                    deck = DeckSerializer.fromFile(fileHandle.file());
+                } catch (Throwable ignored) {
+                }
+            }
+
             if (deck == null) {
                 deck = DeckgenUtil.getRandomOrPreconOrThemeDeck(colors, true, false, true);
                 System.err.println("Error loading Deck: " + path + "\nGenerating random deck: " + deck.getName());
