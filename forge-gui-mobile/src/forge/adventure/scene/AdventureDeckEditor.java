@@ -494,7 +494,7 @@ public class AdventureDeckEditor extends FDeckEditor {
                     return;
                 }
 
-                PaperCard replacement = pickRandomAlternateArtSameEdition(card);
+                PaperCard replacement = pickRandomAlternateArtAnyEdition(card);
                 if (replacement == null) {
                     return;
                 }
@@ -512,8 +512,80 @@ public class AdventureDeckEditor extends FDeckEditor {
                 // Refresh ONLY this page safely (don’t call AdventureDeckEditor.refresh() yet)
                 scheduleRefresh();
             });
-}
+        }
 
+        private PaperCard pickRandomAlternateArtAnyEdition(final PaperCard original) {
+            final String name = original.getName();
+            final boolean originalFoil = original.isFoil();
+            final String originalVariant = original.getFunctionalVariant();
+            final Map<String, String> originalFlags =
+                    original.getMarkedFlags() != null ? original.getMarkedFlags().toMap() : null;
+
+            final List<PaperCard> candidates = new ArrayList<>();
+            candidates.addAll(getAllPrintsByNameFromDb(forge.StaticData.instance().getCommonCards(), name));
+            candidates.addAll(getAllPrintsByNameFromDb(forge.StaticData.instance().getVariantCards(), name));
+
+            // Filter + normalize (preserve flags/foil) + exclude the same exact print
+            final List<PaperCard> out = new ArrayList<>();
+            for (PaperCard pc : candidates) {
+                if (pc == null) {
+                    continue;
+                }
+                if (pc.equals(original)) {
+                    continue;
+                }
+                if (pc.getFunctionalVariant() == null || !pc.getFunctionalVariant().equals(originalVariant)) {
+                    continue;
+                }
+
+                PaperCard normalized = (originalFlags != null && !originalFlags.isEmpty())
+                        ? pc.copyWithFlags(originalFlags)
+                        : pc.copyWithoutFlags();
+
+                normalized = originalFoil ? normalized.getFoiled() : normalized.getUnFoiled();
+                out.add(normalized);
+            }
+
+            if (out.isEmpty()) {
+                return null;
+            }
+            return out.get(RNG.nextInt(out.size()));
+        }
+
+        @SuppressWarnings("unchecked")
+        private List<PaperCard> getAllPrintsByNameFromDb(final Object cardDb, final String name) {
+            if (cardDb == null || name == null) {
+                return Collections.emptyList();
+            }
+
+            // Try a few likely method names without breaking compilation across branches
+            final String[] methods = { "getAllCards", "getCards", "getAllCardsByName", "getAllCardsWithName" };
+
+            for (String m : methods) {
+                try {
+                    Object res = cardDb.getClass().getMethod(m, String.class).invoke(cardDb, name);
+                    if (res instanceof List) {
+                        return (List<PaperCard>) res;
+                    }
+                    if (res instanceof Collection) {
+                        return new ArrayList<>((Collection<PaperCard>) res);
+                    }
+                } catch (Exception ignored) {
+                }
+            }
+
+            // Fallback: at least return the default print if available
+            try {
+                Object res = cardDb.getClass().getMethod("getCard", String.class).invoke(cardDb, name);
+                if (res instanceof PaperCard) {
+                    return List.of((PaperCard) res);
+                }
+            } catch (Exception ignored) {
+            }
+
+            return Collections.emptyList();
+        }
+        
         private PaperCard pickRandomAlternateArtSameEdition(final PaperCard original) {
             final String name = original.getName();
             final String edition = original.getEdition();
