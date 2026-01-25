@@ -119,14 +119,14 @@ public class EnemyData implements Serializable {
             if (enemyKey != null && enemyKey.equals(LAST_ENEMY_FOUGHT) && LAST_CHOSEN_DECK_PATH != null) {
                 return CardUtil.getDeck(LAST_CHOSEN_DECK_PATH, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
             }
-            if (MyRandom.percentTrue(50)) {
-                // 50%: decks2 by colorSort
+            if (MyRandom.percentTrue(20)) {
+                // 20%: decks2 by colorSort
                 chosen = pickOneDeckFromColorSortFolder(colorSort);
                 if (chosen == null || chosen.isEmpty()) {
                     chosen = deck[MyRandom.getRandom().nextInt(deck.length)];
                 }
             } else {
-                // 50%: enemy's own deck[]
+                // 80%: enemy's own deck[]
                 chosen = deck[MyRandom.getRandom().nextInt(deck.length)];
             }
             // Remember for a possible retry

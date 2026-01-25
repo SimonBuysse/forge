@@ -1,0 +1,28 @@
+#EVENT:Sinapore Open Tournament
+[metadata]
+Name=Eng Tiang Wah - Boros Aggro (Standard, #3135)
+[general]
+Constructed
+[Main]
+2 Goblin Bushwhacker
+4 Goblin Guide
+4 Hellspark Elemental
+4 Kor Skyfisher
+4 Plated Geopede
+4 Steppe Lynx
+4 Burst Lightning
+4 Lightning Bolt
+4 Path to Exile
+2 Earthquake
+4 Arid Mesa
+4 Marsh Flats
+4 Mountain
+4 Plains
+4 Scalding Tarn
+4 Teetering Peaks
+[Sideboard]
+3 Celestial Purge
+4 Goblin Ruinblaster
+3 Harm's Way
+1 Ranger of Eos
+2 Unstable Footing

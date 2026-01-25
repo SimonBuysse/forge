@@ -1,0 +1,31 @@
+#EVENT:Tap n atk 500$
+[metadata]
+Name=Brett Krodel - Valakut Ramp (Standard, #16274)
+[general]
+Constructed
+[Main]
+2 Avenger of Zendikar
+2 Inferno Titan
+1 Oracle of Mul Daya
+4 Overgrown Battlement
+4 Primeval Titan
+2 Harrow
+4 Summoning Trap
+3 Cultivate
+4 Explore
+2 Pyroclasm
+2 Slagstorm
+3 Khalni Heart Expedition
+2 Evolving Wilds
+5 Forest
+11 Mountain
+2 Raging Ravine
+3 Terramorphic Expanse
+4 Valakut, the Molten Pinnacle
+[Sideboard]
+3 Acidic Slime
+2 Beast Within
+2 Mark of Mutiny
+2 Nature's Claim
+2 Obstinate Baloth
+2 Tumble Magnet

@@ -1,0 +1,32 @@
+#EVENT:States Pearl
+[metadata]
+Name=Aaron Barich - Four-Color Aggro (Standard, #89485)
+[general]
+Constructed
+[Main]
+4 Ashcloud Phoenix
+4 Fleecemane Lion
+4 Heir of the Wilds
+4 Mantis Rider
+2 Rattleclaw Mystic
+2 Sagu Mauler
+4 Savage Knuckleblade
+4 Jeskai Charm
+2 Lightning Strike
+4 Stoke the Flames
+2 Sarkhan, the Dragonspeaker
+4 Battlefield Forge
+4 Frontier Bivouac
+4 Mana Confluence
+1 Mountain
+4 Mystic Monastery
+1 Shivan Reef
+3 Temple of Plenty
+3 Yavimaya Coast
+[Sideboard]
+3 Arc Lightning
+2 Deflecting Palm
+2 Glare of Heresy
+3 Magma Spray
+3 Negate
+2 Suspension Field

@@ -1,0 +1,27 @@
+#EVENT:States Bozeman
+[metadata]
+Name=Matt Becker - Mono-Black Aggro (Standard, #89377)
+[general]
+Constructed
+[Main]
+4 Bloodsoaked Champion
+4 Gnarled Scarhide
+4 Goblin Rabblemaster
+3 Herald of Torment
+2 Mardu Skullhunter
+4 Mogis's Marauder
+4 Pain Seer
+3 Spiteful Returned
+4 Tormented Hero
+4 Hero's Downfall
+1 Murderous Cut
+2 Thoughtseize
+3 Bloodstained Mire
+5 Mountain
+13 Swamp
+[Sideboard]
+2 Boon of Erebos
+3 Despise
+2 Grim Haruspex
+2 Master of the Feast
+1 Ulcerate
