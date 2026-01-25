@@ -36,8 +36,6 @@ import forge.toolbox.*;
 import forge.util.ItemPool;
 import forge.util.Localizer;
 import forge.util.Utils;
-import forge.StaticData;
-import forge.item.PaperCard;
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -470,7 +468,8 @@ public class AdventureDeckEditor extends FDeckEditor {
                 menu.addItem(moveToAutosell);
             }
 
-            menu.addItem(new FMenuItem("Change Art", FSkinImage.BLANK, e -> onChangeArt(card)));
+            // menu.addItem(new FMenuItem("Randomize Art", FSkinImage.BLANK, e -> onChangeArt(card)));
+            menu.addItem(new FMenuItem("Choose Art", FSkinImage.BLANK, e -> onChangeArtChoose(card)));
 
             if (autoSellCount > 0) {
                 String action = localizer.getMessage("lblFromAutoSell", autoSellCount, safeToSellCount);
@@ -514,6 +513,39 @@ public class AdventureDeckEditor extends FDeckEditor {
             });
         }
 
+        private void onChangeArtChoose(final PaperCard original) {
+            if (original == null || original.getRules() == null) {
+                return;
+            }
+
+            FThreads.invokeInEdtNowOrLater(() -> {
+                List<PaperCard> options = getAllAlternatePrints(original); // any edition
+                if (options.isEmpty()) {
+                    return;
+                }
+
+                GuiChoose.oneOrNone("Choose art", options, chosen -> {
+                    if (chosen == null) {
+                        return;
+                    }
+
+                    // Must own at least 1 copy of this exact print to swap it
+                    if (Current.player().getCards().count(original) <= 0) {
+                        return;
+                    }
+
+                    Current.player().getCards().remove(original, 1);
+                    Current.player().getCards().add(chosen, 1);
+
+                    if (Current.player().getAutoSellCards().count(original) > 0) {
+                        Current.player().getAutoSellCards().remove(original, 1);
+                        Current.player().getAutoSellCards().add(chosen, 1);
+                    }
+
+                    scheduleRefresh();
+                });
+            });
+        }
         private PaperCard pickRandomAlternateArtAnyEdition(final PaperCard original) {
             final String name = original.getName();
             final boolean originalFoil = original.isFoil();
@@ -585,61 +617,93 @@ public class AdventureDeckEditor extends FDeckEditor {
 
             return Collections.emptyList();
         }
-        
-        private PaperCard pickRandomAlternateArtSameEdition(final PaperCard original) {
+
+        // private PaperCard pickRandomAlternateArtSameEdition(final PaperCard original) {
+        //     final String name = original.getName();
+        //     final String edition = original.getEdition();
+        //     final int originalArt = original.getArtIndex();
+        //     final boolean originalFoil = original.isFoil();
+        //     final String originalVariant = original.getFunctionalVariant();
+        //     final Map<String, String> originalFlags = original.getMarkedFlags() != null ? original.getMarkedFlags().toMap() : null;
+
+        //     List<PaperCard> candidates = new ArrayList<>();
+
+        //     // Scan a reasonable artIndex range. Most cards have only a few, but some have more.
+        //     // We’ll try 0..50 and collect matches.
+        //     for (int artIndex = 0; artIndex <= 50; artIndex++) {
+        //         if (artIndex == originalArt) {
+        //             continue;
+        //         }
+
+        //         PaperCard pc = getCardByNameSetArtIndex(name, edition, artIndex);
+        //         if (pc == null) {
+        //             continue;
+        //         }
+
+        //         // Keep the same functional variant (usually NO_FUNCTIONAL_VARIANT)
+        //         if (pc.getFunctionalVariant() == null || !pc.getFunctionalVariant().equals(originalVariant)) {
+        //             continue;
+        //         }
+
+        //         // Preserve flags (noSellValue, markedColors, etc.)
+        //         if (originalFlags != null && !originalFlags.isEmpty()) {
+        //             pc = pc.copyWithFlags(originalFlags);
+        //         } else {
+        //             pc = pc.copyWithoutFlags();
+        //         }
+
+        //         // Preserve foil state
+        //         pc = originalFoil ? pc.getFoiled() : pc.getUnFoiled();
+
+        //         candidates.add(pc);
+        //     }
+
+        //     if (candidates.isEmpty()) {
+        //         return null;
+        //     }
+
+        //     return candidates.get(RNG.nextInt(candidates.size()));
+        // }
+
+        // private PaperCard getCardByNameSetArtIndex(final String name, final String edition, final int artIndex) {
+        //     // Mirrors PaperCard.readObject logic: check common then variant
+        //     PaperCard pc = (PaperCard) StaticData.instance().getCommonCards().getCard(name, edition, artIndex);
+        //     if (pc != null) {
+        //         return pc;
+        //     }
+        //     return (PaperCard) StaticData.instance().getVariantCards().getCard(name, edition, artIndex);
+        // }
+
+        private List<PaperCard> getAllAlternatePrints(final PaperCard original) {
             final String name = original.getName();
-            final String edition = original.getEdition();
-            final int originalArt = original.getArtIndex();
             final boolean originalFoil = original.isFoil();
             final String originalVariant = original.getFunctionalVariant();
-            final Map<String, String> originalFlags = original.getMarkedFlags() != null ? original.getMarkedFlags().toMap() : null;
+            final Map<String, String> originalFlags =
+                    original.getMarkedFlags() != null ? original.getMarkedFlags().toMap() : null;
 
-            List<PaperCard> candidates = new ArrayList<>();
+            final List<PaperCard> candidates = new ArrayList<>();
+            candidates.addAll(getAllPrintsByNameFromDb(forge.StaticData.instance().getCommonCards(), name));
+            candidates.addAll(getAllPrintsByNameFromDb(forge.StaticData.instance().getVariantCards(), name));
 
-            // Scan a reasonable artIndex range. Most cards have only a few, but some have more.
-            // We’ll try 0..50 and collect matches.
-            for (int artIndex = 0; artIndex <= 50; artIndex++) {
-                if (artIndex == originalArt) {
+            final List<PaperCard> out = new ArrayList<>();
+            for (PaperCard pc : candidates) {
+                if (pc == null || pc.equals(original)) {
                     continue;
                 }
-
-                PaperCard pc = getCardByNameSetArtIndex(name, edition, artIndex);
-                if (pc == null) {
-                    continue;
-                }
-
-                // Keep the same functional variant (usually NO_FUNCTIONAL_VARIANT)
                 if (pc.getFunctionalVariant() == null || !pc.getFunctionalVariant().equals(originalVariant)) {
                     continue;
                 }
 
-                // Preserve flags (noSellValue, markedColors, etc.)
-                if (originalFlags != null && !originalFlags.isEmpty()) {
-                    pc = pc.copyWithFlags(originalFlags);
-                } else {
-                    pc = pc.copyWithoutFlags();
-                }
+                PaperCard normalized = (originalFlags != null && !originalFlags.isEmpty())
+                        ? pc.copyWithFlags(originalFlags)
+                        : pc.copyWithoutFlags();
 
-                // Preserve foil state
-                pc = originalFoil ? pc.getFoiled() : pc.getUnFoiled();
-
-                candidates.add(pc);
+                normalized = originalFoil ? normalized.getFoiled() : normalized.getUnFoiled();
+                out.add(normalized);
             }
 
-            if (candidates.isEmpty()) {
-                return null;
-            }
-
-            return candidates.get(RNG.nextInt(candidates.size()));
-        }
-
-        private PaperCard getCardByNameSetArtIndex(final String name, final String edition, final int artIndex) {
-            // Mirrors PaperCard.readObject logic: check common then variant
-            PaperCard pc = (PaperCard) StaticData.instance().getCommonCards().getCard(name, edition, artIndex);
-            if (pc != null) {
-                return pc;
-            }
-            return (PaperCard) StaticData.instance().getVariantCards().getCard(name, edition, artIndex);
+            out.sort(Comparator.naturalOrder());
+            return out;
         }
 
         @Override
