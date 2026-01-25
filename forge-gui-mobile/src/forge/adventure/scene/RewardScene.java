@@ -77,7 +77,7 @@ public class RewardScene extends UIScene {
         headerLabelOrigPos = new Vector2(headerLabel.getX(), headerLabel.getY());
         ui.onButtonPress("done", this::done);
         ui.onButtonPress("detail", this::toggleToolTip);
-        ui.onButtonPress("restock", this::restockShop);
+        //ui.onButtonPress("restock", this::restockShop);
         detailButton = ui.findActor("detail");
         detailButton.setVisible(false);
         doneButton = ui.findActor("done");
@@ -256,9 +256,9 @@ public class RewardScene extends UIScene {
     void updateRestockButton() {
         if (!shopActor.canRestock())
             return;
-        int price = shopActor.getRestockPrice();
-        restockButton.setText("[+Refresh][+shards]" + price);
-        restockButton.setDisabled(WorldSave.getCurrentSave().getPlayer().getShards() < price);
+        // int price = shopActor.getRestockPrice();
+        // restockButton.setText("[+Refresh][+shards]" + price);
+        // restockButton.setDisabled(WorldSave.getCurrentSave().getPlayer().getShards() < price);
     }
 
     void restockShop() {
