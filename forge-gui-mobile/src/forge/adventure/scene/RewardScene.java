@@ -28,6 +28,7 @@ import forge.sound.SoundEffectType;
 import forge.sound.SoundSystem;
 import forge.util.ItemPool;
 
+import java.time.LocalDate;
 import java.util.Comparator;
 
 /**
@@ -334,6 +335,15 @@ public class RewardScene extends UIScene {
         if (type == Type.Shop) {
             this.shopActor = shopActor;
             this.changes = shopActor.getMapStage().getChanges();
+            // TEST: refresh contents every open
+            newRewards = regenerateShopRewards(this.shopActor, LocalDate.now().toEpochDay() ^ (long) this.shopActor.getObjectId());
+            newRewards.sort(Comparator.comparing(reward -> {
+                if (reward.getCard() != null && reward.getCard().getRarity() != null) {
+                    return reward.getCard().getRarity().ordinal();
+                }
+                // Return a default value or handle the case where rarity is not present
+                return Integer.MAX_VALUE; // Assuming higher values mean less priority in sorting
+        }));
             addToSelectable(restockButton);
         } else {
             doneButton.setText("[+OK]");
@@ -537,7 +547,7 @@ public class RewardScene extends UIScene {
         if (type == Type.Shop) {
             updateBuyButtons();
             updateRestockButton();
-        }
+        } 
         // Give the image cache extra chances to load card art soon after building the UI
         // scheduleArtRetries();
     }
@@ -688,19 +698,19 @@ public class RewardScene extends UIScene {
             });
         }
     }
-    private void scheduleArtRetries() {
-        // These calls run slightly later, after the cache budget resets,
-        // which gives queued textures a chance to load.
-        Timer.schedule(new Timer.Task() {
-            @Override public void run() { ImageCache.getInstance().allowSingleLoad(); }
-        }, 0.05f);
+    private Array<Reward> regenerateShopRewards(ShopActor shopActor, long seed) {
+        changes.setRotatingShopSeed(shopActor.getObjectId(), seed);
 
-        Timer.schedule(new Timer.Task() {
-            @Override public void run() { ImageCache.getInstance().allowSingleLoad(); }
-        }, 0.20f);
+        ShopData data = shopActor.getShopData();
+        Array<Reward> ret = new Array<>();
 
-        Timer.schedule(new Timer.Task() {
-            @Override public void run() { ImageCache.getInstance().allowSingleLoad(); }
-        }, 0.50f);
+        long shopSeed = changes.getShopSeed(shopActor.getObjectId());
+        WorldSave.getCurrentSave().getWorld().getRandom().setSeed(shopSeed);
+        for (RewardData rdata : new Array.ArrayIterator<>(data.rewards)) {
+            ret.addAll(rdata.generate(false, false));
+        }
+
+        shopActor.setRewardData(ret);
+        return ret;
     }
 }

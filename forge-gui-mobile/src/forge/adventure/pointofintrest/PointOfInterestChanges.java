@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Random;
+import java.time.LocalDate;
 
 /**
  * Class to save point of interest changes, like sold cards and dead enemies
@@ -112,6 +113,17 @@ public class PointOfInterestChanges implements SaveFileContent  {
         return shopSeeds.get(objectID);
     }
 
+    // public long getShopSeed(int objectID){
+    //     if (!shopSeeds.containsKey(objectID)) {
+    //         // permanent per-shop base seed
+    //         shopSeeds.put(objectID, Current.world().getRandom().nextLong());
+    //         cardsBought.put(objectID, new HashSet<>()); // optional; keeps initial behavior
+    //     }
+    //     long base = shopSeeds.get(objectID);
+    //     long day = System.nanoTime();
+    //     return base ^ day; // daily-refresh effective seed
+    // }
+    
     public void generateNewShopSeed(int objectID){
         shopSeeds.put(objectID, shopSeeds.containsKey(objectID)? new Random(shopSeeds.get(objectID)).nextLong() : Current.world().getRandom().nextLong());
         cardsBought.put(objectID, new HashSet<>()); //Allows cards to appear in slots of previous purchases
