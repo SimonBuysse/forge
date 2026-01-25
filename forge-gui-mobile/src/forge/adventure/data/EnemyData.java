@@ -57,6 +57,8 @@ public class EnemyData implements Serializable {
     // Accepts: BR, UBRG, UBRG+URG, etc. (only WUBRG groups separated by '+')
     private static final Pattern COLOR_SORT_FOLDER =
             Pattern.compile("^[WUBRG]{1,5}(\\+[WUBRG]{1,5})*$", Pattern.CASE_INSENSITIVE);
+    private static String LAST_ENEMY_FOUGHT = null;
+    private static String LAST_CHOSEN_DECK_PATH = null;
 
     public EnemyData() {
     }
@@ -112,6 +114,11 @@ public class EnemyData implements Serializable {
         // Randomized: prefer the folder that matches colorSort
         if (randomizeDeck) {
             String chosen;
+            String enemyKey = this.getName();
+            // If this is an immediate rematch, reuse the same chosen deck
+            if (enemyKey != null && enemyKey.equals(LAST_ENEMY_FOUGHT) && LAST_CHOSEN_DECK_PATH != null) {
+                return CardUtil.getDeck(LAST_CHOSEN_DECK_PATH, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
+            }
             if (MyRandom.percentTrue(50)) {
                 // 50%: decks2 by colorSort
                 chosen = pickOneDeckFromColorSortFolder(colorSort);
@@ -122,6 +129,9 @@ public class EnemyData implements Serializable {
                 // 50%: enemy's own deck[]
                 chosen = deck[MyRandom.getRandom().nextInt(deck.length)];
             }
+            // Remember for a possible retry
+            LAST_ENEMY_FOUGHT = enemyKey;
+            LAST_CHOSEN_DECK_PATH = chosen;
             return CardUtil.getDeck(chosen, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
         }
         // Non-randomized: original behavior (enemy-defined list with per-enemy cycling)
