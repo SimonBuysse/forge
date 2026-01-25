@@ -62,7 +62,8 @@
       "Unholy",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Adept Black Wizard",
@@ -130,7 +131,8 @@
       "IdentityBlack",
       "BiomeColorless",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Adept Blue Wizard",
@@ -190,7 +192,8 @@
       "IdentityBlue",
       "BiomeBlue",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Adept Green Wizard",
@@ -257,7 +260,8 @@
       "IdentityGreen",
       "BiomeGreen",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Adept Red Wizard",
@@ -329,7 +333,8 @@
       "IdentityRed",
       "BiomeRed",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Adept White Wizard",
@@ -398,7 +403,8 @@
       "IdentityWhite",
       "BiomeColorless",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Adult Green Dragon",
@@ -485,7 +491,8 @@
       "Flyer",
       "Monster",
       "IdentityGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Ancient Silver Dragon",
@@ -642,7 +649,8 @@
       "BiomeWhite",
       "Loner",
       "Minion"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Aerie Guard",
@@ -707,7 +715,8 @@
       "Guard",
       "Wizard",
       "IdentityAzorius"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Aether Channeler",
@@ -784,7 +793,8 @@
       "IdentityBlue",
       "IdentityAzorius",
       "Mystic"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Aether Channeler Castle",
@@ -860,7 +870,8 @@
       "IdentityBlue",
       "IdentityAzorius",
       "Mystic"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Akroma",
@@ -987,7 +998,8 @@
       "Wandering",
       "Humanoid",
       "Evil"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Ancient Vampire",
@@ -1060,7 +1072,8 @@
       "Evil",
       "Wise",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Ancient Vampire Castle",
@@ -1132,7 +1145,8 @@
       "Evil",
       "Wise",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Angel Warrior",
@@ -1215,7 +1229,8 @@
       "IdentityWhite",
       "Mythical",
       "Warrior"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Amonkhet Minotaur Warrior",
@@ -1302,7 +1317,8 @@
       "IdentityBlack",
       "IdentityRakdos",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Ape",
@@ -1459,7 +1475,8 @@
       "IdentityBlack",
       "BiomeColorless",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Apprentice Blue Wizard",
@@ -1532,7 +1549,8 @@
       "IdentityBlue",
       "BiomeColorless",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Apprentice Green Wizard",
@@ -1603,7 +1621,8 @@
       "IdentityGreen",
       "BiomeGreen",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Apprentice Red Wizard",
@@ -1676,7 +1695,8 @@
       "IdentityRed",
       "BiomeRed",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Apprentice White Wizard",
@@ -1747,7 +1767,8 @@
       "IdentityWhite",
       "BiomeColorless",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Arcane Golem",
@@ -1821,7 +1842,8 @@
       "Arcane",
       "Wizard",
       "Hostile"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Archer",
@@ -1871,7 +1893,8 @@
       "IdentitySelesnya",
       "BiomeWhite",
       "Minion"
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Archer Elite",
@@ -1918,7 +1941,8 @@
       "Soldier",
       "Leader",
       "IdentitySelesnya"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Archaeologist",
@@ -1972,7 +1996,8 @@
       "Archaeologist",
       "Scientist",
       "Artificer"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Archfiend",
@@ -2038,7 +2063,8 @@
       "Unholy",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Archivist",
@@ -2092,7 +2118,8 @@
       "Mystic",
       "IdentityBlue",
       "Dungeon"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Armadillo",
@@ -2154,7 +2181,8 @@
       "Small",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "WBG+UBG"
   },
   {
     "name": "Armored Knight",
@@ -2225,7 +2253,8 @@
       "IdentityRed",
       "IdentityBoros",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Archmage",
@@ -2279,7 +2308,8 @@
       "Leader",
       "Intelligent",
       "Mystic"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Archmage Castle",
@@ -2332,7 +2362,8 @@
       "Leader",
       "Intelligent",
       "Mystic"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Artifact Warrior",
@@ -2405,7 +2436,8 @@
       "IdentityColorless",
       "Construct",
       "Robot"
-    ]
+    ],
+    "colorSort": "Colorless"
   },
   {
     "name": "Ashmouth Devil",
@@ -2442,7 +2474,8 @@
       "IdentityBlack",
       "IdentityRakdos",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Axgard Dwarf",
@@ -2521,7 +2554,8 @@
       "IdentityBoros",
       "BiomeRed",
       "Minion"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Auramancer",
@@ -2575,7 +2609,8 @@
       "Archaeologist",
       "Scientist",
       "Artificer"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Badger",
@@ -2646,7 +2681,8 @@
       "Small",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Bandit",
@@ -2722,7 +2758,8 @@
       "IdentityRed",
       "IdentityRakdos",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Bandit Scoundrel",
@@ -2801,7 +2838,8 @@
       "IdentityRakdos",
       "Human",
       "Scavenger"
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Bandit Archer",
@@ -2880,7 +2918,8 @@
       "Archer",
       "Human",
       "Fighter"
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Bandit Leader",
@@ -2960,7 +2999,8 @@
       "IdentityRakdos",
       "Leader",
       "Human"
-    ]
+    ],
+    "colorSort": "UBR"
   },
   {
     "name": "Bandit Slingshot",
@@ -3038,7 +3078,8 @@
       "IdentityRakdos",
       "Archer",
       "Human"
-    ]
+    ],
+    "colorSort": "WUR+WBRG+WUBG"
   },
   {
     "name": "Bandit Trapmaster",
@@ -3116,7 +3157,8 @@
       "Sneaky",
       "Trapper",
       "Human"
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Barbarian",
@@ -3176,7 +3218,8 @@
       "Human",
       "Warrior",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Bat",
@@ -3244,7 +3287,8 @@
       "Aggressive",
       "Bat",
       "Nocturnal"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Bear",
@@ -3397,7 +3441,8 @@
       "IdentitySelesnya",
       "BiomeGreen",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Beholder",
@@ -3473,7 +3518,8 @@
       "IdentityRed",
       "IdentityGrixis",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "UBR"
   },
   {
     "name": "Berserker",
@@ -3725,7 +3771,8 @@
       "IdentityBlack",
       "Construct",
       "Robot"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Blue Golem",
@@ -3802,7 +3849,8 @@
       "IdentityBlue",
       "Construct",
       "Robot"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Boar",
@@ -3877,7 +3925,8 @@
       "IdentityGreen",
       "BiomeRed",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Boggart",
@@ -3927,7 +3976,8 @@
       "IdentityGruul",
       "BiomeRed",
       "Minion"
-    ]
+    ],
+    "colorSort": "UBRG+URG"
   },
   {
     "name": "Bull",
@@ -3997,7 +4047,8 @@
       "Domesticated",
       "IdentityGreen",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Bog Witch",
@@ -4051,7 +4102,8 @@
       "Wizard",
       "Human",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Bone Dragon",
@@ -4139,7 +4191,8 @@
       "Territorial",
       "Undead",
       "Skeleton"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Brain Mole",
@@ -4194,7 +4247,8 @@
       "Wandering",
       "Unholy",
       "Evil"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Brain Mole Castle",
@@ -4248,7 +4302,8 @@
       "Wandering",
       "Unholy",
       "Evil"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Camel",
@@ -4319,7 +4374,8 @@
       "Beast",
       "IdentityWhite",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Caracal",
@@ -4381,7 +4437,8 @@
       "Large",
       "Hunter",
       "Beast"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Cathar",
@@ -4469,7 +4526,8 @@
       "IdentitySelesnya",
       "BiomeWhite",
       "Minion"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Cave Spider",
@@ -4537,7 +4595,8 @@
       "IdentityJund",
       "Spider",
       "Insect"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Centaur",
@@ -4611,7 +4670,8 @@
       "IdentitySelesnya",
       "BiomeGreen",
       "Minion"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Cephalid",
@@ -4709,7 +4769,8 @@
       "Octopus",
       "Sneaky",
       "Wandering"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Cerodon",
@@ -4790,7 +4851,8 @@
       "Monster",
       "IdentityRed",
       "Beast"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Challenger 20",
@@ -4884,7 +4946,8 @@
       "BiomeWhite",
       "BiomeBlue",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Challenger 21",
@@ -4978,7 +5041,8 @@
       "BiomeWhite",
       "BiomeBlue",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Challenger 22",
@@ -5072,7 +5136,8 @@
       "BiomeWhite",
       "BiomeBlue",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Chandra",
@@ -5283,7 +5348,8 @@
       "Chandra",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Firestarter",
@@ -5389,7 +5455,8 @@
       "Chandra",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Hellhound",
@@ -5494,7 +5561,8 @@
       "Chandra",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Immolator",
@@ -5600,7 +5668,8 @@
       "Wizard",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Lavamancer",
@@ -5706,7 +5775,8 @@
       "Wizard",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Pyromancer",
@@ -5812,7 +5882,8 @@
       "Human",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Scorcher",
@@ -5918,7 +5989,8 @@
       "Wizard",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chicken",
@@ -5967,7 +6039,8 @@
       "IdentityWhite",
       "IdentityGreen",
       "IdentitySelesnya"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Chimera",
@@ -6018,7 +6091,8 @@
       "Huge",
       "Wandering",
       "IdentityTimur"
-    ]
+    ],
+    "colorSort": "UBRG+URG"
   },
   {
     "name": "Clay Golem",
@@ -6209,7 +6283,8 @@
       "Giant",
       "IdentityBant",
       "Guard"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Cloud Guardian",
@@ -6270,7 +6345,8 @@
       "IdentityAzorius",
       "Celestial",
       "Holy"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Cloaker",
@@ -6344,7 +6420,8 @@
       "Flying",
       "Demon",
       "Aberration"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Conjurer",
@@ -6531,7 +6608,8 @@
       "IdentityBlue",
       "IdentityIzzet",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "UR"
   },
   {
     "name": "Copper Host Brutalizer",
@@ -6611,7 +6689,8 @@
       "Phyrexian",
       "Copper Host",
       "Humanoid"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Copper Host Infector",
@@ -6745,7 +6824,8 @@
       "IdentityBlue",
       "Wizard",
       "Corrupted"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Corrupted Cleric",
@@ -6800,7 +6880,8 @@
       "Monk",
       "Wizard",
       "Corrupted"
-    ]
+    ],
+    "colorSort": "WBR"
   },
   {
     "name": "Corrupted Green Wizard",
@@ -6854,7 +6935,8 @@
       "IdentityGreen",
       "Wizard",
       "Corrupted"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Corrupted Red Wizard",
@@ -6908,7 +6990,8 @@
       "IdentityRed",
       "Wizard",
       "Corrupted"
-    ]
+    ],
+    "colorSort": "WUR+WBRG+WUBG"
   },
   {
     "name": "Cosmic Horror",
@@ -6977,7 +7060,8 @@
       "Magic",
       "Sneaky",
       "Unholy"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Crab",
@@ -7054,7 +7138,8 @@
       "IdentityBlack",
       "IdentityDimir",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Criosphinx",
@@ -7108,7 +7193,8 @@
       "IdentityBlue",
       "IdentityAzorius",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Crocodile",
@@ -7159,7 +7245,8 @@
       "Large",
       "Sneaky",
       "Crocodile"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Curselord",
@@ -7228,7 +7315,8 @@
       "BiomeBlack",
       "Evil",
       "Curses"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Cyclops",
@@ -7271,7 +7359,8 @@
       "Mythical",
       "IdentityRed",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "UR"
   },
   {
     "name": "Giant Cyclops",
@@ -7335,7 +7424,8 @@
       "Mythical",
       "IdentityRed",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "UR"
   },
   {
     "name": "Mountain Ogre",
@@ -7393,7 +7483,8 @@
       "IdentityRakdos",
       "Large",
       "Dungeon"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Hermit Crab",
@@ -7452,7 +7543,8 @@
       "IdentitySimic",
       "BiomeBlue",
       "Crab"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Hedgehog",
@@ -7510,7 +7602,8 @@
       "Small",
       "IdentityGreen",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Dark Enchanter",
@@ -7669,7 +7762,8 @@
       "IdentityBlack",
       "BiomeBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Dark Spirit",
@@ -7749,7 +7843,8 @@
       "Ghost",
       "IdentityBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Dawnhart Witch",
@@ -7832,7 +7927,8 @@
       "IdentityWhite",
       "IdentitySelesnya",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Death Knight",
@@ -7918,7 +8014,8 @@
       "IdentityBlack",
       "BiomeBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Demon",
@@ -8019,7 +8116,8 @@
       "Unholy",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "UBR"
   },
   {
     "name": "Demon of Tibalt",
@@ -8086,7 +8184,8 @@
       "Unholy",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Demoncaller",
@@ -8141,7 +8240,8 @@
       "IdentityRakdos",
       "Evil",
       "Monster"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Devil",
@@ -8259,7 +8359,8 @@
       "Thief",
       "IdentityRed",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Dimir Faerie",
@@ -8337,7 +8438,8 @@
       "IdentityBlack",
       "IdentityBlue",
       "IdentityDimir"
-    ]
+    ],
+    "colorSort": "WBG+UBG"
   },
   {
     "name": "Dinosaur Elite",
@@ -8387,7 +8489,8 @@
       "IdentityRed",
       "IdentityWhite",
       "IdentityNaya"
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Dinosaur",
@@ -8443,7 +8546,8 @@
       "IdentityWhite",
       "IdentityBoros",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Disciple of Teferi",
@@ -8522,7 +8626,8 @@
       "IdentityRed",
       "IdentityWhite",
       "Identity Jeskai"
-    ]
+    ],
+    "colorSort": "WUR+WBRG+WUBG"
   },
   {
     "name": "Djinn",
@@ -8676,7 +8781,8 @@
       "IdentitySelesnya",
       "BiomeColorless",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Doppelganger",
@@ -8725,7 +8831,8 @@
       "IdentityUnknown",
       "BiomeColorless",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Dragon",
@@ -8812,7 +8919,8 @@
       "Large",
       "IdentityRed",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Dragonfly",
@@ -8872,7 +8980,8 @@
       "IdentityGreen",
       "IdentityAbzan",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "WBG+UBG"
   },
   {
     "name": "Drake",
@@ -8958,7 +9067,8 @@
       "BiomeBlue",
       "Drake",
       "Dragon"
-    ]
+    ],
+    "colorSort": "UR"
   },
   {
     "name": "Dross Gladiator",
@@ -9122,7 +9232,8 @@
       "IdentityBlack",
       "IdentityBlue",
       "IdentityDimir"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Dwarf",
@@ -9282,7 +9393,8 @@
       "BiomeRed",
       "Bandit",
       "Subterranean"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Dwarf Mercenary",
@@ -9367,7 +9479,8 @@
       "IdentityRed",
       "Dwarf",
       "Minion"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Dwarf Pilot",
@@ -9442,7 +9555,8 @@
       "Pilot",
       "IdentityBoros",
       "Artificer"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Dwarf Warlord",
@@ -9496,7 +9610,8 @@
       "Warlord",
       "Leader",
       "Artificer"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Dwarf Warlord Castle",
@@ -9549,7 +9664,8 @@
       "Warlord",
       "Leader",
       "Artificer"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Earth Elemental",
@@ -9597,7 +9713,8 @@
       "BiomeRed",
       "IdentityBoros",
       "Earth"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Efreet",
@@ -9635,7 +9752,8 @@
       "IdentityBlue",
       "IdentityIzzet",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "UR"
   },
   {
     "name": "Eldraine Faerie",
@@ -9722,7 +9840,8 @@
       "IdentityBlue",
       "IdentitySimic",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Eldraine Knight",
@@ -9809,7 +9928,8 @@
       "IdentityBoros",
       "BiomeWhite",
       "Minion"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Eldrazi",
@@ -9902,7 +10022,8 @@
       "IdentityBlue",
       "IdentitySultai",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Eldrazi Devastator",
@@ -9997,7 +10118,8 @@
       "IdentityBlue",
       "IdentitySultai",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "Colorless"
   },
   {
     "name": "Elephant",
@@ -10149,7 +10271,8 @@
       "Humanoid",
       "IdentityBlue",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Elf",
@@ -10316,7 +10439,8 @@
       "Prey",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Emrakul",
@@ -10513,7 +10637,8 @@
       "Evil",
       "Warlock",
       "Intelligent"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Eye",
@@ -10584,7 +10709,8 @@
       "BiomeBlack",
       "Horror",
       "Evil"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Faerie",
@@ -10744,7 +10870,8 @@
       "Dragon",
       "IdentityBlue",
       "IdentityDimir"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Falcon",
@@ -10795,7 +10922,8 @@
       "Wild",
       "Flying",
       "IdentityWhite"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Falcon-headed Aven Warrior",
@@ -10882,7 +11010,8 @@
       "Tribal",
       "IdentityWhite",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Fallen Angel",
@@ -10965,7 +11094,8 @@
       "Large",
       "Mystic",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "False Knight",
@@ -11049,7 +11179,8 @@
       "Unholy",
       "IdentityBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "False Monk",
@@ -11128,7 +11259,8 @@
       "Disguised",
       "Unholy",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Farmer",
@@ -11215,7 +11347,8 @@
       "Peasant",
       "Farmer",
       "Poor"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Fire Dragon",
@@ -11294,7 +11427,8 @@
       "Flyer",
       "Fire",
       "Monster"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Fire Elemental",
@@ -11378,7 +11512,8 @@
       "Flying",
       "IdentityRed",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Fire Giant",
@@ -11452,7 +11587,8 @@
       "Warrior",
       "Territorial",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Flame Elemental",
@@ -11534,7 +11670,8 @@
       "Humanoid",
       "IdentityRed",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Flesh Abomination",
@@ -11603,7 +11740,8 @@
       "Magic",
       "Sneaky",
       "Unholy"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Flying Witch",
@@ -11668,7 +11806,8 @@
       "Wizard",
       "Human",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Fog Trap",
@@ -11752,7 +11891,8 @@
       "IdentityWhite",
       "IdentityGreen",
       "IdentitySelesnya"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Forest Giant",
@@ -11826,7 +11966,8 @@
       "Warrior",
       "Territorial",
       "IdentityGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Forest Giant Castle",
@@ -11899,7 +12040,8 @@
       "Warrior",
       "Territorial",
       "IdentityGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Fox",
@@ -11963,7 +12105,8 @@
       "BiomeGreen",
       "BiomeColorless",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Frog",
@@ -12119,7 +12262,8 @@
       "IdentityAzorius",
       "BiomeWhite",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Fungus",
@@ -12370,7 +12514,8 @@
       "IdentityRed",
       "IdentityGreen",
       "IdentityGruul"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Gargoyle",
@@ -12551,7 +12696,8 @@
       "Stone",
       "IdentityWhite",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Geonid Death-Cap",
@@ -12638,7 +12784,8 @@
       "Subterranean",
       "IdentityGreen",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Ghalta",
@@ -12958,7 +13105,8 @@
       "IdentityBlue",
       "BiomeBlue",
       "Minion"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Geistmage",
@@ -13042,7 +13190,8 @@
       "Wizard",
       "Human",
       "Ghost"
-    ]
+    ],
+    "colorSort": "UR"
   },
   {
     "name": "Ghoul",
@@ -13079,7 +13228,8 @@
       "IdentityDimir",
       "BiomeBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Ghoul Gravecaller",
@@ -13138,7 +13288,8 @@
       "BiomeBlack",
       "Ghoul",
       "Zombie"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Ghoul Gravecaller Castle",
@@ -13196,7 +13347,8 @@
       "BiomeBlack",
       "Ghoul",
       "Zombie"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Ghost",
@@ -13343,7 +13495,8 @@
       "IdentityGreen",
       "IdentityAbzan",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "WBG+UBG"
   },
   {
     "name": "Giant Panda",
@@ -13418,7 +13571,8 @@
       "BiomeGreen",
       "Panda",
       "Bear"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Giant Spider",
@@ -13456,7 +13610,8 @@
       "Subterranean",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Gitaxian Scientist",
@@ -13540,7 +13695,8 @@
       "IdentityBlue",
       "IdentityGreen",
       "IdentitySimic"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Gitaxian Underling",
@@ -13687,7 +13843,8 @@
       "Zombie",
       "Humanoid",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Grave Titan Castle",
@@ -13752,7 +13909,8 @@
       "Zombie",
       "Humanoid",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Greater Sandwurm",
@@ -13796,7 +13954,8 @@
       "Nature",
       "Subterranean",
       "IdentityWhite"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Greater Zombie",
@@ -13866,7 +14025,8 @@
       "Zombie",
       "Humanoid",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Green Golem",
@@ -13943,7 +14103,8 @@
       "IdentityGreen",
       "Construct",
       "Robot"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Griselbrand",
@@ -14176,7 +14337,8 @@
       "IdentityGreen",
       "IdentityRed",
       "IdentityGruul"
-    ]
+    ],
+    "colorSort": "WBG+UBG"
   },
   {
     "name": "Gorilla",
@@ -14258,7 +14420,8 @@
       "IdentityGreen",
       "IdentityRed",
       "IdentityGruul"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Gorilla Castle",
@@ -14339,7 +14502,8 @@
       "IdentityGreen",
       "IdentityRed",
       "IdentityGruul"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Loamspeaker",
@@ -14422,7 +14586,8 @@
       "Wizard",
       "Mystic",
       "IdentityGreen"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Gladiator",
@@ -14478,7 +14643,8 @@
       "IdentityBoros",
       "IdentityWhite",
       "Gladiator"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Goblin",
@@ -14536,7 +14702,8 @@
       "IdentityRed",
       "BiomeRed",
       "Minion"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Goblin Artificer",
@@ -14611,7 +14778,8 @@
       "Scavenger",
       "IdentityRed",
       "Minion"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Goblin Chief",
@@ -14664,7 +14832,8 @@
       "IdentityBlack",
       "IdentityRakdos",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Goblin Fanatic",
@@ -14717,7 +14886,8 @@
       "IdentityGruul",
       "BiomeRed",
       "Minion"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Goblin King",
@@ -14778,7 +14948,8 @@
       "Leader",
       "King",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Goblin Pack",
@@ -14895,7 +15066,8 @@
       "IdentityRed",
       "IdentityBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Goblin Warrior",
@@ -14999,7 +15171,8 @@
       "IdentityWhite",
       "IdentitySelesnya",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "Colorless"
   },
   {
     "name": "Golem Sentinel",
@@ -15051,7 +15224,8 @@
       "IdentityColorless",
       "Construct",
       "Dungeon"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Golgari Elf",
@@ -15121,7 +15295,8 @@
       "IdentityGreen",
       "IdentityGolgari",
       "Leader"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Golgari Fungus",
@@ -15184,7 +15359,8 @@
       "IdentityGreen",
       "IdentityBlack",
       "IdentityGolgari"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Golgari Treefolk",
@@ -15269,7 +15445,8 @@
       "IdentityBlack",
       "IdentityGreen",
       "IdentityGolgari"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Gorgon",
@@ -15354,7 +15531,8 @@
       "IdentityGreen",
       "IdentityGolgari",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Gorgon 2",
@@ -15440,7 +15618,8 @@
       "IdentityGreen",
       "IdentityGolgari",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Green Beast",
@@ -15645,7 +15824,8 @@
     "colors": "WUBRG",
     "questTags": [
       "Special Encounter"
-    ]
+    ],
+    "colorSort": ""
   },
   {
     "name": "Harpy",
@@ -15729,7 +15909,8 @@
       "Thief",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Harpy 2",
@@ -15816,7 +15997,8 @@
       "IdentityBlue",
       "IdentityDimir",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Heart-Piercer Manticore",
@@ -15899,7 +16081,8 @@
       "Manticore",
       "Wild",
       "Beast"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Hellhound",
@@ -15986,7 +16169,8 @@
       "IdentityRed",
       "IdentityRakdos",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Hidden Bush",
@@ -16038,7 +16222,8 @@
       "Hidden",
       "Sneaky",
       "Plant"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Hidden Snake",
@@ -16168,7 +16353,8 @@
       "Disguised",
       "Unholy",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "High Elf",
@@ -16355,7 +16541,8 @@
       "Water",
       "Territorial",
       "IdentityGreen"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Homarid",
@@ -16418,7 +16605,8 @@
       "BiomeRed",
       "BiomeWhite",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Horror",
@@ -16504,7 +16692,8 @@
       "IdentityDimir",
       "BiomeBlue",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Horror of Tibalt",
@@ -16554,7 +16743,8 @@
       "IdentityDimir",
       "BiomeBlue",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Holy Paladin",
@@ -16613,7 +16803,8 @@
       "Human",
       "Holy",
       "Leader"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Holy Paladin Castle",
@@ -16671,7 +16862,8 @@
       "Human",
       "Holy",
       "Leader"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Royal King",
@@ -16730,7 +16922,8 @@
       "Human",
       "Holy",
       "King"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Royal King Castle",
@@ -16788,7 +16981,8 @@
       "Human",
       "Holy",
       "King"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Horse",
@@ -16846,7 +17040,8 @@
       "IdentityGreen",
       "IdentityWhite",
       "IdentitySelesnya"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Sunmare",
@@ -16904,7 +17099,8 @@
       "IdentityGreen",
       "IdentityWhite",
       "IdentitySelesnya"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Horseman",
@@ -16954,7 +17150,8 @@
       "IdentityAzorius",
       "BiomeWhite",
       "Minion"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Human",
@@ -17051,7 +17248,8 @@
       "IdentityRed",
       "IdentityGruul",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Human Captain",
@@ -17105,7 +17303,8 @@
       "Archaeologist",
       "Scientist",
       "Artificer"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Human elite",
@@ -17293,7 +17492,8 @@
       "IdentitySelesnya",
       "Mercenary",
       "Minion"
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Hydra",
@@ -17454,7 +17654,8 @@
       "Celestial",
       "Arcane",
       "Magical"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Holy Apparition Castle",
@@ -17520,7 +17721,8 @@
       "Celestial",
       "Arcane",
       "Magical"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Ibis",
@@ -17576,7 +17778,8 @@
       "IdentitySimic",
       "BiomeGreen",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Ibis-headed Aven Warrior",
@@ -17663,7 +17866,8 @@
       "IdentityBlue",
       "BiomeBlue",
       "Warrior"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Ice Elemental",
@@ -17704,7 +17908,8 @@
       "Loner",
       "Mythical",
       "IdentitySelesnya"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Illusionist",
@@ -17756,7 +17961,8 @@
       "Scientist",
       "IdentityBlue",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Immersturm Demon",
@@ -17841,7 +18047,8 @@
       "IdentityRed",
       "IdentityRakdos",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Khenra Warrior",
@@ -17898,7 +18105,8 @@
       "IdentityGreen",
       "IdentityGruul",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Jace",
@@ -18044,7 +18252,8 @@
       "Water",
       "IdentityBlue",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Kavu",
@@ -18136,7 +18345,8 @@
       "IdentityNaya",
       "BiomeGreen",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Khan",
@@ -18223,7 +18433,8 @@
       "IdentityWhite",
       "IdentityMardu",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "WBR"
   },
   {
     "name": "Kiora",
@@ -18460,7 +18671,8 @@
       "IdentityBlue",
       "IdentityAzorius",
       "Minion"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Kobold Dragoncaller",
@@ -18528,7 +18740,8 @@
       "BiomeRed",
       "Dragon",
       "Wizard"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Kobold Pyromancer",
@@ -18596,7 +18809,8 @@
       "BiomeRed",
       "Pyromancer",
       "Wizard"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Kobold Shaman",
@@ -18663,7 +18877,8 @@
       "IdentityRakdos",
       "BiomeRed",
       "Shaman"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Kobold Slinger",
@@ -18731,7 +18946,8 @@
       "BiomeRed",
       "Slinger",
       "Archer"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Kobold Trapmaster",
@@ -18798,7 +19014,8 @@
       "IdentityRakdos",
       "BiomeRed",
       "Trapmaster"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Kobold Warrior",
@@ -18864,7 +19081,8 @@
       "IdentityRakdos",
       "BiomeRed",
       "Warrior"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Kobold Worker",
@@ -18930,7 +19148,8 @@
       "IdentityRakdos",
       "BiomeRed",
       "Worker"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Kor Warrior",
@@ -18988,7 +19207,8 @@
       "IdentityWhite",
       "IdentityBoros",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Ladybug",
@@ -19055,7 +19275,8 @@
       "IdentityGreen",
       "IdentityAbzan",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Lich",
@@ -19138,7 +19359,8 @@
       "Unholy",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Lathliss",
@@ -19265,7 +19487,8 @@
       "Armorer",
       "Equipments",
       "Minion"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Leonin Warrior",
@@ -19316,7 +19539,8 @@
       "BiomeWhite",
       "Leonin",
       "Minion"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Lightning Elemental",
@@ -19421,7 +19645,8 @@
       "Lightning",
       "Inhuman",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Liliana",
@@ -19608,7 +19833,8 @@
       "IdentityDimir",
       "Poison",
       "Liliana"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Liliana's Herbalist",
@@ -19690,7 +19916,8 @@
       "IdentityGolgari",
       "Poison",
       "Liliana"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Lion",
@@ -19751,7 +19978,8 @@
       "Large",
       "Hunter",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Lorthos",
@@ -19872,7 +20100,8 @@
       "Monster",
       "Identity Temur",
       "Insect"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Maelstrom Angel",
@@ -19929,7 +20158,8 @@
       "IdentityWhite",
       "Mythical",
       "Warrior"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Magma Elemental",
@@ -20035,7 +20265,8 @@
       "Elemental",
       "Subterranean",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Magma Fire Elemental",
@@ -20099,7 +20330,8 @@
       "Elemental",
       "Golem",
       "Inhuman"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Master Black Wizard",
@@ -20152,7 +20384,8 @@
       "IdentityBlack",
       "BiomeColorless",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Master Blue Wizard",
@@ -20207,7 +20440,8 @@
       "IdentityBlue",
       "BiomeColorless",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Master Green Wizard",
@@ -20260,7 +20494,8 @@
       "IdentityGreen",
       "BiomeGreen",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Master Red Wizard",
@@ -20315,7 +20550,8 @@
       "IdentityRed",
       "BiomeRed",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Master White Wizard",
@@ -20370,7 +20606,8 @@
       "IdentityWhite",
       "BiomeColorless",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Merfolk",
@@ -20564,7 +20801,8 @@
       "IdentityWhite",
       "IdentityBant",
       "Leader"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Merfolk Fighter",
@@ -20625,7 +20863,8 @@
       "IdentitySimic",
       "BiomeBlue",
       "Minion"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Merfolk Fighter Castle",
@@ -20685,7 +20924,8 @@
       "IdentitySimic",
       "BiomeBlue",
       "Minion"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Merfolk Lord",
@@ -20747,7 +20987,8 @@
       "IdentityBlue",
       "IdentitySimic",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Merfolk Soldier",
@@ -20798,7 +21039,8 @@
       "IdentityBlue",
       "BiomeBlue",
       "Minion"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Merfolk warrior",
@@ -20901,7 +21143,8 @@
       "Swarm",
       "Construct",
       "IdentityColorless"
-    ]
+    ],
+    "colorSort": "Colorless"
   },
   {
     "name": "Mighty Djinn",
@@ -20952,7 +21195,8 @@
       "Wind",
       "IdentityBlue",
       "Djinn"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Mimic",
@@ -21037,7 +21281,8 @@
       "IdentityBlack",
       "IdentityBlue",
       "IdentityDimir"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Mindclaw Shaman",
@@ -21126,7 +21371,8 @@
       "IdentityRakdos",
       "BiomeRed",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Minotaur Flayer",
@@ -21213,7 +21459,8 @@
       "IdentityRed",
       "IdentityRakdos",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Minotaur",
@@ -21301,7 +21548,8 @@
       "Territorial",
       "IdentityRed",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Minotaur Warcaller",
@@ -21361,7 +21609,8 @@
       "IdentityRed",
       "IdentityRakdos",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Monk",
@@ -21525,7 +21774,8 @@
       "IdentityGreen",
       "IdentityRed",
       "IdentityTemur"
-    ]
+    ],
+    "colorSort": "UBRG+URG"
   },
   {
     "name": "Mummy",
@@ -21585,7 +21835,8 @@
       "BiomeColorless",
       "BiomeBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Myr Superion",
@@ -21725,7 +21976,8 @@
       "BiomeWhite",
       "IdentityBlue",
       "IdentitySimic"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Nahiri",
@@ -21808,7 +22060,8 @@
       "IdentityRed",
       "IdentityWhite",
       "IdentityBoros"
-    ]
+    ],
+    "colorSort": ""
   },
   {
     "name": "Naked Mole Rat",
@@ -21866,7 +22119,8 @@
       "Small",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Nantuko Guard",
@@ -21959,7 +22213,8 @@
       "IdentityGreen",
       "IdentityBlue",
       "IdentitySultai"
-    ]
+    ],
+    "colorSort": "WUR+WBRG+WUBG"
   },
   {
     "name": "Necrogoyf",
@@ -22019,7 +22274,8 @@
       "Predator",
       "Unholy",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Necromancer",
@@ -22078,7 +22334,8 @@
       "Wizard",
       "Human",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Nezumi Leader",
@@ -22143,7 +22400,8 @@
       "Scavenger",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Nezumi Ninja",
@@ -22208,7 +22466,8 @@
       "Scavenger",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Nightmare",
@@ -22277,7 +22536,8 @@
       "Magic",
       "Sneaky",
       "Unholy"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Octopus",
@@ -22340,7 +22600,8 @@
       "Octopus",
       "IdentityBlue",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Ooze",
@@ -22410,7 +22671,8 @@
       "IdentitySimic",
       "BiomeGreen",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Ooze Boss",
@@ -22580,7 +22842,8 @@
       "BiomeGreen",
       "BiomeWhite",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Orzhov Cleric",
@@ -22666,7 +22929,8 @@
       "IdentityWhite",
       "IdentityBlack",
       "IdentityOrzhov"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Penguin",
@@ -22739,7 +23003,8 @@
       "IdentityBlue",
       "Bird",
       "Snow"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Pirate",
@@ -22821,7 +23086,8 @@
       "BiomeColorless",
       "BiomeBlue",
       "Pirate"
-    ]
+    ],
+    "colorSort": "UR"
   },
   {
     "name": "Pirate 2",
@@ -22903,7 +23169,8 @@
       "IdentityRed",
       "IdentityGrixis",
       "Dungeon"
-    ]
+    ],
+    "colorSort": "UBR"
   },
   {
     "name": "Pirate 3",
@@ -22985,7 +23252,8 @@
       "IdentityRed",
       "IdentityGrixis",
       "Dungeon"
-    ]
+    ],
+    "colorSort": "UBR"
   },
   {
     "name": "Pirate Captain",
@@ -23060,7 +23328,8 @@
       "Leader",
       "Pirate",
       "Captain"
-    ]
+    ],
+    "colorSort": "UBR"
   },
   {
     "name": "Pirate Captain 2",
@@ -23142,7 +23411,8 @@
       "Dungeon",
       "Pirate",
       "Captain"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Pharaoh",
@@ -23201,7 +23471,8 @@
       "IdentityOrzhov",
       "BiomeColorless",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Plant",
@@ -23262,7 +23533,8 @@
       "Prey",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Poisonous Snake",
@@ -23335,7 +23607,8 @@
       "Lizard",
       "Sneaky",
       "IdentityGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Polar Bear",
@@ -23409,7 +23682,8 @@
       "IdentityBlue",
       "IdentityGreen",
       "Snow"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Porcupine",
@@ -23467,7 +23741,8 @@
       "Small",
       "IdentityGruul",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Blue Prototype",
@@ -23543,7 +23818,8 @@
       "IdentityBlue",
       "Construct",
       "Robot"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Green Prototype",
@@ -23619,7 +23895,8 @@
       "Construct",
       "Prototype",
       "Robot"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Priest Fanatic",
@@ -23678,7 +23955,8 @@
       "Human",
       "Holy",
       null
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Pyromancer",
@@ -23734,7 +24012,8 @@
       "IdentityRed",
       "Lightning",
       "Magic"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Orc Brute",
@@ -23792,7 +24071,8 @@
       "IdentityRakdos",
       "Huge",
       "Fighter"
-    ]
+    ],
+    "colorSort": "WBR"
   },
   {
     "name": "Orc Hunter",
@@ -23850,7 +24130,8 @@
       "IdentityRakdos",
       "Huge",
       "Archer"
-    ]
+    ],
+    "colorSort": "WBR"
   },
   {
     "name": "Orc Warrior",
@@ -23908,7 +24189,8 @@
       "IdentityRakdos",
       "Huge",
       "Archer"
-    ]
+    ],
+    "colorSort": "WBR"
   },
   {
     "name": "Orthodoxy Angel",
@@ -23990,7 +24272,8 @@
       "IdentityWhite",
       "IdentityGreen",
       "IdentitySelesnya"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Orthodoxy Duelist",
@@ -24131,7 +24414,8 @@
       "Small",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Parrot",
@@ -24200,7 +24484,8 @@
       "Scavenger",
       "IdentityGreen",
       "IdentityBlue"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Phoenix",
@@ -24308,7 +24593,8 @@
       "Nesting",
       "Loner",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "WBR"
   },
   {
     "name": "Rakdos Devil",
@@ -24349,7 +24635,8 @@
       "IdentityBlack",
       "IdentityRakdos",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Raptor",
@@ -24408,7 +24695,8 @@
       "Lizard",
       "Dinosaur",
       "Beast"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Rakdos Wizard",
@@ -24489,7 +24777,8 @@
       "IdentityBlack",
       "IdentityRed",
       "IdentityRakdos"
-    ]
+    ],
+    "colorSort": "UBR"
   },
   {
     "name": "Raven",
@@ -24563,7 +24852,8 @@
       "IdentityDimir",
       "BiomeColorless",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Recruiter Sliver",
@@ -24617,7 +24907,8 @@
       "IdentityBlue",
       "IdentityGrixis",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Red Beast",
@@ -24703,7 +24994,8 @@
       "IdentityBlack",
       "BiomeBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Rhino",
@@ -24765,7 +25057,8 @@
       "IdentityGruul",
       "Territorial",
       "Beast"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Rogue",
@@ -24875,7 +25168,8 @@
       "Wizard",
       "Auramaster",
       "Runelord"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Sand Golem",
@@ -24923,7 +25217,8 @@
       "IdentityRed",
       "BiomeWhite",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "WBR"
   },
   {
     "name": "Hellion",
@@ -24972,7 +25267,8 @@
       "IdentityRed",
       "BiomeRed",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Satyr",
@@ -25057,7 +25353,8 @@
       "IdentityRed",
       "IdentityGruul",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Satyr Grove Guardian",
@@ -25142,7 +25439,8 @@
       "IdentityRed",
       "IdentityGruul",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Scarab",
@@ -25198,7 +25496,8 @@
       "Nature",
       "IdentityBlack",
       "Scarab"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Scarecrow",
@@ -25258,7 +25557,8 @@
       "Territorial",
       "IdentityBlack",
       "Farm"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Scarecrow Captain",
@@ -25392,7 +25692,8 @@
       "BiomeRed",
       "BiomeWhite",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Scourgemaster",
@@ -25461,7 +25762,8 @@
       "Unholy",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Sea Monster",
@@ -25543,7 +25845,8 @@
       "Inhuman",
       "IdentityBlue",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Shade",
@@ -25615,7 +25918,8 @@
       "Magic",
       "IdentityBlack",
       "Humanoid"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Shade Castle",
@@ -25686,7 +25990,8 @@
       "Magic",
       "IdentityBlack",
       "Humanoid"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Shaman",
@@ -25857,7 +26162,8 @@
       "IdentityRed",
       "IdentityGruul",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Simic Wizard",
@@ -25922,7 +26228,8 @@
       "IdentityBlue",
       "IdentityGreen",
       "IdentitySimic"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Skeleton",
@@ -25961,7 +26268,8 @@
       "IdentityBlack",
       "BiomeBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Skeleton Soldier",
@@ -26001,7 +26309,8 @@
       "IdentityBlack",
       "BiomeBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Skeleton Champion",
@@ -26056,7 +26365,8 @@
       "Regenerating",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Slimefoot",
@@ -26204,7 +26514,8 @@
       "Nesting",
       "Swarm",
       "Eldrazi"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Sliver",
@@ -26296,7 +26607,8 @@
       "IdentityBlue",
       "IdentityGrixis",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "UBR"
   },
   {
     "name": "Sliver_Blue",
@@ -26352,7 +26664,8 @@
       "IdentityBlue",
       "IdentityEsper",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Sliver_Green",
@@ -26408,7 +26721,8 @@
       "IdentityBlue",
       "IdentityNaya",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Sliver_Red",
@@ -26464,7 +26778,8 @@
       "IdentityGreen",
       "IdentityJund",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Sliver_White",
@@ -26520,7 +26835,8 @@
       "IdentityBlue",
       "IdentityBant",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Slobad",
@@ -26822,7 +27138,8 @@
       "IdentityBlue",
       "IdentityGreen",
       "IdentitySimic"
-    ]
+    ],
+    "colorSort": "WBG+UBG"
   },
   {
     "name": "Sphinx",
@@ -26876,7 +27193,8 @@
       "IdentityBlue",
       "IdentityAzorius",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Spider",
@@ -27029,7 +27347,8 @@
       "Unholy",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Spirit",
@@ -27087,7 +27406,8 @@
       "Ghost",
       "IdentityBlue",
       "Dungeon"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Stegosaurus",
@@ -27161,7 +27481,8 @@
       "Beast",
       "BiomeGreen",
       "IdentityGruul"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Storm Titan",
@@ -27222,7 +27543,8 @@
       "Aberration",
       "Aggressive",
       "Leader"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Storm Titan Castle",
@@ -27282,7 +27604,8 @@
       "Aberration",
       "Aggressive",
       "Leader"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Stray Cat",
@@ -27346,7 +27669,8 @@
       "Prey",
       "Small",
       "IdentityWhite"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Sun Giant",
@@ -27415,7 +27739,8 @@
       "Warrior",
       "Territorial",
       "IdentityWhite"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Sun Giant Castle",
@@ -27483,7 +27808,8 @@
       "Warrior",
       "Territorial",
       "IdentityWhite"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Squirrel",
@@ -27535,7 +27861,8 @@
       "IdentityBlack",
       "IdentityGolgari",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Squirrel Castle",
@@ -27586,7 +27913,8 @@
       "IdentityBlack",
       "IdentityGolgari",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Swamp Troll",
@@ -27686,7 +28014,8 @@
       "IdentityBlack",
       "BiomeBlack",
       "Leader"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Symbiote",
@@ -27773,7 +28102,8 @@
       "IdentityBlue",
       "IdentityGreen",
       "IdentitySultai"
-    ]
+    ],
+    "colorSort": "WBG+UBG"
   },
   {
     "name": "Tarkir Djinn",
@@ -27812,7 +28142,8 @@
       "IdentityRed",
       "IdentityIzzet",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "UR"
   },
   {
     "name": "Teferi",
@@ -27898,7 +28229,8 @@
       "IdentityWhite",
       "IdentityAzorius"
     ],
-    "gamesPerMatch": 3
+    "gamesPerMatch": 3,
+    "colorSort": ""
   },
   {
     "name": "The Cheff",
@@ -28189,7 +28521,8 @@
       "Large",
       "Hunter",
       "Beast"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Torturer",
@@ -28252,7 +28585,8 @@
       "IdentityBlack",
       "Evil"
     ],
-    "gamesPerMatch": 3
+    "gamesPerMatch": 3,
+    "colorSort": ""
   },
   {
     "name": "Turtle",
@@ -28452,7 +28786,8 @@
       "Territorial",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Triceratops",
@@ -28525,7 +28860,8 @@
       "Wild",
       "Aggressive",
       "IdentitySelesnya"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Troll",
@@ -28666,7 +29002,8 @@
       "Unholy",
       "IdentityBlack"
     ],
-    "gamesPerMatch": 3
+    "gamesPerMatch": 3,
+    "colorSort": ""
   },
   {
     "name": "Vampire",
@@ -28707,7 +29044,8 @@
       "IdentityBlack",
       "BiomeBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Vampire Lord",
@@ -28741,7 +29079,8 @@
       "IdentityBlack",
       "IdentityRed",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Viashino",
@@ -28822,7 +29161,8 @@
       "IdentityRed",
       "IdentityJund",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Viper",
@@ -28887,7 +29227,8 @@
       "IdentityGreen",
       "IdentityGolgari",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Volcano Dragon",
@@ -28966,7 +29307,8 @@
       "Flyer",
       "Fire",
       "Monster"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Volcano Elemental",
@@ -29073,7 +29415,8 @@
       "IdentityRed",
       "IdentityBlack",
       "IdentityRakdos"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Walking Brain",
@@ -29142,7 +29485,8 @@
       "IdentityBlue",
       "BiomeBlue",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Wandering Giant",
@@ -29210,7 +29554,8 @@
       "Territorial",
       "BiomeColorless",
       "IdentityBoros"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Warrior",
@@ -29270,7 +29615,8 @@
       "IdentityGreen",
       "IdentityNaya",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Wasp",
@@ -29332,7 +29678,8 @@
       "IdentityRed",
       "IdentityBlack",
       "IdentityJund"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Werebear",
@@ -29406,7 +29753,8 @@
       "Domesticated",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Werewolf",
@@ -29448,7 +29796,8 @@
       "IdentityRed",
       "IdentityGruul",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "White Dwarf",
@@ -29484,7 +29833,8 @@
       "Subterranean",
       "IdentityWhite",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "W"
   },
   {
     "name": "Plague Rat Swarm",
@@ -29549,7 +29899,8 @@
       "IdentityBlack",
       "BiomeColorless",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Wild Rat",
@@ -29616,7 +29967,8 @@
       "IdentityBlack",
       "BiomeColorless",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Wild-Magic Sorcerer",
@@ -29702,7 +30054,8 @@
       "IdentityGruul",
       "BiomeGreen",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Wolf",
@@ -29773,7 +30126,8 @@
       "Territorial",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Wolf Castle",
@@ -29843,7 +30197,8 @@
       "Territorial",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Wolf Pup",
@@ -30008,7 +30363,8 @@
       "Wild",
       "Flying",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Water Elemental",
@@ -30054,7 +30410,8 @@
       "Humanoid",
       "IdentityBlue",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Witch",
@@ -30115,7 +30472,8 @@
       "Wizard",
       "Human",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Witch Castle",
@@ -30175,7 +30533,8 @@
       "Wizard",
       "Human",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Wraith",
@@ -30238,7 +30597,8 @@
       "Undead",
       "BiomeBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Wounded Sliver",
@@ -30460,7 +30820,8 @@
       "IdentityBlue",
       "IdentityTemur",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "UBRG+URG"
   },
   {
     "name": "Zedruu",
@@ -30596,7 +30957,8 @@
       "IdentityBlack",
       "BiomeBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Zombie Lord",
@@ -30643,7 +31005,8 @@
       "Leader",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Evil Wall",
@@ -30708,7 +31071,8 @@
       "Construct",
       "Artifact",
       "Hidden"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Juggernaut",
@@ -30780,7 +31144,8 @@
       "Artifact",
       "Hidden",
       "Juggernaut"
-    ]
+    ],
+    "colorSort": "Colorless"
   },
   {
     "name": "Bone Golem",
@@ -30855,7 +31220,8 @@
       "Aberration",
       "Monster",
       "Evil"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Hulking Brute",
@@ -30924,7 +31290,8 @@
     "questTags": [
       "Zombie",
       "Evil"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Unholy Knight",
@@ -31001,7 +31368,8 @@
       "IdentityBlack",
       "Hostile",
       "Unholy"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Undead Goblin",
@@ -31075,7 +31443,8 @@
       "Evil",
       "Aberration",
       "IdentityRakdos"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Graven Revenant",
@@ -31155,7 +31524,8 @@
       "Inhuman",
       "Wizard",
       "IdentityDimir"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Plaguelord",
@@ -31228,7 +31598,8 @@
       "Inhuman",
       "Wizard",
       "IdentityDimir"
-    ]
+    ],
+    "colorSort": ""
   },
   {
     "name": "Royal Sentinel",
@@ -31309,7 +31680,8 @@
       "Wizard",
       "IdentityDimir",
       "Guardian"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Lord Pestilence",
@@ -31389,7 +31761,8 @@
       "Inhuman",
       "Wizard",
       "IdentityDimir"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Sand Ghoul",
@@ -31469,7 +31842,8 @@
       "Aberration",
       "Aggressive",
       null
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Tomb Guardian",
@@ -31549,7 +31923,8 @@
       "Inhuman",
       "Wizard",
       "IdentityDimir"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Undead Roamer",
@@ -31602,7 +31977,8 @@
       "Undead",
       "Aberration",
       null
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Undead Shuffler",
@@ -31677,7 +32053,8 @@
       "IdentityBlack",
       null,
       null
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Unholy Skull",
@@ -31735,7 +32112,8 @@
       "Wizard",
       "IdentityDimir",
       "Skull"
-    ]
+    ],
+    "colorSort": "UBR"
   },
   {
     "name": "Unraveling Crawler",
@@ -31802,7 +32180,8 @@
       "Crawling",
       "BiomeBlack",
       "Skeleton"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Angelic Page",
@@ -31925,7 +32304,8 @@
       "BiomeBlue",
       "BiomeWhite",
       null
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Minor Demon",
@@ -31980,7 +32360,8 @@
       "Unholy",
       null,
       null
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Ancient Demon",
@@ -32035,7 +32416,8 @@
       "Aggressive",
       "Aberration",
       null
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Bloodgift Demon",
@@ -32095,7 +32477,8 @@
       "BiomeRed",
       null,
       null
-    ]
+    ],
+    "colorSort": "WBR"
   },
   {
     "name": "Human Looter",
@@ -32149,7 +32532,8 @@
       "Farm",
       null,
       null
-    ]
+    ],
+    "colorSort": "WBG+UBG"
   },
   {
     "name": "Supreme Elemental",
@@ -32211,7 +32595,8 @@
       "IdentityWUBRG",
       null,
       null
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Zombie Master",
@@ -32258,7 +32643,8 @@
       "Leader",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Elf warrior Effect",
@@ -32394,7 +32780,8 @@
       "IdentityNaya",
       "BiomeGreen",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "WRG"
   },
   {
     "name": "Adept Black Wizard Effect",
@@ -32456,7 +32843,8 @@
       "IdentityBlack",
       "BiomeColorless",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Hellion Effect",
@@ -32504,7 +32892,8 @@
       "IdentityRed",
       "BiomeRed",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Mighty Djinn Effect",
@@ -32554,7 +32943,8 @@
       "Wind",
       "IdentityBlue",
       "Djinn"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Zombie Lord Effect",
@@ -32600,7 +32990,8 @@
       "Leader",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Grave Titan Effect",
@@ -32665,7 +33056,8 @@
       "Zombie",
       "Humanoid",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Pirate Captain Effect",
@@ -32739,7 +33131,8 @@
       "Leader",
       "Pirate",
       "Captain"
-    ]
+    ],
+    "colorSort": "UBR"
   },
   {
     "name": "Merfolk Elite Effect",
@@ -32829,7 +33222,8 @@
       "IdentityWhite",
       "IdentityBant",
       "Leader"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Beastmaster Effect",
@@ -32907,7 +33301,8 @@
       "IdentitySelesnya",
       "BiomeGreen",
       "BiomeWhite"
-    ]
+    ],
+    "colorSort": "WG"
   },
   {
     "name": "Immersturm Demon Effect",
@@ -32991,7 +33386,8 @@
       "IdentityRed",
       "IdentityRakdos",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Swamp Troll Effect",
@@ -33090,7 +33486,8 @@
       "IdentityBlack",
       "BiomeBlack",
       "Leader"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Bone Dragon Effect",
@@ -33177,7 +33574,8 @@
       "Territorial",
       "Undead",
       "Skeleton"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Hippo Effect",
@@ -33226,7 +33624,8 @@
       "Water",
       "Territorial",
       "IdentityGreen"
-    ]
+    ],
+    "colorSort": "UG"
   },
   {
     "name": "Werebear Effect",
@@ -33299,7 +33698,8 @@
       "Domesticated",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Wolf Effect",
@@ -33369,7 +33769,8 @@
       "Territorial",
       "IdentityGreen",
       "BiomeGreen"
-    ]
+    ],
+    "colorSort": "G"
   },
   {
     "name": "Gorilla Effect",
@@ -33450,7 +33851,8 @@
       "IdentityGreen",
       "IdentityRed",
       "IdentityGruul"
-    ]
+    ],
+    "colorSort": "RG"
   },
   {
     "name": "Monkey Effect",
@@ -33531,7 +33933,8 @@
       "IdentityGreen",
       "IdentityRed",
       "IdentityTemur"
-    ]
+    ],
+    "colorSort": "UBRG+URG"
   },
   {
     "name": "Fire Giant Effect",
@@ -33604,7 +34007,8 @@
       "Warrior",
       "Territorial",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Mindclaw Shaman Effect",
@@ -33692,7 +34096,8 @@
       "IdentityRakdos",
       "BiomeRed",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Axgard Dwarf Effect",
@@ -33770,7 +34175,8 @@
       "IdentityBoros",
       "BiomeRed",
       "Minion"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Pyromancer Effect",
@@ -33825,7 +34231,8 @@
       "IdentityRed",
       "Lightning",
       "Magic"
-    ]
+    ],
+    "colorSort": "WR"
   },
   {
     "name": "Archmage Effect",
@@ -33878,7 +34285,8 @@
       "Leader",
       "Intelligent",
       "Mystic"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Master Green Wizard Effect",
@@ -33928,7 +34336,8 @@
       "IdentityGreen",
       "BiomeGreen",
       "BiomeColorless"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Dragon Effect",
@@ -34014,7 +34423,8 @@
       "Large",
       "IdentityRed",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Lich Effect",
@@ -34096,7 +34506,8 @@
       "Unholy",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Aether Channeler Effect",
@@ -34172,7 +34583,8 @@
       "IdentityBlue",
       "IdentityAzorius",
       "Mystic"
-    ]
+    ],
+    "colorSort": "WU"
   },
   {
     "name": "Doppelganger Effect",
@@ -34221,7 +34633,8 @@
       "IdentityUnknown",
       "BiomeColorless",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Master Blue Wizard Effect",
@@ -34272,7 +34685,8 @@
       "IdentityBlue",
       "BiomeColorless",
       "BiomeBlue"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Djinn Effect",
@@ -34463,7 +34877,8 @@
       "Nesting",
       "Loner",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "WBR"
   },
   {
     "name": "Chandra's Pyromancer Effect",
@@ -34568,7 +34983,8 @@
       "Human",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Lightning Elemental Effect",
@@ -34672,7 +35088,8 @@
       "Lightning",
       "Inhuman",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Immolator Effect",
@@ -34777,7 +35194,8 @@
       "Wizard",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Scorcher Effect",
@@ -34882,7 +35300,8 @@
       "Wizard",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Hellhound Effect",
@@ -34986,7 +35405,8 @@
       "Chandra",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Acolyte Effect",
@@ -35091,7 +35511,8 @@
       "Chandra",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Chandra's Lavamancer Effect",
@@ -35196,7 +35617,8 @@
       "Wizard",
       "Fire",
       "IdentityRed"
-    ]
+    ],
+    "colorSort": "R"
   },
   {
     "name": "Volcano Elemental Effect",
@@ -35302,7 +35724,8 @@
       "IdentityRed",
       "IdentityBlack",
       "IdentityRakdos"
-    ]
+    ],
+    "colorSort": "WUG+WUBR+WURG"
   },
   {
     "name": "Dwarf Effect",
@@ -35472,7 +35895,8 @@
       "IdentityBlack",
       "IdentityBlue",
       "IdentityDimir"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Grave Titan Castle Effect",
@@ -35537,7 +35961,8 @@
       "Zombie",
       "Humanoid",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Greater Zombie Effect",
@@ -35606,7 +36031,8 @@
       "Zombie",
       "Humanoid",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Skeleton Champion Effect",
@@ -35660,7 +36086,8 @@
       "Regenerating",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Dark Spirit Effect",
@@ -35739,7 +36166,8 @@
       "Ghost",
       "IdentityBlack",
       "Minion"
-    ]
+    ],
+    "colorSort": "WUB+WB"
   },
   {
     "name": "Guardian Angel Effect",
@@ -35772,7 +36200,8 @@
     "colors": "WUBRG",
     "questTags": [
       "Special Encounter"
-    ]
+    ],
+    "colorSort": ""
   },
   {
     "name": "Golgari Fungus Effect",
@@ -35834,7 +36263,8 @@
       "IdentityGreen",
       "IdentityBlack",
       "IdentityGolgari"
-    ]
+    ],
+    "colorSort": "BG"
   },
   {
     "name": "Liliana's Alchemist Effect",
@@ -35915,7 +36345,8 @@
       "IdentityDimir",
       "Poison",
       "Liliana"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Witch Effect",
@@ -35975,7 +36406,8 @@
       "Wizard",
       "Human",
       "IdentityBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Harpy Effect",
@@ -36058,7 +36490,8 @@
       "Thief",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Wild Rat Effect",
@@ -36122,7 +36555,8 @@
       "IdentityBlack",
       "BiomeColorless",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Harpy 2 Effect",
@@ -36208,7 +36642,8 @@
       "IdentityBlue",
       "IdentityDimir",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "UB"
   },
   {
     "name": "Storm Titan Effect",
@@ -36268,7 +36703,8 @@
       "Aberration",
       "Aggressive",
       "Leader"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Teferi Effect",
@@ -36354,7 +36790,8 @@
       "IdentityWhite",
       "IdentityAzorius"
     ],
-    "gamesPerMatch": 3
+    "gamesPerMatch": 3,
+    "colorSort": ""
   },
   {
     "name": "Valyx Feaster of Torment Effect",
@@ -36418,7 +36855,8 @@
       "Unholy",
       "IdentityBlack"
     ],
-    "gamesPerMatch": 3
+    "gamesPerMatch": 3,
+    "colorSort": ""
   },
   {
     "name": "Nahiri Effect",
@@ -36501,7 +36939,8 @@
       "IdentityRed",
       "IdentityWhite",
       "IdentityBoros"
-    ]
+    ],
+    "colorSort": ""
   },
   {
     "name": "Metallic Sliver Effect",
@@ -36551,7 +36990,8 @@
       "Swarm",
       "Construct",
       "IdentityColorless"
-    ]
+    ],
+    "colorSort": "Colorless"
   },
   {
     "name": "Slivdrazi Experiment Effect",
@@ -36600,7 +37040,8 @@
       "Nesting",
       "Swarm",
       "Eldrazi"
-    ]
+    ],
+    "colorSort": "WUBRG"
   },
   {
     "name": "Recruiter Sliver Effect",
@@ -36653,7 +37094,8 @@
       "IdentityBlue",
       "IdentityGrixis",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "U"
   },
   {
     "name": "Cloaker Effect",
@@ -36726,7 +37168,8 @@
       "Flying",
       "Demon",
       "Aberration"
-    ]
+    ],
+    "colorSort": "B"
   },
   {
     "name": "Archfiend Effect",
@@ -36791,7 +37234,8 @@
       "Unholy",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BRG"
   },
   {
     "name": "Demon of Tibalt Effect",
@@ -36857,7 +37301,8 @@
       "Unholy",
       "IdentityBlack",
       "BiomeBlack"
-    ]
+    ],
+    "colorSort": "BR"
   },
   {
     "name": "Giant Cyclops Effect",
@@ -36920,7 +37365,8 @@
       "Mythical",
       "IdentityRed",
       "BiomeRed"
-    ]
+    ],
+    "colorSort": "UR"
   },
   {
     "name": "Torturer Effect",
@@ -36983,6 +37429,7 @@
       "IdentityBlack",
       "Evil"
     ],
-    "gamesPerMatch": 3
+    "gamesPerMatch": 3,
+    "colorSort": ""
   }
 ]

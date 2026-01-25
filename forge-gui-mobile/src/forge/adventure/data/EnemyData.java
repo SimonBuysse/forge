@@ -45,6 +45,7 @@ public class EnemyData implements Serializable {
     private static List<String> ALL_DCK_PATHS = null;
     public EnemyData nextEnemy;
     public int teamNumber = -1;
+    public String colorSort = "";
 
     public String[] questTags = new String[0];
     public float lifetime;
@@ -75,6 +76,7 @@ public class EnemyData implements Serializable {
         questTags       = enemyData.questTags.clone();
         lifetime        = enemyData.lifetime;
         gamesPerMatch   = enemyData.gamesPerMatch;
+        colorSort       = enemyData.colorSort;
         if (enemyData.scale == 0.0f) {
             scale = 1.0f;
         }
