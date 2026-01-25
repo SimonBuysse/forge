@@ -46,19 +46,19 @@ public class EnemyData implements Serializable {
     public RewardData[] rewards;
     public String[] equipment;
     public String colors = "";
-    private static List<String> ALL_DCK_PATHS = null;
     public EnemyData nextEnemy;
     public int teamNumber = -1;
     public String colorSort = "";
-    private static Map<String, List<String>> DCK_PATHS_BY_COLOR_SORT = null;
     public String[] questTags = new String[0];
     public float lifetime;
     public int gamesPerMatch = 1;
+    public boolean usingColorSortDeck = false;
     // Accepts: BR, UBRG, UBRG+URG, etc. (only WUBRG groups separated by '+')
     private static final Pattern COLOR_SORT_FOLDER =
             Pattern.compile("^[WUBRG]{1,5}(\\+[WUBRG]{1,5})*$", Pattern.CASE_INSENSITIVE);
-    private static String LAST_ENEMY_FOUGHT = null;
-    private static String LAST_CHOSEN_DECK_PATH = null;
+    public static String LAST_ENEMY_FOUGHT = null;
+    public static String LAST_CHOSEN_DECK_PATH = null;
+    public static boolean LAST_CHOSEN_DECK_WAS_COLORSORT = false;
 
     public EnemyData() {
     }
@@ -117,21 +117,27 @@ public class EnemyData implements Serializable {
             String enemyKey = this.getName();
             // If this is an immediate rematch, reuse the same chosen deck
             if (enemyKey != null && enemyKey.equals(LAST_ENEMY_FOUGHT) && LAST_CHOSEN_DECK_PATH != null) {
+                usingColorSortDeck = LAST_CHOSEN_DECK_WAS_COLORSORT;
                 return CardUtil.getDeck(LAST_CHOSEN_DECK_PATH, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
             }
             if (MyRandom.percentTrue(20)) {
                 // 20%: decks2 by colorSort
                 chosen = pickOneDeckFromColorSortFolder(colorSort);
+                usingColorSortDeck = true;
                 if (chosen == null || chosen.isEmpty()) {
                     chosen = deck[MyRandom.getRandom().nextInt(deck.length)];
+                    usingColorSortDeck = false; // fallback means not colorsort
                 }
             } else {
                 // 80%: enemy's own deck[]
                 chosen = deck[MyRandom.getRandom().nextInt(deck.length)];
+                usingColorSortDeck = false;
             }
             // Remember for a possible retry
             LAST_ENEMY_FOUGHT = enemyKey;
             LAST_CHOSEN_DECK_PATH = chosen;
+            LAST_CHOSEN_DECK_WAS_COLORSORT = usingColorSortDeck;
+            
             return CardUtil.getDeck(chosen, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
         }
         // Non-randomized: original behavior (enemy-defined list with per-enemy cycling)
@@ -241,26 +247,6 @@ public class EnemyData implements Serializable {
                 out.add(p);
             }
         }
-    }
-
-    private Deck tryLoadDeckWithPathVariants(String chosen, boolean isFantasyMode, boolean canUseGeneticAI) {
-        if (chosen == null || chosen.isEmpty()) return null;
-
-        String p = chosen.replace('\\', '/');
-        String pNoRes = p.startsWith("res/") ? p.substring("res/".length()) : p;
-
-        String[] attempts = pNoRes.equals(p) ? new String[]{ p } : new String[]{ p, pNoRes };
-
-        for (String attempt : attempts) {
-            try {
-                Gdx.app.log("EnemyData", "Trying deck path: " + attempt);
-                Deck d = CardUtil.getDeck(attempt, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
-                if (d != null) return d;
-            } catch (Throwable t) {
-                Gdx.app.log("EnemyData", "Load failed for: " + attempt + " -> " + t.getClass().getName() + ": " + t.getMessage());
-            }
-        }
-        return null;
     }
 }
 

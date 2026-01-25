@@ -100,7 +100,11 @@ public class DuelScene extends ForgeScene {
         boolean winner = false;
         try {
             winner = humanPlayer == hostedMatch.getGame().getMatch().getWinner();
-
+            if (winner) {
+                EnemyData.LAST_ENEMY_FOUGHT = null;
+                EnemyData.LAST_CHOSEN_DECK_PATH = null;
+                EnemyData.LAST_CHOSEN_DECK_WAS_COLORSORT = false;
+}
             //Persists expended (or potentially gained) shards back to Adventure
             if (eventData == null || eventData.eventRules.allowsShards) {
                 List<PlayerControllerHuman> humans = hostedMatch.getHumanControllers();
@@ -325,7 +329,8 @@ public class DuelScene extends ForgeScene {
             RegisteredPlayer aiPlayer = RegisteredPlayer.forVariants(playerCount, appliedVariants, deck, null, false, null, null);
 
             LobbyPlayer enemyPlayer = GamePlayerUtil.createAiPlayer(currentEnemy.getName(), selectAI(currentEnemy.ai));
-            enemyPlayer.setName(enemy.getName()); //Override name if defined in the map.(only supported for 1 enemy atm)
+            String displayName = enemy.getName(); // keeps your map override behavior
+            enemyPlayer.setName(displayName);
             TextureRegion enemyAvatar = enemy.getAvatar(i);
             enemyAvatar.flip(true, false); //flip facing left
             FSkin.getAvatars().put(enemyAvatarKey + i, enemyAvatar);
@@ -395,13 +400,35 @@ public class DuelScene extends ForgeScene {
         hostedMatch.startMatch(rules, appliedVariants, players, guiMap, bossBattle ? MusicPlaylist.BOSS : MusicPlaylist.MATCH);
         MatchController.instance.setGameView(hostedMatch.getGameView());
         boolean showMessages = enemy.getData().boss || (enemy.getData().copyPlayerDeck && Current.player().isUsingCustomDeck());
+        boolean showDanger = enemy.getData().usingColorSortDeck;
+
         if (chaosBattle || showMessages || isDeckMissing) {
+            // ORIGINAL boss / special / missing-deck logic (unchanged)
             final FBufferedImage fb = getFBEnemyAvatar();
-            bossDialogue = createFOption(isDeckMissing ? isDeckMissingMsg : Forge.getLocalizer().getMessage("AdvBossIntro" + Aggregates.randomInt(1, 35)),
-                    enemy.getName(), fb, fb::dispose);
-            matchOverlay = new LoadingOverlay(() -> FThreads.delayInEDT(300, () -> FThreads.invokeInEdtNowOrLater(() ->
-                    bossDialogue.show())), false, true);
+            bossDialogue = createFOption(
+                    isDeckMissing ? isDeckMissingMsg : Forge.getLocalizer().getMessage("AdvBossIntro" + Aggregates.randomInt(1, 35)),
+                    enemy.getName(),
+                    fb,
+                    fb::dispose
+            );
+            matchOverlay = new LoadingOverlay(() -> FThreads.delayInEDT(300, () ->
+                    FThreads.invokeInEdtNowOrLater(() -> bossDialogue.show())), false, true);
+
+        } else if (showDanger) {
+            // DANGEROUS (colorsort deck) intro
+            final FBufferedImage fb = getFBEnemyAvatar();
+            String title = enemy.getName() + " (Dangerous!)";
+            bossDialogue = createFOption(
+                    Forge.getLocalizer().getMessage("lblOK"), // or replace with your own warning text
+                    title,
+                    fb,
+                    fb::dispose
+            );
+            matchOverlay = new LoadingOverlay(() -> FThreads.delayInEDT(300, () ->
+                    FThreads.invokeInEdtNowOrLater(() -> bossDialogue.show())), false, true);
+
         } else {
+            // NORMAL fight: no popup
             matchOverlay = new LoadingOverlay(null);
         }
 
