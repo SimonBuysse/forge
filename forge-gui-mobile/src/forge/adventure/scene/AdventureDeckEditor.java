@@ -36,6 +36,8 @@ import forge.toolbox.*;
 import forge.util.ItemPool;
 import forge.util.Localizer;
 import forge.util.Utils;
+import forge.StaticData;
+import forge.item.PaperCard;
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -396,6 +398,7 @@ public class AdventureDeckEditor extends FDeckEditor {
     }
 
     private static class CollectionCatalogPage extends CatalogPage {
+        
         protected CollectionCatalogPage() {
             super(new AdventureCardManager(), ItemManagerConfig.ADVENTURE_EDITOR_POOL, Forge.getLocalizer().getMessage("lblInventory"), CATALOG_ICON);
         }
@@ -467,6 +470,8 @@ public class AdventureDeckEditor extends FDeckEditor {
                 menu.addItem(moveToAutosell);
             }
 
+            menu.addItem(new FMenuItem("Change Art", FSkinImage.BLANK, e -> onChangeArt(card)));
+
             if (autoSellCount > 0) {
                 String action = localizer.getMessage("lblFromAutoSell", autoSellCount, safeToSellCount);
                 String prompt = String.format("%s - %s %s", card, action, lblHowMany);
@@ -474,6 +479,95 @@ public class AdventureDeckEditor extends FDeckEditor {
                         new MoveQuantityPrompt(prompt, autoSellCount, amount -> autoSellPage.moveCard(card, this, amount)));
                 menu.addItem(moveToCatalog);
             }
+        }
+
+        private static final Random RNG = new Random();
+
+        private void onChangeArt(final PaperCard card) {
+            if (card == null || card.getRules() == null) {
+                return;
+            }
+
+            // Run everything on the UI thread to avoid concurrent modification in views
+            FThreads.invokeInEdtNowOrLater(() -> {
+                if (Current.player().getCards().count(card) <= 0) {
+                    return;
+                }
+
+                PaperCard replacement = pickRandomAlternateArtSameEdition(card);
+                if (replacement == null) {
+                    return;
+                }
+
+                // Swap 1 in collection
+                Current.player().getCards().remove(card, 1);
+                Current.player().getCards().add(replacement, 1);
+
+                // If this exact print is in auto-sell, swap 1 there too
+                if (Current.player().getAutoSellCards().count(card) > 0) {
+                    Current.player().getAutoSellCards().remove(card, 1);
+                    Current.player().getAutoSellCards().add(replacement, 1);
+                }
+
+                // Refresh ONLY this page safely (don’t call AdventureDeckEditor.refresh() yet)
+                scheduleRefresh();
+            });
+}
+
+        private PaperCard pickRandomAlternateArtSameEdition(final PaperCard original) {
+            final String name = original.getName();
+            final String edition = original.getEdition();
+            final int originalArt = original.getArtIndex();
+            final boolean originalFoil = original.isFoil();
+            final String originalVariant = original.getFunctionalVariant();
+            final Map<String, String> originalFlags = original.getMarkedFlags() != null ? original.getMarkedFlags().toMap() : null;
+
+            List<PaperCard> candidates = new ArrayList<>();
+
+            // Scan a reasonable artIndex range. Most cards have only a few, but some have more.
+            // We’ll try 0..50 and collect matches.
+            for (int artIndex = 0; artIndex <= 50; artIndex++) {
+                if (artIndex == originalArt) {
+                    continue;
+                }
+
+                PaperCard pc = getCardByNameSetArtIndex(name, edition, artIndex);
+                if (pc == null) {
+                    continue;
+                }
+
+                // Keep the same functional variant (usually NO_FUNCTIONAL_VARIANT)
+                if (pc.getFunctionalVariant() == null || !pc.getFunctionalVariant().equals(originalVariant)) {
+                    continue;
+                }
+
+                // Preserve flags (noSellValue, markedColors, etc.)
+                if (originalFlags != null && !originalFlags.isEmpty()) {
+                    pc = pc.copyWithFlags(originalFlags);
+                } else {
+                    pc = pc.copyWithoutFlags();
+                }
+
+                // Preserve foil state
+                pc = originalFoil ? pc.getFoiled() : pc.getUnFoiled();
+
+                candidates.add(pc);
+            }
+
+            if (candidates.isEmpty()) {
+                return null;
+            }
+
+            return candidates.get(RNG.nextInt(candidates.size()));
+        }
+
+        private PaperCard getCardByNameSetArtIndex(final String name, final String edition, final int artIndex) {
+            // Mirrors PaperCard.readObject logic: check common then variant
+            PaperCard pc = (PaperCard) StaticData.instance().getCommonCards().getCard(name, edition, artIndex);
+            if (pc != null) {
+                return pc;
+            }
+            return (PaperCard) StaticData.instance().getVariantCards().getCard(name, edition, artIndex);
         }
 
         @Override
