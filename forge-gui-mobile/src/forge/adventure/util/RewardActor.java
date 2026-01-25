@@ -1036,13 +1036,13 @@ public class RewardActor extends Actor implements Disposable, ImageFetcher.Callb
 
     @Override
     public void draw(Batch batch, float parentAlpha) {
+        //Trying to add color in shop
+        batch.setColor(1f, 1f, 1f, parentAlpha);
         applyTransform(batch, computeTransform(batch.getTransformMatrix().cpy()));
 
         oldProjectionTransform.set(batch.getProjectionMatrix());
         applyProjectionMatrix(batch);
 
-        if (hover | hasKeyboardFocus())
-            batch.setColor(0.5f, 0.5f, 0.5f, 1);
 
         if (!frontSideUp()) {
             if (flipOnClick) {
