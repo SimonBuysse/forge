@@ -1011,9 +1011,9 @@ public class AdventurePlayer implements Serializable, SaveFileContent {
     }
 
     public void addMaxLife(int count) {
-        // maxLife += count;
-        // life += count;
-        // onLifeTotalChangeList.emit();
+        maxLife += count;
+        life += count;
+        onLifeTotalChangeList.emit();
     }
 
     public void giveGold(int price) {
