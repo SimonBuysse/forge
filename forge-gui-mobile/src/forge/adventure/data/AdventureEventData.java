@@ -163,7 +163,7 @@ public class AdventureEventData implements Serializable {
     private static CardBlock pickCardBlockByFormat(AdventureEventController.EventFormat format) {
         return switch (format) {
             case Draft -> pickWeightedCardBlock();
-            case Jumpstart -> pickJumpstartCardBlock();
+            case Jumpstart -> pickWeightedCardBlock();
             case Constructed -> null;
             case Sealed -> null;
         };
@@ -220,8 +220,13 @@ public class AdventureEventData implements Serializable {
             }
 
             Predicate<CardEdition> setPoolFilter = selectSetPool();
-            if(editions.stream().anyMatch(setPoolFilter))
+            // Only apply the rolled pool if it doesn't wipe out the already-filtered edition list.
+            boolean anyAfterCurrentFilterMatchesPool =
+                    StreamUtil.stream(editions).filter(filter).anyMatch(setPoolFilter);
+
+            if (anyAfterCurrentFilterMatchesPool) {
                 filter = filter.and(setPoolFilter);
+            }
         }
 
         List<CardEdition> allEditions = new ArrayList<>();
