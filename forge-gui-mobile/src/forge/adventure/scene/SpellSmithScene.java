@@ -58,7 +58,7 @@ public class SpellSmithScene extends UIScene {
     private int cost_low = -1;
     private int cost_high = 9999;
     //Other
-    private final float basePrice = 125f;
+    private final float basePrice = 500f;
     private int currentPrice = 0;
     private int lockedPrice = 0;
 
@@ -388,22 +388,22 @@ public class SpellSmithScene extends UIScene {
         }).collect(Collectors.toList());
         //Stream method is very fast, might not be necessary to precache anything.
         if (!edition.isEmpty())
-            totalCost *= 4.0f; //Edition select cost multiplier. This is a huge factor, so it's most expensive.
+            totalCost *= 1.0f; //Edition select cost multiplier. This is a huge factor, so it's most expensive.
         if (colorFilter.size() > 0)
             totalCost *= Math.min(colorFilter.size() * 2.5f, 6.0f); //Color filter cost multiplier.
         if (!rarity.isEmpty()) { //Rarity cost multiplier.
             switch (rarity) {
                 case "C":
-                    totalCost *= 1.5f;
+                    totalCost *= 1.0f;
                     break;
                 case "U":
-                    totalCost *= 2.5f;
+                    totalCost *= 1.5f;
                     break;
                 case "R":
-                    totalCost *= 4.0f;
+                    totalCost *= 2.5f;
                     break;
                 case "M":
-                    totalCost *= 5.5f;
+                    totalCost *= 3.5f;
                     break;
                 default:
                     break;
@@ -464,7 +464,7 @@ public class SpellSmithScene extends UIScene {
 
     private void declineSmithing() {
         // Decline the smith reward for 10% of original price
-        float priceAdjustment = .10f;
+        float priceAdjustment = 0.0f;
         if (paidInShards) {
             Current.player().takeShards((int)(lockedShardPrice * priceAdjustment));
         } else {
