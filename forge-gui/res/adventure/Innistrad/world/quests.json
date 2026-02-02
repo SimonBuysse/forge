@@ -11165,18 +11165,12 @@
         "description": "Sir Donovan has given you a set of five locations where he believes that powerful wizards are being held.",
         "offerDialog": {},
         "prologue": {
-            "text": "Good luck",
             "action": [
                 {
                     "setQuestFlag": {
                         "key": "mainQuest",
                         "val": 2
                     }
-                }
-            ],
-            "options": [
-                {
-                    "name": "(Continue)"
                 }
             ]
         },
