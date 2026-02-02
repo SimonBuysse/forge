@@ -163,7 +163,7 @@ public class AdventureEventData implements Serializable {
     private static CardBlock pickCardBlockByFormat(AdventureEventController.EventFormat format) {
         return switch (format) {
             case Draft -> pickWeightedCardBlock();
-            case Jumpstart -> pickWeightedCardBlock();
+            case Jumpstart -> null;
             case Constructed -> null;
             case Sealed -> null;
         };

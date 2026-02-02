@@ -85,7 +85,7 @@ public class AdventureEventController implements Serializable {
         // After a certain number of wins, stop offering Jumpstart events
         if (Current.player().getStatistic().totalWins() < 10 &&
                 random.nextInt(10) <= 2) {
-            e = new AdventureEventData(eventSeed, EventFormat.Jumpstart);
+            e = new AdventureEventData(eventSeed, EventFormat.Draft);
         } else {
             e = new AdventureEventData(eventSeed, EventFormat.Draft);
         }
