@@ -409,11 +409,11 @@ public class CardUtil {
 
         return switch (card.getRarity()) {
             case BasicLand -> 5;
-            case Common -> 50;
-            case Uncommon -> 150;
-            case Rare -> 300;
-            case MythicRare -> 500;
-            default -> 600;
+            case Common -> 400;
+            case Uncommon -> 1000;
+            case Rare -> 2000;
+            case MythicRare -> 3000;
+            default -> 3000;
         };
     }
 
