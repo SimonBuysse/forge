@@ -12,6 +12,7 @@ import forge.card.*;
 import forge.card.DeckHints.Type;
 import forge.card.mana.ManaCost;
 import forge.card.mana.ManaCostShard;
+import forge.deck.CardPool;
 import forge.deck.Deck;
 import forge.deck.DeckSection;
 import forge.deck.DeckgenUtil;
@@ -26,6 +27,7 @@ import forge.model.FModel;
 import forge.util.Aggregates;
 import forge.util.IterableUtil;
 import com.badlogic.gdx.Gdx;
+import java.util.Map.Entry;
 
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -39,6 +41,48 @@ import static forge.adventure.data.RewardData.generateAllCards;
  * Utility class to deck generation and card filtering
  */
 public class CardUtil {
+    private static boolean isEditionAllowed(String edition) {
+        Set<String> allowed = getAllowedEditionsSet();
+        return allowed.isEmpty() || allowed.contains(edition);
+    }
+    private static void rewriteDeckPrintingsToAllowed(Deck deck) {
+        if (deck == null) return;
+
+        // Your allowed-edition selection only really works in variants mode
+        if (!Config.instance().getSettingData().useAllCardVariants) return;
+
+        // Force deferred sections to load (this triggers CardPool.fromCardList)
+        deck.getMain();
+        for (DeckSection s : DeckSection.values()) {
+            deck.get(s);
+        }
+
+        for (Entry<DeckSection, CardPool> part : deck) {
+            DeckSection section = part.getKey();
+            CardPool pool = part.getValue();
+            if (pool == null || pool.isEmpty()) continue;
+
+            CardPool rewritten = new CardPool();
+
+            for (Entry<PaperCard, Integer> cp : pool) {
+                PaperCard original = cp.getKey();
+                int count = cp.getValue();
+
+                PaperCard chosen = original;
+
+                // HYBRID RULE:
+                // - keep if already allowed
+                // - if not allowed, re-pick (which prefers allowed editions, else falls back)
+                if (!isEditionAllowed(original.getEdition())) {
+                    chosen = getCardByName(original.getName());
+                }
+
+                rewritten.add(chosen, count);
+            }
+
+            deck.putSection(section, rewritten);
+        }
+    }
     public static Collection<PaperCard> getFullCardPool(boolean allCardVariants) {
         return allCardVariants
                 ? FModel.getMagicDb().getCommonCards().getAllCards()
@@ -734,6 +778,7 @@ public class CardUtil {
             if (fileHandle != null && fileHandle.exists()) {
                 try {
                     deck = DeckSerializer.fromFile(fileHandle.file());
+                    rewriteDeckPrintingsToAllowed(deck);
                 } catch (Throwable ignored) {
                 }
             }
