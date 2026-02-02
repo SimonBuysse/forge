@@ -416,16 +416,8 @@ public class DuelScene extends ForgeScene {
 
         } else if (showDanger) {
             // DANGEROUS (colorsort deck) intro
-            final FBufferedImage fb = getFBEnemyAvatar();
-            String title = enemy.getName() + " (Dangerous!)";
-            bossDialogue = createFOption(
-                    Forge.getLocalizer().getMessage("lblOK"), // or replace with your own warning text
-                    title,
-                    fb,
-                    fb::dispose
-            );
-            matchOverlay = new LoadingOverlay(() -> FThreads.delayInEDT(300, () ->
-                    FThreads.invokeInEdtNowOrLater(() -> bossDialogue.show())), false, true);
+            matchOverlay = new LoadingOverlay(null);
+
 
         } else {
             // NORMAL fight: no popup

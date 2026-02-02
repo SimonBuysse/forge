@@ -39,6 +39,35 @@ import static forge.adventure.data.RewardData.generateAllCards;
  * Utility class to deck generation and card filtering
  */
 public class CardUtil {
+    public static Collection<PaperCard> getFullCardPool(boolean allCardVariants) {
+        return allCardVariants
+                ? FModel.getMagicDb().getCommonCards().getAllCards()
+                : FModel.getMagicDb().getCommonCards().getUniqueCardsNoAlt();
+    }
+    private static Set<String> getAllowedEditionsSet() {
+        try {
+            Config cfgObj = Config.instance();
+            if (cfgObj == null) return Collections.emptySet();
+            ConfigData cfg = cfgObj.getConfigData();
+            if (cfg != null && cfg.allowedEditions != null && cfg.allowedEditions.length > 0) {
+                return new HashSet<>(Arrays.asList(cfg.allowedEditions));
+            }
+        } catch (Throwable ignored) { }
+        return Collections.emptySet();
+    }
+
+    private static Set<String> getRestrictedEditionsSet() {
+        try {
+            Config cfgObj = Config.instance();
+            if (cfgObj == null) return Collections.emptySet();
+            ConfigData cfg = cfgObj.getConfigData();
+            if (cfg != null && cfg.restrictedEditions != null && cfg.restrictedEditions.length > 0) {
+                return new HashSet<>(Arrays.asList(cfg.restrictedEditions));
+            }
+        } catch (Throwable ignored) { }
+        return Collections.emptySet();
+    } 
+
     public static final class CardPredicate implements Predicate<PaperCard> {
         enum ColorType {
             Any,
@@ -798,44 +827,67 @@ public class CardUtil {
 
     public static PaperCard getCardByName(String cardName) {
         List<PaperCard> validCards;
-        // Faster to ask the CardDB for a card name than it is to search the pool.
+
         if (Config.instance().getSettingData().useAllCardVariants) {
-            Predicate<PaperCard> not_restricted = card -> (!Arrays.asList(Config.instance().getConfigData().restrictedEditions).contains(card.getEdition()));
-            Predicate<PaperCard> combined_predicate = not_restricted;
+            final Set<String> allowed = getAllowedEditionsSet();
+            final Set<String> restricted = getRestrictedEditionsSet();
+
+            Predicate<PaperCard> base = c -> !restricted.contains(c.getEdition());
+
             if (Config.instance().getSettingData().excludeAlchemyVariants) {
-                combined_predicate = not_restricted.and(PaperCardPredicates.IS_REBALANCED.negate());
+                base = base.and(PaperCardPredicates.IS_REBALANCED.negate());
             }
-            validCards = FModel.getMagicDb().getCommonCards().getAllCards(cardName, combined_predicate);
+
+            // Get all non-restricted printings first
+            List<PaperCard> allNonRestricted = FModel.getMagicDb().getCommonCards().getAllCards(cardName, base);
+
+            if (!allowed.isEmpty()) {
+                // Prefer allowed-edition printings if any exist
+                List<PaperCard> allowedPrintings = allNonRestricted.stream()
+                        .filter(c -> allowed.contains(c.getEdition()))
+                        .collect(Collectors.toList());
+
+                validCards = !allowedPrintings.isEmpty() ? allowedPrintings : allNonRestricted;
+            } else {
+                validCards = allNonRestricted;
+            }
         } else {
+            // Unique-cards mode: keep existing behavior
             validCards = FModel.getMagicDb().getCommonCards().getUniqueCardsNoAlt(cardName);
         }
+
         if (validCards.isEmpty()) {
             return getReplacement(cardName, "Wastes");
         }
-
         return validCards.get(Current.world().getRandom().nextInt(validCards.size()));
     }
 
     public static PaperCard getCardByNameAndEdition(String cardName, String edition) {
+        final Set<String> allowed = getAllowedEditionsSet();
+        final Set<String> restricted = getRestrictedEditionsSet();
+
+        if (!allowed.isEmpty() && !allowed.contains(edition)) {
+            // Requested edition not allowed -> pick using the allowed-aware getCardByName fallback
+            return getCardByName(cardName);
+        }
+        if (restricted.contains(edition)) {
+            return getCardByName(cardName);
+        }
+
         List<PaperCard> cardPool = Config.instance().getSettingData().useAllCardVariants
                 ? FModel.getMagicDb().getCommonCards().getAllCards(cardName)
                 : FModel.getMagicDb().getCommonCards().getUniqueCardsNoAlt(cardName);
+
         List<PaperCard> validCards = cardPool.stream()
-                .filter(input -> input.getEdition().equals(edition)).collect(Collectors.toList());
+                .filter(input -> input.getEdition().equals(edition))
+                .collect(Collectors.toList());
 
         if (validCards.isEmpty()) {
-            System.err.println("Unexpected behavior: tried to call getCardByNameAndEdition for card " + cardName
-                    + " from the edition " + edition
-                    + ", but didn't find it in the DB. A random existing instance will be returned if found.");
             return getCardByName(cardName);
         }
 
         return validCards.get(Current.world().getRandom().nextInt(validCards.size()));
     }
 
-    public static Collection<PaperCard> getFullCardPool(boolean allCardVariants) {
-        return allCardVariants
-            ? FModel.getMagicDb().getCommonCards().getAllCards()
-            : FModel.getMagicDb().getCommonCards().getUniqueCardsNoAlt();
-    }
+
 }

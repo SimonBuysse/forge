@@ -120,7 +120,7 @@ public class EnemyData implements Serializable {
                 usingColorSortDeck = LAST_CHOSEN_DECK_WAS_COLORSORT;
                 return CardUtil.getDeck(LAST_CHOSEN_DECK_PATH, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
             }
-            if (MyRandom.percentTrue(20)) {
+            if (MyRandom.percentTrue(100)) {
                 // 20%: decks2 by colorSort
                 chosen = pickOneDeckFromColorSortFolder(colorSort);
                 usingColorSortDeck = true;
