@@ -87,7 +87,7 @@
       "spawnRank": 2,                   
       "goldLoss": 0,             
       "lifeLoss": 0,  
-      "sellFactor": 0.5,      
+      "sellFactor": 0.1,      
       "shardSellRatio": 1,
       "starterDecks": {
         "W":"decks/starter/white_n.json",
