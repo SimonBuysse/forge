@@ -1,3 +1,7 @@
+// EnemyData.java (key changes only)
+// Goal: if randomizeDeck == true -> 100% pick from decks2 folders matching ANY of enemy's colorSort entries.
+// colorSort is now a LIST in JSON. We combine all matching folders into one pool and pick uniformly.
+
 package forge.adventure.data;
 
 import forge.adventure.util.CardUtil;
@@ -7,28 +11,20 @@ import forge.deck.Deck;
 import forge.deck.DeckgenUtil;
 import forge.game.GameFormat;
 import forge.model.FModel;
-import forge.util.Aggregates;
 import forge.util.MyRandom;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.regex.Pattern;
 
-/**
- * Data class that will be used to read Json configuration files
- * BiomeData
- * contains the information of enemies
- */
 public class EnemyData implements Serializable {
     private static final long serialVersionUID = -3317270785183936320L;
+
     public String name;
     public String nameOverride;
     public String sprite;
@@ -48,20 +44,24 @@ public class EnemyData implements Serializable {
     public String colors = "";
     public EnemyData nextEnemy;
     public int teamNumber = -1;
-    public String colorSort = "";
+
+    // CHANGED: was String colorSort = "";
+    // JSON now provides an array, so store it as a list.
+    public ArrayList<String> colorSort = new ArrayList<>();
+
     public String[] questTags = new String[0];
     public float lifetime;
     public int gamesPerMatch = 1;
     public boolean usingColorSortDeck = false;
-    // Accepts: BR, UBRG, UBRG+URG, etc. (only WUBRG groups separated by '+')
-    private static final Pattern COLOR_SORT_FOLDER =
-            Pattern.compile("^[WUBRG]{1,5}(\\+[WUBRG]{1,5})*$", Pattern.CASE_INSENSITIVE);
+
     public static String LAST_ENEMY_FOUGHT = null;
     public static String LAST_CHOSEN_DECK_PATH = null;
     public static boolean LAST_CHOSEN_DECK_WAS_COLORSORT = false;
 
-    public EnemyData() {
-    }
+    // Cache of scanned decks2 folders: folderName -> list of .dck paths
+    private static final HashMap<String, ArrayList<String>> DECKS2_FOLDER_CACHE = new HashMap<>();
+
+    public EnemyData() { }
 
     public EnemyData(EnemyData enemyData) {
         name            = enemyData.name;
@@ -85,7 +85,10 @@ public class EnemyData implements Serializable {
         questTags       = enemyData.questTags.clone();
         lifetime        = enemyData.lifetime;
         gamesPerMatch   = enemyData.gamesPerMatch;
-        colorSort       = enemyData.colorSort;
+
+        // CHANGED: deep copy list
+        colorSort = enemyData.colorSort == null ? new ArrayList<>() : new ArrayList<>(enemyData.colorSort);
+
         if (enemyData.scale == 0.0f) {
             scale = 1.0f;
         }
@@ -93,8 +96,9 @@ public class EnemyData implements Serializable {
             rewards = null;
         } else {
             rewards = new RewardData[enemyData.rewards.length];
-            for (int i = 0; i < rewards.length; i++)
+            for (int i = 0; i < rewards.length; i++) {
                 rewards[i] = new RewardData(enemyData.rewards[i]);
+            }
         }
     }
 
@@ -111,59 +115,50 @@ public class EnemyData implements Serializable {
             }
             return DeckgenUtil.buildLDACArchetypeDeck(fmt, true);
         }
-        // Randomized: prefer the folder that matches colorSort
+
         if (randomizeDeck) {
-            String chosen;
             String enemyKey = this.getName();
-            // If this is an immediate rematch, reuse the same chosen deck
+
+            // Immediate rematch: reuse same deck
             if (enemyKey != null && enemyKey.equals(LAST_ENEMY_FOUGHT) && LAST_CHOSEN_DECK_PATH != null) {
                 usingColorSortDeck = LAST_CHOSEN_DECK_WAS_COLORSORT;
                 return CardUtil.getDeck(LAST_CHOSEN_DECK_PATH, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
             }
-            if (MyRandom.percentTrue(100)) {
-                // 20%: decks2 by colorSort
-                chosen = pickOneDeckFromColorSortFolder(colorSort);
-                usingColorSortDeck = true;
-                if (chosen == null || chosen.isEmpty()) {
-                    chosen = deck[MyRandom.getRandom().nextInt(deck.length)];
-                    usingColorSortDeck = false; // fallback means not colorsort
-                }
-            } else {
-                // 80%: enemy's own deck[]
+
+            // 100%: pick from decks2 pools (combined across ALL colorSort entries)
+            String chosen = pickOneDeckFromColorSortFolders(colorSort);
+            usingColorSortDeck = true;
+
+            // Safety fallback (in case folders missing / empty)
+            if (chosen == null || chosen.isEmpty()) {
                 chosen = deck[MyRandom.getRandom().nextInt(deck.length)];
                 usingColorSortDeck = false;
             }
-            // Remember for a possible retry
+
             LAST_ENEMY_FOUGHT = enemyKey;
             LAST_CHOSEN_DECK_PATH = chosen;
             LAST_CHOSEN_DECK_WAS_COLORSORT = usingColorSortDeck;
-            
+
             return CardUtil.getDeck(chosen, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
         }
-        // Non-randomized: original behavior (enemy-defined list with per-enemy cycling)
+
+        // Non-randomized: original behavior
         return CardUtil.getDeck(
                 deck[Current.player().getEnemyDeckNumber(this.getName(), deck.length)],
                 true, isFantasyMode, colors, life > 13, canUseGeneticAI
         );
     }
 
-    public String getName(){
-        //todo: make this the default accessor for anything seen in UI
-        if (nameOverride != null && !nameOverride.isEmpty())
-            return nameOverride;
-        if (name != null && !name.isEmpty())
-            return name;
+    public String getName() {
+        if (nameOverride != null && !nameOverride.isEmpty()) return nameOverride;
+        if (name != null && !name.isEmpty()) return name;
         return "(Unnamed Enemy)";
     }
 
     public boolean match(EnemyData other) {
-        //equals() does not cover cases where data is updated to override speed, displayname, etc
-        if (this.equals(other))
-            return true;
-        if (!this.name.equals(other.name))
-            return false;
-        if (questTags.length != other.questTags.length)
-            return false;
+        if (this.equals(other)) return true;
+        if (!this.name.equals(other.name)) return false;
+        if (questTags.length != other.questTags.length) return false;
         ArrayList<String> myQuestTags = new ArrayList<>(Arrays.asList(questTags));
         ArrayList<String> otherQuestTags = new ArrayList<>(Arrays.asList(other.questTags));
         myQuestTags.removeAll(otherQuestTags);
@@ -174,66 +169,63 @@ public class EnemyData implements Serializable {
     // decks2 scanning + caching
     // -----------------------------
 
-    private static String pickOneDeckFromColorSortFolder(String colorSort) {
-        String folder = (colorSort == null) ? "" : colorSort.trim();
-        String folderName = "colorless".equalsIgnoreCase(folder) ? "Colorless" : folder.toUpperCase();
-        String targetPath = "res/adventure/common/decks2/" + folderName;
+    private static String pickOneDeckFromColorSortFolders(ArrayList<String> colorSorts) {
+        ArrayList<String> pool = getCombinedDeckPool(colorSorts);
+        if (pool.isEmpty()) return null;
+        return pool.get(MyRandom.getRandom().nextInt(pool.size()));
+    }
 
-        Gdx.app.log("EnemyData", "---- pickOneDeckFromColorSortFolder DEBUG ----");
-        Gdx.app.log("EnemyData", "input colorSort='" + colorSort + "' -> folderName='" + folderName + "'");
-        Gdx.app.log("EnemyData", "targetPath='" + targetPath + "'");
+    private static ArrayList<String> getCombinedDeckPool(ArrayList<String> colorSorts) {
+        // Combine + de-dup across folders
+        HashSet<String> seen = new HashSet<>();
+        ArrayList<String> combined = new ArrayList<>();
 
-        FileHandle dir = Gdx.files.internal(targetPath);
-        Gdx.app.log("EnemyData", "dir.path()='" + (dir == null ? "null" : dir.path()) + "'");
-        Gdx.app.log("EnemyData", "exists=" + (dir != null && dir.exists()) + " isDirectory=" + (dir != null && dir.isDirectory()));
+        if (colorSorts == null || colorSorts.isEmpty()) return combined;
 
-        if (dir == null || !dir.exists() || !dir.isDirectory()) {
-            Gdx.app.log("EnemyData", "ABORT: folder missing or not a directory: " + targetPath);
-            return null;
+        for (String raw : colorSorts) {
+            String folderName = normalizeFolderName(raw);
+            if (folderName.isEmpty()) continue;
+
+            ArrayList<String> decks = getOrScanFolder(folderName);
+            if (decks == null || decks.isEmpty()) continue;
+
+            for (String p : decks) {
+                if (p == null) continue;
+                if (seen.add(p)) combined.add(p);
+            }
         }
 
-        // Print first-level contents so we know what LibGDX thinks is inside UR
-        FileHandle[] kids = dir.list();
-        Gdx.app.log("EnemyData", "first-level entries in " + dir.path() + " = " + (kids == null ? 0 : kids.length));
-        if (kids != null) {
-            int shown = 0;
-            for (FileHandle k : kids) {
-                if (shown++ >= 20) break;
-                Gdx.app.log("EnemyData", "  - " + k.name() + (k.isDirectory() ? " [dir]" : " [file]"));
-            }
+        return combined;
+    }
+
+    private static String normalizeFolderName(String raw) {
+        if (raw == null) return "";
+        String s = raw.trim();
+        if (s.isEmpty()) return "";
+        if ("colorless".equalsIgnoreCase(s)) return "Colorless";
+        // your folders are uppercase (WU, WUB, etc.)
+        return s.toUpperCase();
+    }
+
+    private static ArrayList<String> getOrScanFolder(String folderName) {
+        ArrayList<String> cached = DECKS2_FOLDER_CACHE.get(folderName);
+        if (cached != null) return cached;
+
+        String targetPath = "res/adventure/common/decks2/" + folderName;
+        FileHandle dir = Gdx.files.internal(targetPath);
+        if (dir == null || !dir.exists() || !dir.isDirectory()) {
+            DECKS2_FOLDER_CACHE.put(folderName, new ArrayList<>());
+            return DECKS2_FOLDER_CACHE.get(folderName);
         }
 
         ArrayList<String> decks = new ArrayList<>();
         scan(dir, decks);
 
-        Gdx.app.log("EnemyData", "recursive .dck count=" + decks.size());
-        for (int i = 0; i < Math.min(5, decks.size()); i++) {
-            Gdx.app.log("EnemyData", "sample[" + i + "]=" + decks.get(i));
-        }
-
-        // HARD GUARANTEE: all must be under /decks2/<FOLDERNAME>/
-        String needle = ("/decks2/" + folderName + "/").toLowerCase();
-        int bad = 0;
-        for (String p : decks) {
-            String norm = (p == null ? "" : p.replace('\\', '/').toLowerCase());
-            if (!norm.contains(needle)) {
-                bad++;
-                if (bad <= 10) {
-                    Gdx.app.log("EnemyData", "BAD PATH (not in " + needle + "): " + p);
-                }
-            }
-        }
-        Gdx.app.log("EnemyData", "badPaths=" + bad + " (should be 0)");
-
-        if (decks.isEmpty()) return null;
-
-        String chosen = decks.get(MyRandom.getRandom().nextInt(decks.size()));
-        Gdx.app.log("EnemyData", "CHOSEN=" + chosen);
-        Gdx.app.log("EnemyData", "---- END DEBUG ----");
-        return chosen;
+        DECKS2_FOLDER_CACHE.put(folderName, decks);
+        return decks;
     }
 
-    private static void scan(FileHandle dir, List<String> out) {
+    private static void scan(FileHandle dir, ArrayList<String> out) {
         if (dir == null || !dir.exists()) return;
 
         for (FileHandle f : dir.list()) {
@@ -249,4 +241,3 @@ public class EnemyData implements Serializable {
         }
     }
 }
-
