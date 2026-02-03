@@ -1,0 +1,31 @@
+#EVENT:Competitive Standard Constructed League
+[metadata]
+Name=_ability - Bant Company (Standard, #636205)
+[general]
+Constructed
+[Main]
+4 Duskwatch Recruiter
+3 Jace, Vryn's Prodigy
+2 Nissa, Vastwood Seer
+4 Reflector Mage
+4 Spell Queller
+4 Sylvan Advocate
+4 Tireless Tracker
+4 Collected Company
+4 Dromoka's Command
+2 Tamiyo, Field Researcher
+3 Canopy Vista
+4 Evolving Wilds
+3 Forest
+1 Island
+2 Lumbering Falls
+5 Plains
+3 Prairie Stream
+4 Yavimaya Coast
+[Sideboard]
+3 Felidar Cub
+3 Gideon, Ally of Zendikar
+2 Negate
+2 Ojutai's Command
+3 Silkwrap
+2 Summary Dismissal

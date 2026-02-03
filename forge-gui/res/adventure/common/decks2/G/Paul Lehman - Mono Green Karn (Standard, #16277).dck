@@ -1,0 +1,30 @@
+#EVENT:Tap n atk 500$
+[metadata]
+Name=Paul Lehman - Mono Green Karn (Standard, #16277)
+[general]
+Constructed
+[Main]
+2 Acidic Slime
+4 Overgrown Battlement
+1 Precursor Golem
+1 Sylvok Replica
+3 Wall of Tanglecord
+3 Wurmcoil Engine
+2 Contagion Clasp
+3 Tumble Magnet
+4 Beast Within
+4 Ancient Stirrings
+3 Cultivate
+3 Garruk Wildspeaker
+3 Karn Liberated
+16 Forest
+2 Khalni Garden
+2 Mystifying Maze
+4 Tectonic Edge
+[Sideboard]
+2 Creeping Corrosion
+2 Hex Parasite
+3 Nature's Claim
+2 Ratchet Bomb
+2 Spellskite
+3 Torpor Orb
