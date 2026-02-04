@@ -308,36 +308,38 @@ public class AdventureEventData implements Serializable {
     private void setupDraftRewards() {
         // Make enough reward packs for max tier (6)
         rewardPacks = getRewardPacks(6);
+        if (cardBlock != null) {
+            packConfiguration = getBoosterConfiguration(cardBlock);
 
-        rewards = new AdventureEventReward[4];
+            rewards = new AdventureEventReward[4];
+            // 0 wins: 0 packs
+            AdventureEventReward r0 = new AdventureEventReward();
+            r0.minWins = 0;
+            r0.maxWins = 0;
+            r0.cardRewards = new Deck[0];
+            rewards[0] = r0;
 
-        // 0 wins: 0 packs
-        AdventureEventReward r0 = new AdventureEventReward();
-        r0.minWins = 0;
-        r0.maxWins = 0;
-        r0.cardRewards = new Deck[0];
-        rewards[0] = r0;
+            // 1 win: 2 packs
+            AdventureEventReward r1 = new AdventureEventReward();
+            r1.minWins = 1;
+            r1.maxWins = 1;
+            r1.cardRewards = new Deck[]{ rewardPacks[0], rewardPacks[1] };
+            rewards[1] = r1;
 
-        // 1 win: 2 packs
-        AdventureEventReward r1 = new AdventureEventReward();
-        r1.minWins = 1;
-        r1.maxWins = 1;
-        r1.cardRewards = new Deck[]{ rewardPacks[0], rewardPacks[1] };
-        rewards[1] = r1;
+            // 2 wins: 4 packs
+            AdventureEventReward r2 = new AdventureEventReward();
+            r2.minWins = 2;
+            r2.maxWins = 2;
+            r2.cardRewards = new Deck[]{ rewardPacks[0], rewardPacks[1], rewardPacks[2], rewardPacks[3] };
+            rewards[2] = r2;
 
-        // 2 wins: 4 packs
-        AdventureEventReward r2 = new AdventureEventReward();
-        r2.minWins = 2;
-        r2.maxWins = 2;
-        r2.cardRewards = new Deck[]{ rewardPacks[0], rewardPacks[1], rewardPacks[2], rewardPacks[3] };
-        rewards[2] = r2;
-
-        // 3 wins: 6 packs
-        AdventureEventReward r3 = new AdventureEventReward();
-        r3.minWins = 3;
-        r3.maxWins = 3;
-        r3.cardRewards = new Deck[]{ rewardPacks[0], rewardPacks[1], rewardPacks[2], rewardPacks[3], rewardPacks[4], rewardPacks[5] };
-        rewards[3] = r3;
+            // 3 wins: 6 packs
+            AdventureEventReward r3 = new AdventureEventReward();
+            r3.minWins = 3;
+            r3.maxWins = 3;
+            r3.cardRewards = new Deck[]{ rewardPacks[0], rewardPacks[1], rewardPacks[2], rewardPacks[3], rewardPacks[4], rewardPacks[5] };
+            rewards[3] = r3;
+        }
     }
 
     private void setupJumpstartRewards() {
@@ -612,76 +614,86 @@ public class AdventureEventData implements Serializable {
     public void giveRewards() {
         int wins = matchesWon;
         Array<Reward> ret = new Array<>();
+
+        // --- harden against old saves / partially init events ---
+        if (rewards == null) rewards = new AdventureEventReward[0];
+        if (format == AdventureEventController.EventFormat.Draft && draftedDeck == null) {
+            // fallback: at least don't crash; optionally clone/copy if you prefer
+            draftedDeck = registeredDeck;
+        }
+
         if (format == AdventureEventController.EventFormat.Draft) {
-            // Always keep drafted deck at any win total (0-3)
             AdventureEventReward keepDeck = new AdventureEventReward();
             keepDeck.minWins = 0;
             keepDeck.maxWins = 3;
 
             draftedDeck.setName("Drafted Deck");
             draftedDeck.setComment("Prize for participating in draft event");
-
-            // IMPORTANT: This will be treated as "cardPack" by the loop below,
-            // because giveRewards() only knows how to award decks via cardPack.
             keepDeck.cardRewards = new Deck[]{ draftedDeck };
 
-            // Insert it at the front so it always triggers
-            // (or you can merge into existing reward tiers)
-            // Easiest: prepend by creating a new array:
             AdventureEventReward[] newRewards = new AdventureEventReward[rewards.length + 1];
             newRewards[0] = keepDeck;
             System.arraycopy(rewards, 0, newRewards, 1, rewards.length);
             rewards = newRewards;
         }
-        //Todo: this should be automatic... "somehow"
+
         if (format == AdventureEventController.EventFormat.Jumpstart) {
+            if (rewards.length < 4) {
+                AdventureEventReward[] resized = new AdventureEventReward[4];
+                System.arraycopy(rewards, 0, resized, 0, rewards.length);
+                rewards = resized;
+            }
 
             rewards[3] = new AdventureEventReward();
             rewards[3].minWins = 0;
             rewards[3].maxWins = 3;
             registeredDeck.setName("Jumpstart Event Packs");
-            rewards[3].cardRewards = new Deck[]{registeredDeck};
+            rewards[3].cardRewards = new Deck[]{ registeredDeck };
             rewards[3].isNoSell = true;
-
         }
-
-        //end todo
 
         for (AdventureEventReward r : rewards) {
             if (r == null) continue;
             if (r.minWins > wins || r.maxWins < wins) continue;
 
-            for (Deck pack : r.cardRewards) {
+            Deck[] packs = (r.cardRewards != null) ? r.cardRewards : new Deck[0];
+            String[] items = (r.itemRewards != null) ? r.itemRewards : new String[0];
+            RewardData[] other = (r.rewards != null) ? r.rewards : new RewardData[0];
+
+            for (Deck pack : packs) {
+                if (pack == null) continue;
                 RewardData data = new RewardData();
                 data.type = "cardPack";
                 data.count = 1;
                 data.cardPack = pack;
                 ret.addAll(data.generate(false, true, r.isNoSell));
             }
-            for (String item : (r.itemRewards)) {
+            for (String item : items) {
+                if (item == null) continue;
                 RewardData data = new RewardData();
                 data.type = "item";
                 data.count = 1;
                 data.itemName = item;
                 ret.addAll(data.generate(false, true));
             }
-            for (RewardData data : r.rewards) {
+            for (RewardData data : other) {
+                if (data == null) continue;
                 ret.addAll(data.generate(false, true));
             }
         }
+
         if (ret.size > 0) {
             RewardScene.instance().loadRewards(ret, RewardScene.Type.Loot, null);
             Forge.switchScene(RewardScene.instance());
         }
 
-        //todo: more robust logic for event types that can be won without perfect record (Swiss w/cut, round robin)
+        // ... keep the rest of your winner logic unchanged ...
         if (style == AdventureEventController.EventStyle.Bracket) {
             playerWon = matchesLost == 0 || matchesWon == rounds;
         } else if (style == AdventureEventController.EventStyle.RoundRobin) {
             if (matchesWon == rounds) {
                 playerWon = true;
             } else {
-                //If multiple players are tied for first, only the one with the best tiebreaker wins
                 List<AdventureEventParticipant> topPlayers = new ArrayList<>();
                 int bestRecord = 0;
                 for (AdventureEventParticipant p : participants) {
@@ -696,7 +708,6 @@ public class AdventureEventData implements Serializable {
                 if (topPlayers.size() == 1) {
                     playerWon = topPlayers.get(0).getName().equals(getHumanPlayer().getName());
                 } else {
-                    //multiple players tied for first, use tiebreaker
                     Map<AdventureEventParticipant, Integer> tiebreakers = new HashMap<>();
                     for (AdventureEventParticipant p : topPlayers) {
                         int tb = 0;
