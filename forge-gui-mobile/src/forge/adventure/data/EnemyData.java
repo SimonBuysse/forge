@@ -116,31 +116,40 @@ public class EnemyData implements Serializable {
             return DeckgenUtil.buildLDACArchetypeDeck(fmt, true);
         }
 
-        if (randomizeDeck) {
-            String enemyKey = this.getName();
+    if (randomizeDeck) {
+        String enemyKey = this.getName();
 
-            // Immediate rematch: reuse same deck
-            if (enemyKey != null && enemyKey.equals(LAST_ENEMY_FOUGHT) && LAST_CHOSEN_DECK_PATH != null) {
-                usingColorSortDeck = LAST_CHOSEN_DECK_WAS_COLORSORT;
-                return CardUtil.getDeck(LAST_CHOSEN_DECK_PATH, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
-            }
-
-            // 100%: pick from decks2 pools (combined across ALL colorSort entries)
-            String chosen = pickOneDeckFromColorSortFolders(colorSort);
-            usingColorSortDeck = true;
-
-            // Safety fallback (in case folders missing / empty)
-            if (chosen == null || chosen.isEmpty()) {
-                chosen = deck[MyRandom.getRandom().nextInt(deck.length)];
-                usingColorSortDeck = false;
-            }
-
-            LAST_ENEMY_FOUGHT = enemyKey;
-            LAST_CHOSEN_DECK_PATH = chosen;
-            LAST_CHOSEN_DECK_WAS_COLORSORT = usingColorSortDeck;
-
-            return CardUtil.getDeck(chosen, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
+        // Immediate rematch: reuse same deck
+        if (enemyKey != null && enemyKey.equals(LAST_ENEMY_FOUGHT) && LAST_CHOSEN_DECK_PATH != null) {
+            usingColorSortDeck = LAST_CHOSEN_DECK_WAS_COLORSORT;
+            return CardUtil.getDeck(LAST_CHOSEN_DECK_PATH, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
         }
+
+        // Choose % chance to use decks2 (colorSort pools)
+        final int COLOR_SORT_PERCENT = 70; // <-- set 0..100 how you want
+        boolean useColorSort = MyRandom.getRandom().nextInt(100) < COLOR_SORT_PERCENT;
+
+        String chosen;
+        if (useColorSort) {
+            chosen = pickOneDeckFromColorSortFolders(colorSort);
+            usingColorSortDeck = true;
+        } else {
+            chosen = deck[MyRandom.getRandom().nextInt(deck.length)];
+            usingColorSortDeck = false;
+        }
+
+        // Safety fallback (in case folders missing / empty)
+        if (chosen == null || chosen.isEmpty()) {
+            chosen = deck[MyRandom.getRandom().nextInt(deck.length)];
+            usingColorSortDeck = false;
+        }
+
+        LAST_ENEMY_FOUGHT = enemyKey;
+        LAST_CHOSEN_DECK_PATH = chosen;
+        LAST_CHOSEN_DECK_WAS_COLORSORT = usingColorSortDeck;
+
+        return CardUtil.getDeck(chosen, true, isFantasyMode, colors, life > 13, canUseGeneticAI);
+    }
 
         // Non-randomized: original behavior
         return CardUtil.getDeck(
